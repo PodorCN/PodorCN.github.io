@@ -1,0 +1,672 @@
+package tbjg;
+//****************************************************************************************
+//
+//   Program: Black Jack Game           Date:2018/Jan/16
+//
+//	 Author: Zixiao Min & Xiahaonan Jiang
+//
+//	 Course:ICS3U						ISU
+//
+//	 Websites used in this java file:
+//	 1) https://docs.oracle.com/javase/tutorial/java/index.html
+//	 2) http://www.artima.com/designtechniques/initialization4.html
+//	 3) https://stackoverflow.com/questions/23329132/building-a-deck-of-cards-in-java-using-2-different-enums
+//	 4) https://stackoverflow.com/questions/36315043/how-to-change-the-font-size-of-a-jlabel-that-is-in-a-panel-addnew-jlabel
+//	 5) Coding from Textbook and PPT*
+//
+//	 Discription:
+//		The program tends to Display the GUI of the BlackJackGame and does the 
+//	 basic calculation to determine who wins the game. The GUI part including 
+//	 corresponding the String returned from Deck.java to correct cards. 
+//	 Also this program contain the codes for AI to determine if he need to 
+//	 draw a card.
+//		
+//****************************************************************************************
+
+import javax.swing.*;
+import javax.swing.border.TitledBorder;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+
+public class TheBlackJackGame implements ActionListener {
+	
+	
+	//__________
+	//Initialize 
+	//__________
+	int count;
+	int betNum;
+	int bankNum;
+	JLabel betNumL;
+	JLabel bankNumL;
+	JButton start;
+	JButton hit;
+	JButton stand;
+	
+	String s1 =  new String();
+	String s2 =  new String();
+	String s3 =  new String();
+	String s4 =  new String();
+	String s5 =  new String();
+	String s6 =  new String();
+	String s7 =  new String();
+	String s8 =  new String();
+	String s9 =  new String();
+	String s10 =  new String();
+	
+	JLabel cc3;
+	JLabel cc4;
+	JLabel cc5;
+	JLabel dd1;
+	JLabel dd2;
+	JLabel dd3;	
+	JLabel dd4;	
+	JLabel dd5;
+	JLabel sc;
+	JLabel sc2;
+	JLabel sc3;
+	JLabel sc4;
+	JLabel sc5;
+	JLabel sc6;
+	
+	int totalAI=0;
+	int totalP=0;
+	
+	Deck card1 = new Deck("Default");
+	Deck card2 = new Deck("Default");
+	Deck card3 = new Deck("Default");
+	Deck card4 = new Deck("Default");
+	Deck card5 = new Deck("Default");
+	Deck card6 = new Deck("Default");
+	Deck card7 = new Deck("Default");
+	Deck card8 = new Deck("Default");
+	Deck card9 = new Deck("Default");
+	Deck card10 = new Deck("Default");
+
+	endG total = new endG();
+		
+	//For AI's card
+	JPanel partOne;
+	//For Player's card
+	JPanel partTwo;
+	//Action buttons and bets and bank
+	JPanel partThree;
+	JPanel partFour;
+			
+	JFrame frame;
+	//The biggest Panel, in order to set the size
+	JPanel primary;
+	
+	//Display bet
+	JPanel bet;
+	//Display add bet buttons
+	JPanel betb;
+	//Display bank
+	JPanel bank;
+	//__________
+	//SetUp GUI 
+	//__________
+	
+	
+	public TheBlackJackGame(){
+	
+//______________________________________________________________________________
+	//frame	
+	frame = new JFrame("The Black Jack Game");
+	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//______________________________________________________________________________
+	//Initial JPanels
+	bet = new JPanel();
+	bank = new JPanel();
+	primary = new JPanel();
+	partOne = new JPanel();
+	partTwo = new JPanel();
+	partThree = new JPanel();
+//______________________________________________________________________________		
+	//Set Default card layout
+	FlowLayout cardLayout = new FlowLayout();
+	cardLayout.setHgap(20);
+//______________________________________________________________________________	
+	//Player's Card Part Setup
+//______________________________________________________________________________
+	
+	String s1 =  new String();
+	s1 = card1.toString0()+".png";
+	
+	String s2 =  new String();
+	s2 = card2.toString1()+".png";
+	
+	String s3 =  new String();
+	s3 = card3.toString2()+".png";
+	
+	String s4 =  new String();
+	s4 = card4.toString3()+".png";
+	
+	String s5 =  new String();
+	s5 = card5.toString4()+".png";
+	
+	String s6 =  new String();
+	s6 = card6.toString5()+".png";
+	
+	String s7 =  new String();
+	s7 = card7.toString6()+".png";
+	
+	String s8 =  new String();
+	s8 = card8.toString7()+".png";
+	
+	String s9 =  new String();
+	s9 = card9.toString8()+".png";
+	
+	String s10 =  new String();
+	s10 = card10.toString9()+".png";
+	
+	partOne.setLayout(cardLayout);
+
+	partOne.add(new JLabel(new ImageIcon ("yc.png")));//
+	partOne.add(new JLabel(new ImageIcon (s1)));//First Given Card
+	partOne.add(new JLabel(new ImageIcon (s2)));//Second Given Card
+	
+	cc3 = new JLabel(new ImageIcon (s3));//Third Given Card
+	cc3.setVisible(false);
+	
+	cc4 = new JLabel(new ImageIcon (s4));//Fourth Given Card
+	cc4.setVisible(false);
+	
+	cc5 = new JLabel(new ImageIcon (s5));//Fifth Given Card
+	cc5.setVisible(false);
+	
+	sc = new JLabel(new ImageIcon ("Default.jpg"));//Blank Space for 3th card(Player's)
+	sc2 = new JLabel(new ImageIcon ("Default.jpg"));//Blank Space for 4th card(Player's)
+	sc3 = new JLabel(new ImageIcon ("Default.jpg"));//Blank Space for 5th card(Player's)
+	sc4 = new JLabel(new ImageIcon ("Default.jpg"));//Blank Space for 3th card(AI's)
+	sc5 = new JLabel(new ImageIcon ("Default.jpg"));//Blank Space for 4th card(AI's)
+	sc6 = new JLabel(new ImageIcon ("Default.jpg"));//Blank Space for 5th card(AI's)
+	
+
+	partOne.add(cc3);
+	partOne.add(cc4);
+	partOne.add(cc5);
+	
+	partOne.add(sc);
+	partOne.add(sc2);
+	partOne.add(sc3);
+	
+//______________________________________________________________________________	
+	//part Two
+//______________________________________________________________________________	
+	partTwo.setLayout(cardLayout);
+	
+	partTwo.add(new JLabel(new ImageIcon ("yc2.png")));
+	
+	dd4 = new JLabel(new ImageIcon (s6));//First  Card
+	dd4.setVisible(false);
+	partTwo.add(dd4);
+	
+	dd5 = new JLabel(new ImageIcon ("qc.png"));//Unknown Card Sign
+	partTwo.add(dd5);
+	
+	partTwo.add(new JLabel(new ImageIcon (s7)));//Second Card
+	
+	dd1 = new JLabel(new ImageIcon (s8));//3th card
+	dd1.setVisible(false);
+	
+	dd2 = new JLabel(new ImageIcon (s9));//4th card
+	dd2.setVisible(false);
+	
+	dd3 = new JLabel(new ImageIcon (s10));//5th card
+	dd3.setVisible(false);
+	
+	
+	partTwo.add(dd1);
+	partTwo.add(dd2);
+	partTwo.add(dd3);
+	
+	partTwo.add(sc4);
+	partTwo.add(sc5);
+	partTwo.add(sc6);
+
+	
+//______________________________________________________________________________
+	//part Three
+//______________________________________________________________________________	
+	
+	//set title border style for bet and bank
+	TitledBorder titleb;
+
+	//title border for bet
+	titleb = BorderFactory.createTitledBorder("bet");
+	bet.setBorder(titleb);
+	
+	//Display Bet Number
+	betNumL = new JLabel(Integer.toString(betNum));
+	betNumL.setFont(new Font("Serif", Font.PLAIN, 100));
+	bet.setLayout(new GridBagLayout());
+	
+	bet.setPreferredSize(new Dimension(210, 210));
+	bet.add(betNumL);
+	partThree.add(bet);
+	
+	//title border for bank
+	titleb = BorderFactory.createTitledBorder("bank");
+	bank.setBorder(titleb);
+
+	//Display Bank Number
+	bankNumL = new JLabel(Integer.toString(bankNum));
+	bankNumL.setFont(new Font("Serif", Font.PLAIN, 100));
+	bank.setLayout(new GridBagLayout());
+	
+	bank.setPreferredSize(new Dimension(210, 210));
+	bank.add(bankNumL);
+	partThree.add(bank);
+	
+	//Initialize JButtons
+	JButton addOne;
+	JButton addFive;
+	JButton addTen;
+	JButton addTwe;
+	JButton addFif;
+	JButton addHun;
+	
+	betb = new JPanel();
+	
+	//Add $1 button
+	addOne = new JButton("$1");
+	addOne.addActionListener(this);
+	addOne.setActionCommand("addOne");
+	
+	//Add $5 button
+	addFive = new JButton("$5");
+	addFive.addActionListener(this);
+	addFive.setActionCommand("addFiv");
+	
+	//Add $10 button
+	addTen = new JButton("$10");
+	addTen.addActionListener(this);
+	addTen.setActionCommand("addTen");
+	
+	//Add $20 button
+	addTwe = new JButton("$20");
+	addTwe.addActionListener(this);
+	addTwe.setActionCommand("addTwe");
+	
+	//Add $50 button
+	addFif = new JButton("$50");
+	addFif.addActionListener(this);
+	addFif.setActionCommand("addFif");
+	
+	//Add $100 button
+	addHun = new JButton("$100");
+	addHun.addActionListener(this);
+	addHun.setActionCommand("addHun");
+	
+	//Set the size of buttons
+	addOne.setPreferredSize(new Dimension(100, 67));
+	
+	betb.setLayout(new GridLayout(3,2));
+		
+	betb.add(addOne);
+	betb.add(addFive);
+	betb.add(addTen);
+	betb.add(addTwe);
+	betb.add(addFif);
+	betb.add(addHun);
+	
+	
+	partThree.add(betb);
+	partThree.add(bank);
+//______________________________________________________________________________		
+	//Hit.Stand and Start Button
+//______________________________________________________________________________			
+	partFour = new JPanel();
+	
+	//hit button setup
+	hit = new JButton("Hit");
+	hit.addActionListener(this);
+	hit.setActionCommand("hit");
+	
+	//stand button setup
+	stand = new JButton("Stand");
+	stand.addActionListener(this);
+	stand.setActionCommand("stand");
+	
+
+	//start button setup
+	start = new JButton("Start");
+	start.addActionListener(this);
+	start.setActionCommand("start");
+	
+	hit.setPreferredSize(new Dimension(220,100));
+	stand.setPreferredSize(new Dimension(220,100));
+	start.setPreferredSize(new Dimension(220,100));
+	
+	partFour.add(hit);
+	partFour.add(stand);
+	partFour.add(start);
+	
+	/*
+	JPanel ins;
+	ins = new JPanel();
+	ins.setAlignmentX(Component.CENTER_ALIGNMENT);
+	ins.add(new JLabel("Press Start to get $100 start money"));
+	ins.add(new JLabel("Press $1,or other add money button to add money to bet"));
+	ins.add(new JLabel("The game result will show on \"start\" button"));
+	ins.add(new JLabel("Press \"Start\" again to restart the game"));
+	*/
+	
+	
+//______________________________________________________________________________	
+	//add subpanels to Primary
+//______________________________________________________________________________	
+	primary.setAlignmentX(Component.CENTER_ALIGNMENT);
+	
+	primary.add(partOne);
+	primary.add(partTwo);
+	primary.add(partThree);
+	primary.add(partFour);
+	//primary.add(ins);
+//______________________________________________________________________________
+	frame.getContentPane().add(primary);
+	frame.pack();
+	frame.setSize(800,800);
+	frame.setVisible(true);
+//______________________________________________________________________________	
+	
+	//Calculate the total value of card so far
+	totalAI+=total.tot6();
+	totalAI+=total.tot7();
+	totalP+=total.tot1();
+	totalP+=total.tot2();
+	
+	int count =0;
+	
+	}
+
+	@Override
+	
+//______________________________________________________
+	//Setup button Actions
+//______________________________________________________
+	
+	public void actionPerformed(ActionEvent e) {
+		
+		//Start button
+		
+		if(e.getActionCommand().equals("start"))
+		{
+			betNum = 0;
+			bankNum = 100;
+			betNumL.setText(Integer.toString(betNum));
+			bankNumL.setText(Integer.toString(bankNum));
+			start.setText("Reset");
+		}
+		
+		//Add money buttons
+			if(e.getActionCommand().equals("addOne"))
+			{
+				if(bankNum>=1) {
+				betNum+=1;
+				bankNum-=1;
+				betNumL.setText(Integer.toString(betNum));
+				bankNumL.setText(Integer.toString(bankNum));
+				}
+			}
+			if(e.getActionCommand().equals("addFiv"))
+			{
+				if(bankNum>=5) {
+				betNum+=5;
+				bankNum-=5;
+				betNumL.setText(Integer.toString(betNum));
+				bankNumL.setText(Integer.toString(bankNum));
+				}
+			}
+			if(e.getActionCommand().equals("addTen"))
+			{
+				if(bankNum>=10) {
+				betNum+=10;
+				bankNum-=10;
+				betNumL.setText(Integer.toString(betNum));
+				bankNumL.setText(Integer.toString(bankNum));
+				}	
+			}
+			if(e.getActionCommand().equals("addTwe"))
+			{
+				if(bankNum>=20) 	{
+				betNum+=20;
+				bankNum-=20;
+				betNumL.setText(Integer.toString(betNum));
+				bankNumL.setText(Integer.toString(bankNum));
+				}	
+			}
+			if(e.getActionCommand().equals("addFif"))
+			{
+				if(bankNum>=50) {
+				betNum+=50;
+				bankNum-=50;
+				betNumL.setText(Integer.toString(betNum));
+				bankNumL.setText(Integer.toString(bankNum));
+				}
+			}
+			if(e.getActionCommand().equals("addHun"))
+			{
+				if(bankNum>=100) {
+				betNum+=100;
+				bankNum-=100;
+				betNumL.setText(Integer.toString(betNum));
+				bankNumL.setText(Integer.toString(bankNum));
+				}
+			}
+			
+		//Setup hit button and AI's reaction of draw card
+			
+		if(e.getActionCommand().equals("hit"))
+		{
+			totalP+=total.tot3();
+			sc.setVisible(false);
+			cc3.setVisible(true);
+			hit.setActionCommand("hit2");
+			
+			if(totalAI<17){
+				sc4.setVisible(false);
+				dd1.setVisible(true);
+				totalAI+=total.tot8();	
+				count++;//count=1
+			}
+			
+		}
+		if(e.getActionCommand().equals("hit2"))
+		{
+			totalP+=total.tot4();
+			sc2.setVisible(false);
+			cc4.setVisible(true);
+			hit.setActionCommand("hit3");
+			
+			if(totalAI<17){
+				sc5.setVisible(false);
+				dd2.setVisible(true);
+				totalAI+=total.tot9();	
+				count++;//2
+			}
+		}
+		if(e.getActionCommand().equals("hit3"))
+		{
+			totalP+=total.tot5();
+			sc3.setVisible(false);
+			cc5.setVisible(true);
+			
+			if(totalAI<17){
+				sc6.setVisible(false);
+				dd3.setVisible(true);
+				totalAI+=total.tot10();	
+			}
+			
+			//_______________________________________________________________
+			if(totalAI<22){
+				if(totalP<22){
+					if(totalAI>totalP){
+						start.setText("You Lost");
+						start.setActionCommand("restart");
+						betNum=0;
+						betNumL.setText(Integer.toString(betNum));
+						bankNumL.setText(Integer.toString(bankNum));
+						dd4.setVisible(true);
+						dd5.setVisible(false);
+					}
+					else
+					{
+						start.setText("You Win");
+						start.setActionCommand("restart");
+						bankNum+=(betNum*2);
+						betNum=0;
+						betNumL.setText(Integer.toString(betNum));
+						bankNumL.setText(Integer.toString(bankNum));
+						dd4.setVisible(true);
+						dd5.setVisible(false);
+					}
+				}
+				else{
+					start.setText("You Lost");
+					start.setActionCommand("restart");
+					betNum=0;
+					betNumL.setText(Integer.toString(betNum));
+					bankNumL.setText(Integer.toString(bankNum));
+					dd4.setVisible(true);
+					dd5.setVisible(false);
+				}
+			}
+			else{
+				if(totalP<22){
+					start.setText("You Win");
+					start.setActionCommand("restart");
+					bankNum+=(betNum*2);
+					betNum=0;
+					betNumL.setText(Integer.toString(betNum));
+					bankNumL.setText(Integer.toString(bankNum));
+					dd4.setVisible(true);
+					dd5.setVisible(false);
+				}
+				else{
+					start.setText("Nobody Win");
+					start.setActionCommand("restart");
+					betNum=0;
+					dd4.setVisible(true);
+					dd5.setVisible(false);
+				}//			
+			}//
+		}
+		
+		//_______________________________________________________________
+		if(e.getActionCommand().equals("restart"))
+		{
+			System.exit(1);
+		}
+	//Setup stand button and how AI draw card
+		
+		if(e.getActionCommand().equals("stand"))
+		{
+
+			if(count<1)
+			{
+				if(totalAI<17){
+					sc4.setVisible(false);
+					dd1.setVisible(true);
+					totalAI+=total.tot8();	
+					count++;//count=1
+				}
+				
+			}
+			if(count<2)
+			{
+				
+				if(totalAI<17){
+					sc5.setVisible(false);
+					dd2.setVisible(true);
+					totalAI+=total.tot9();	
+					count++;//2
+				}
+			}
+			if(count<3)
+			{
+				if(totalAI<17){
+					sc6.setVisible(false);
+					dd3.setVisible(true);
+					totalAI+=total.tot10();	
+				}
+				if(totalAI<22){
+					if(totalP<22){
+						if(totalAI>totalP){
+							start.setText("You Lost");
+							start.setActionCommand("restart");
+							betNum=0;
+							betNumL.setText(Integer.toString(betNum));
+							bankNumL.setText(Integer.toString(bankNum));
+							dd4.setVisible(true);
+							dd5.setVisible(false);
+						}
+						else
+						{
+							start.setText("You Win");
+							start.setActionCommand("restart");
+							bankNum+=(betNum*2);
+							betNum=0;
+							betNumL.setText(Integer.toString(betNum));
+							bankNumL.setText(Integer.toString(bankNum));
+							dd4.setVisible(true);
+							dd5.setVisible(false);
+						}
+					}
+					else{
+						start.setText("You Lost");
+						start.setActionCommand("restart");
+						betNum=0;
+						betNumL.setText(Integer.toString(betNum));
+						bankNumL.setText(Integer.toString(bankNum));
+						dd4.setVisible(true);
+						dd5.setVisible(false);
+					}
+				}
+				else{
+					if(totalP<22){
+						start.setText("You Win");
+						start.setActionCommand("restart");
+						bankNum+=(betNum*2);
+						betNum=0;
+						betNumL.setText(Integer.toString(betNum));
+						bankNumL.setText(Integer.toString(bankNum));
+						dd4.setVisible(true);
+						dd5.setVisible(false);
+					}
+					else{
+						start.setText("Nobody Win");
+						start.setActionCommand("restart");
+						betNum=0;
+						betNumL.setText(Integer.toString(betNum));
+						bankNumL.setText(Integer.toString(bankNum));
+						dd4.setVisible(true);
+						dd5.setVisible(false);
+					}//			
+				}//
+		}//
+			}//
+		}//
+	
+	//Display GUI
+	private static void runGUI(){
+		JFrame.setDefaultLookAndFeelDecorated(true);
+		
+		TheBlackJackGame greeting = new TheBlackJackGame();
+		
+	}
+	
+	public static void main (String urgs[]){
+		javax.swing.SwingUtilities.invokeLater(new Runnable(){
+			public void run(){
+			runGUI();
+			}
+		});
+	}
+}
+	
+
+
