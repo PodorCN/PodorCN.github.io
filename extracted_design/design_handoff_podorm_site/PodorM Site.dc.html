@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/nocturne-608ea2a0-d501-4931-8797-a580e44f7ace/styles.css">
+<script src="_ds/nocturne-608ea2a0-d501-4931-8797-a580e44f7ace/_ds_bundle.js"></script>
+<script src="./image-slot.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+  html { scroll-behavior: smooth; }
+  body { background: #0f101c; margin: 0; }
+  pre { margin: 0; }
+  a { color: var(--color-neutral-300); text-decoration: none; transition: color .18s ease; }
+  a:hover { color: var(--color-accent); }
+  @keyframes podFloor { from { background-position: 0 0, 0 0; } to { background-position: 0 64px, 0 0; } }
+  @keyframes podBlink { 0%,45% { opacity: 1; } 50%,100% { opacity: 0; } }
+</style>
+</helmet>
+
+<template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><rect width="200" height="200" fill="#161826"/><text x="100" y="118" font-family="monospace" font-size="54" font-weight="700" fill="#9184d9" text-anchor="middle">Pd</text></svg></template>
+
+<div style="font-family:var(--font-body); color:var(--color-text); background:#0f101c">
+
+  <header style="position:fixed; top:0; left:0; right:0; z-index:20; display:flex; justify-content:space-between; align-items:center; padding:22px 56px; font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:.22em; text-transform:uppercase; color:var(--color-neutral-400); background:linear-gradient(to bottom, rgba(15,16,28,.92), rgba(15,16,28,0)); backdrop-filter:blur(6px)">
+    <a href="#top" style="color:var(--color-text)">PodorM</a>
+    <nav style="display:flex; gap:36px">
+      <a href="#market">Market</a>
+      <a href="#github">Github</a>
+      <a href="#notes">Course Notes</a>
+      <a href="#photos">Photos</a>
+    </nav>
+  </header>
+
+  <section id="top" style="position:relative; height:100vh; min-height:640px; overflow:hidden; background:linear-gradient(180deg, #171a2e 0%, #0f101c 62%, #0b0c14 100%)">
+    <div style="position:absolute; left:-60%; right:-60%; bottom:0; height:110vh; background-image:repeating-linear-gradient(to bottom, rgba(145,132,217,.4) 0 1px, transparent 1px 64px), repeating-linear-gradient(to right, rgba(145,132,217,.32) 0 1px, transparent 1px 100px); animation:podFloor 9s linear infinite; transform:perspective(1400px) rotateX(62deg); transform-origin:bottom center; -webkit-mask-image:linear-gradient(to bottom, transparent, #000 26%); mask-image:linear-gradient(to bottom, transparent, #000 26%)"></div>
+    <div style="position:absolute; left:0; right:0; top:58%; height:1px; background:linear-gradient(to right, transparent, rgba(145,132,217,.7) 20%, rgba(145,132,217,.7) 80%, transparent)"></div>
+    <div style="position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:30px; padding:0 56px 22vh">
+      <pre ref="{{ refHero }}" style="font-family:'JetBrains Mono',monospace; font-size:clamp(18px, 3.4vw, 48px); line-height:1; letter-spacing:1px; color:var(--color-text); text-shadow:0 0 30px rgba(145,132,217,.5)"></pre>
+      <span style="display:flex; align-items:center; gap:4px; font-family:'JetBrains Mono',monospace; font-size:14px; letter-spacing:.5em; text-transform:uppercase; color:var(--color-accent-300)">
+        <span ref="{{ refSub }}"></span>
+        <span style="animation:podBlink 1s steps(1) infinite">_</span>
+      </span>
+      <div style="display:flex; gap:12px; margin-top:10px">
+        <a href="#market" class="btn btn-primary">Browse market</a>
+        <a href="#notes" class="btn btn-ghost">Read the notes</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="market" style="padding:120px 56px; display:flex; flex-direction:column; gap:44px; border-top:1px solid var(--color-neutral-800)">
+    <div style="display:flex; flex-direction:column; gap:14px">
+      <span style="font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:.3em; text-transform:uppercase; color:var(--color-accent-300)">01 / Market</span>
+      <h2 style="margin:0; font-family:var(--font-heading); font-weight:500; font-size:44px; letter-spacing:-.01em">Five indices, one grid.</h2>
+      <div style="width:520px; max-width:100%; height:1px; background:linear-gradient(to right, var(--color-neutral-600), transparent)"></div>
+    </div>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:16px">
+
+      <div class="card elev-sm" style="display:flex; flex-direction:column; gap:14px">
+        <div style="display:flex; justify-content:space-between; align-items:baseline; font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:.24em; color:var(--color-neutral-400)"><span>S&amp;P 500</span><span>SPX</span></div>
+        <div style="display:flex; justify-content:space-between; align-items:baseline; font-family:'JetBrains Mono',monospace">
+          <span ref="{{ ref0v }}" style="font-size:26px; color:var(--color-text)"></span>
+          <span ref="{{ ref0d }}" style="font-size:14px"></span>
+        </div>
+        <pre ref="{{ ref0s }}" style="font-family:'JetBrains Mono',monospace; font-size:14px; line-height:1; color:var(--color-accent-400)"></pre>
+      </div>
+
+      <div class="card elev-sm" style="display:flex; flex-direction:column; gap:14px">
+        <div style="display:flex; justify-content:space-between; align-items:baseline; font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:.24em; color:var(--color-neutral-400)"><span>NASDAQ</span><span>IXIC</span></div>
+        <div style="display:flex; justify-content:space-between; align-items:baseline; font-family:'JetBrains Mono',monospace">
+          <span ref="{{ ref1v }}" style="font-size:26px; color:var(--color-text)"></span>
+          <span ref="{{ ref1d }}" style="font-size:14px"></span>
+        </div>
+        <pre ref="{{ ref1s }}" style="font-family:'JetBrains Mono',monospace; font-size:14px; line-height:1; color:var(--color-accent-400)"></pre>
+      </div>
+
+      <div class="card elev-sm" style="display:flex; flex-direction:column; gap:14px">
+        <div style="display:flex; justify-content:space-between; align-items:baseline; font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:.24em; color:var(--color-neutral-400)"><span>CSI 300</span><span>000300</span></div>
+        <div style="display:flex; justify-content:space-between; align-items:baseline; font-family:'JetBrains Mono',monospace">
+          <span ref="{{ ref2v }}" style="font-size:26px; color:var(--color-text)"></span>
+          <span ref="{{ ref2d }}" style="font-size:14px"></span>
+        </div>
+        <pre ref="{{ ref2s }}" style="font-family:'JetBrains Mono',monospace; font-size:14px; line-height:1; color:var(--color-accent-400)"></pre>
+      </div>
+
+      <div class="card elev-sm" style="display:flex; flex-direction:column; gap:14px">
+        <div style="display:flex; justify-content:space-between; align-items:baseline; font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:.24em; color:var(--color-neutral-400)"><span>NIKKEI 225</span><span>N225</span></div>
+        <div style="display:flex; justify-content:space-between; align-items:baseline; font-family:'JetBrains Mono',monospace">
+          <span ref="{{ ref3v }}" style="font-size:26px; color:var(--color-text)"></span>
+          <span ref="{{ ref3d }}" style="font-size:14px"></span>
+        </div>
+        <pre ref="{{ ref3s }}" style="font-family:'JetBrains Mono',monospace; font-size:14px; line-height:1; color:var(--color-accent-400)"></pre>
+      </div>
+
+      <div class="card elev-sm" style="display:flex; flex-direction:column; gap:14px">
+        <div style="display:flex; justify-content:space-between; align-items:baseline; font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:.24em; color:var(--color-neutral-400)"><span>XIU · TSX 60</span><span>XIU.TO</span></div>
+        <div style="display:flex; justify-content:space-between; align-items:baseline; font-family:'JetBrains Mono',monospace">
+          <span ref="{{ ref4v }}" style="font-size:26px; color:var(--color-text)"></span>
+          <span ref="{{ ref4d }}" style="font-size:14px"></span>
+        </div>
+        <pre ref="{{ ref4s }}" style="font-family:'JetBrains Mono',monospace; font-size:14px; line-height:1; color:var(--color-accent-400)"></pre>
+      </div>
+
+    </div>
+    <span style="font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.2em; text-transform:uppercase; color:var(--color-neutral-500)">Simulated feed · not live market data</span>
+  </section>
+
+  <section id="github" style="padding:120px 56px; display:flex; flex-direction:column; gap:44px; background:linear-gradient(180deg, #12131f, #0f101c); border-top:1px solid var(--color-neutral-800)">
+    <div style="display:flex; flex-direction:column; gap:14px">
+      <span style="font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:.3em; text-transform:uppercase; color:var(--color-accent-300)">02 / Github</span>
+      <h2 style="margin:0; font-family:var(--font-heading); font-weight:500; font-size:44px; letter-spacing:-.01em">Open repositories.</h2>
+      <div style="width:520px; max-width:100%; height:1px; background:linear-gradient(to right, var(--color-neutral-600), transparent)"></div>
+    </div>
+    <div style="display:flex; flex-direction:column">
+      <a href="#github" style="display:grid; grid-template-columns:minmax(0,1.1fr) minmax(0,2fr) 120px 90px; gap:24px; align-items:baseline; padding:22px 0; border-top:1px solid var(--color-neutral-800); font-family:'JetBrains Mono',monospace; font-size:14px" style-hover="background: rgba(145,132,217,.06)">
+        <span style="color:var(--color-text)">podorm/ascii-core</span>
+        <span style="font-family:var(--font-body); font-size:15px; color:var(--color-neutral-400)">Character-grid renderer with wave, noise and outline passes.</span>
+        <span style="color:var(--color-neutral-500)">TypeScript</span>
+        <span style="color:var(--color-accent-300); text-align:right">★ 1 204</span>
+      </a>
+      <a href="#github" style="display:grid; grid-template-columns:minmax(0,1.1fr) minmax(0,2fr) 120px 90px; gap:24px; align-items:baseline; padding:22px 0; border-top:1px solid var(--color-neutral-800); font-family:'JetBrains Mono',monospace; font-size:14px" style-hover="background: rgba(145,132,217,.06)">
+        <span style="color:var(--color-text)">podorm/horizon-grid</span>
+        <span style="font-family:var(--font-body); font-size:15px; color:var(--color-neutral-400)">Perspective floor grid, 400 bytes, no dependencies.</span>
+        <span style="color:var(--color-neutral-500)">CSS</span>
+        <span style="color:var(--color-accent-300); text-align:right">★ 612</span>
+      </a>
+      <a href="#github" style="display:grid; grid-template-columns:minmax(0,1.1fr) minmax(0,2fr) 120px 90px; gap:24px; align-items:baseline; padding:22px 0; border-top:1px solid var(--color-neutral-800); border-bottom:1px solid var(--color-neutral-800); font-family:'JetBrains Mono',monospace; font-size:14px" style-hover="background: rgba(145,132,217,.06)">
+        <span style="color:var(--color-text)">podorm/mzx</span>
+        <span style="font-family:var(--font-body); font-size:15px; color:var(--color-neutral-400)">The runtime powering the decode animation on this page.</span>
+        <span style="color:var(--color-neutral-500)">Rust</span>
+        <span style="color:var(--color-accent-300); text-align:right">★ 388</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="notes" style="padding:120px 56px; display:flex; flex-direction:column; gap:44px; border-top:1px solid var(--color-neutral-800)">
+    <div style="display:flex; flex-direction:column; gap:14px">
+      <span style="font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:.3em; text-transform:uppercase; color:var(--color-accent-300)">03 / Course Notes</span>
+      <h2 style="margin:0; font-family:var(--font-heading); font-weight:500; font-size:44px; letter-spacing:-.01em">Written while learning.</h2>
+      <div style="width:520px; max-width:100%; height:1px; background:linear-gradient(to right, var(--color-neutral-600), transparent)"></div>
+    </div>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:20px">
+      <a href="#notes" class="card elev-sm" style="display:flex; flex-direction:column; gap:8px">
+        <div class="card-kicker">Graphics · 12 min</div>
+        <div class="card-title">Rasterising letterforms on a 5×7 grid</div>
+        <div class="card-body">Why bitmap glyphs read better than vector outlines below 40 pixels.</div>
+      </a>
+      <a href="#notes" class="card elev-sm" style="display:flex; flex-direction:column; gap:8px">
+        <div class="card-kicker">Systems · 9 min</div>
+        <div class="card-title">Frame budgets for text animation</div>
+        <div class="card-body">Writing to textContent 60 times a second without touching the layout tree.</div>
+      </a>
+      <a href="#notes" class="card elev-sm" style="display:flex; flex-direction:column; gap:8px">
+        <div class="card-kicker">Perception · 6 min</div>
+        <div class="card-title">Noise that resolves</div>
+        <div class="card-body">The decode effect works because the eye completes a shape before it is finished.</div>
+      </a>
+      <a href="#notes" class="card elev-sm" style="display:flex; flex-direction:column; gap:8px">
+        <div class="card-kicker">Colour · 8 min</div>
+        <div class="card-title">One accent, nine steps</div>
+        <div class="card-body">Building depth from a single hue and a perceptual lightness ramp.</div>
+      </a>
+    </div>
+  </section>
+
+  <section id="photos" style="padding:120px 56px; display:flex; flex-direction:column; gap:44px; background:linear-gradient(180deg, #12131f, #0f101c); border-top:1px solid var(--color-neutral-800)">
+    <div style="display:flex; flex-direction:column; gap:14px">
+      <span style="font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:.3em; text-transform:uppercase; color:var(--color-accent-300)">04 / Photos</span>
+      <h2 style="margin:0; font-family:var(--font-heading); font-weight:500; font-size:44px; letter-spacing:-.01em">Shot in the dark.</h2>
+      <div style="width:520px; max-width:100%; height:1px; background:linear-gradient(to right, var(--color-neutral-600), transparent)"></div>
+    </div>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); grid-auto-rows:240px; gap:16px">
+      <div class="lighten" style="position:relative; grid-column:span 2; grid-row:span 2"><image-slot id="pod-photo-1" shape="rounded" radius="8" placeholder="Drop a wide night shot"></image-slot></div>
+      <div class="lighten" style="position:relative"><image-slot id="pod-photo-2" shape="rounded" radius="8" placeholder="Drop a photo"></image-slot></div>
+      <div class="lighten" style="position:relative"><image-slot id="pod-photo-3" shape="rounded" radius="8" placeholder="Drop a photo"></image-slot></div>
+      <div class="lighten" style="position:relative"><image-slot id="pod-photo-4" shape="rounded" radius="8" placeholder="Drop a photo"></image-slot></div>
+      <div class="lighten" style="position:relative"><image-slot id="pod-photo-5" shape="rounded" radius="8" placeholder="Drop a photo"></image-slot></div>
+    </div>
+  </section>
+
+  <footer style="padding:72px 56px 56px; display:flex; justify-content:space-between; align-items:flex-end; gap:40px; border-top:1px solid var(--color-neutral-800); font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:.2em; text-transform:uppercase; color:var(--color-neutral-500)">
+    <div style="display:flex; flex-direction:column; gap:18px">
+      <pre ref="{{ refMark }}" style="font-family:'JetBrains Mono',monospace; font-size:9px; line-height:1; color:var(--color-neutral-600)"></pre>
+      <span>Powered by MZX</span>
+    </div>
+    <nav style="display:flex; gap:28px">
+      <a href="#market">Market</a>
+      <a href="#github">Github</a>
+      <a href="#notes">Course Notes</a>
+      <a href="#photos">Photos</a>
+    </nav>
+  </footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;speed&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:1,&quot;min&quot;:0,&quot;max&quot;:3,&quot;step&quot;:0.1,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Motion&quot;},&quot;subtitle&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;POWERED BY MZX&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Hero&quot;}}">
+const FONT = {
+  P: ["####.", "#...#", "#...#", "####.", "#....", "#....", "#...."],
+  O: [".###.", "#...#", "#...#", "#...#", "#...#", "#...#", ".###."],
+  D: ["####.", "#...#", "#...#", "#...#", "#...#", "#...#", "####."],
+  R: ["####.", "#...#", "#...#", "####.", "#..#.", "#...#", "#...#"],
+  M: ["#...#", "##.##", "#.#.#", "#...#", "#...#", "#...#", "#...#"]
+};
+
+function mask(word) {
+  const rows = [];
+  for (let r = 0; r < 7; r++) {
+    let line = "";
+    for (let i = 0; i < word.length; i++) {
+      const g = FONT[word[i]] || ["#####", "#####", "#####", "#####", "#####", "#####", "#####"];
+      line += (i ? "." : "") + g[r];
+    }
+    rows.push(line);
+  }
+  return rows;
+}
+
+function on(m, x, y) {
+  return y >= 0 && y < m.length && x >= 0 && x < m[0].length && m[y][x] === "#";
+}
+
+function hash(x, y, s) {
+  const n = Math.sin(x * 127.1 + y * 311.7 + s * 74.7) * 43758.5453;
+  return n - Math.floor(n);
+}
+
+function outlineRows(m, pad) {
+  const p = pad || 0;
+  const rows = [];
+  for (let y = -1; y < m.length + 1; y++) {
+    let line = "";
+    for (let x = -p; x < m[0].length + p; x++) {
+      if (!on(m, x, y)) { line += " "; continue; }
+      const h = on(m, x - 1, y) || on(m, x + 1, y);
+      const v = on(m, x, y - 1) || on(m, x, y + 1);
+      line += h && v ? "┼" : h ? "═" : v ? "║" : "▪";
+    }
+    rows.push(line);
+  }
+  return rows;
+}
+
+class Component extends DCLogic {
+  constructor(p) {
+    super(p);
+    this.rows = outlineRows(mask("PODORM"), 1);
+    this.markRows = outlineRows(mask("PODORM"), 0);
+    this.r = { hero: React.createRef(), sub: React.createRef(), mark: React.createRef() };
+    this.idx = [
+      { base: 6412.88, vol: 9, seed: 3 },
+      { base: 21038.41, vol: 34, seed: 11 },
+      { base: 4127.60, vol: 12, seed: 19 },
+      { base: 41892.30, vol: 130, seed: 27 },
+      { base: 38.74, vol: 0.16, seed: 35 }
+    ];
+    this.idx.forEach((_, i) => {
+      this.r["i" + i + "v"] = React.createRef();
+      this.r["i" + i + "d"] = React.createRef();
+      this.r["i" + i + "s"] = React.createRef();
+    });
+  }
+
+  paintIndices(t) {
+    const bars = "▁▂▃▄▅▆▇█";
+    this.idx.forEach((cfg, i) => {
+      const step = Math.floor(t * 1.2);
+      const series = [];
+      for (let k = 0; k < 44; k++) {
+        const x = step + k;
+        series.push(Math.sin(x * 0.21 + cfg.seed) * 0.5 + Math.sin(x * 0.07 + cfg.seed * 2) * 0.35 + (hash(x, cfg.seed, 1) - 0.5) * 0.3);
+      }
+      const last = series[series.length - 1];
+      const val = cfg.base + last * cfg.vol;
+      const pct = (last * cfg.vol / cfg.base) * 100;
+      const up = pct >= 0;
+      const vEl = this.r["i" + i + "v"].current;
+      const dEl = this.r["i" + i + "d"].current;
+      if (vEl) vEl.textContent = val.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+      if (dEl) {
+        dEl.textContent = (up ? "▲ +" : "▼ ") + pct.toFixed(2) + "%";
+        dEl.style.color = up ? "var(--color-accent-300)" : "var(--color-neutral-400)";
+      }
+      const lo = Math.min.apply(null, series), hi = Math.max.apply(null, series);
+      const sEl = this.r["i" + i + "s"].current;
+      if (sEl) sEl.textContent = series.map(v => bars[Math.max(0, Math.min(7, Math.round((v - lo) / (hi - lo || 1) * 7)))]).join("");
+    });
+  }
+
+  componentDidMount() {
+    this.t0 = performance.now();
+    const loop = () => {
+      this.paint(((performance.now() - this.t0) / 1000) * (this.props.speed ?? 1));
+      this.raf = requestAnimationFrame(loop);
+    };
+    this.raf = requestAnimationFrame(loop);
+  }
+
+  componentWillUnmount() { cancelAnimationFrame(this.raf); }
+
+  set(k, text) { const el = this.r[k].current; if (el && el.textContent !== text) el.textContent = text; }
+
+  paint(t) {
+    const noise = "▒░#%*+=-";
+    this.set("hero", this.rows.map((r, y) => r.split("").map((c, x) => {
+      if (c === " ") return " ";
+      const p = (t * 0.55 - x * 0.012) % 1;
+      return p < 0.42 ? noise[Math.floor(hash(x, y, Math.floor(t * 14)) * noise.length)] : c;
+    }).join("")).join("\n"));
+
+    const word = (this.props.subtitle ?? "POWERED BY MZX").toUpperCase();
+    const n = Math.floor(((t * 0.55) % 1) * (word.length + 10));
+    this.set("sub", word.slice(0, Math.min(word.length, n)));
+
+    this.set("mark", this.markRows.join("\n"));
+    this.paintIndices(t);
+  }
+
+  renderVals() {
+    const v = { refHero: this.r.hero, refSub: this.r.sub, refMark: this.r.mark };
+    this.idx.forEach((_, i) => {
+      v["ref" + i + "v"] = this.r["i" + i + "v"];
+      v["ref" + i + "d"] = this.r["i" + i + "d"];
+      v["ref" + i + "s"] = this.r["i" + i + "s"];
+    });
+    return v;
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PodorM</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="#top" class="brand">PodorM</a>
+  <nav>
+    <a href="#market">Market</a>
+    <a href="#github">Github</a>
+    <!-- Temp removed — see #notes/#photos sections below.
+    <a href="#notes">Course Notes</a>
+    <a href="#photos">Photos</a>
+    -->
+  </nav>
+</header>
+
+<section id="top">
+  <div class="floor"></div>
+  <div class="horizon"></div>
+  <div class="content">
+    <pre id="hero-ascii"></pre>
+    <span class="subtitle-row">
+      <span id="hero-subtitle"></span>
+      <span class="blink-cursor">_</span>
+    </span>
+    <div class="hero-actions">
+      <a href="#market" class="btn btn-primary">Browse market</a>
+      <!-- Temp removed with #notes section — <a href="#notes" class="btn btn-ghost">Read the notes</a> -->
+    </div>
+  </div>
+</section>
+
+<section id="market" class="section">
+  <div class="section-head">
+    <span class="kicker">01 / Market</span>
+    <h2>Five indices, one grid.</h2>
+    <div class="rule-fade"></div>
+  </div>
+  <div class="index-grid">
+    <div class="card elev-sm index-card">
+      <div class="row-label"><span>S&amp;P 500</span><span>SPY</span></div>
+      <div id="i0-return" class="return-value">—</div>
+      <div id="i0-chart" class="spark-chart"></div>
+    </div>
+    <div class="card elev-sm index-card">
+      <div class="row-label"><span>NASDAQ Composite</span><span>ONEQ</span></div>
+      <div id="i1-return" class="return-value">—</div>
+      <div id="i1-chart" class="spark-chart"></div>
+    </div>
+    <div class="card elev-sm index-card">
+      <div class="row-label"><span>CSI 300</span><span>ASHR</span></div>
+      <div id="i2-return" class="return-value">—</div>
+      <div id="i2-chart" class="spark-chart"></div>
+    </div>
+    <div class="card elev-sm index-card">
+      <div class="row-label"><span>JAPAN (MSCI)</span><span>EWJ</span></div>
+      <div id="i3-return" class="return-value">—</div>
+      <div id="i3-chart" class="spark-chart"></div>
+    </div>
+    <div class="card elev-sm index-card">
+      <div class="row-label"><span>CANADA (MSCI)</span><span>EWC</span></div>
+      <div id="i4-return" class="return-value">—</div>
+      <div id="i4-chart" class="spark-chart"></div>
+    </div>
+  </div>
+  <span id="market-caption" class="caption">Loading market data…</span>
+</section>
+
+<section id="github" class="section tinted">
+  <div class="section-head">
+    <span class="kicker">02 / Github</span>
+    <h2>Open repositories.</h2>
+    <div class="rule-fade"></div>
+  </div>
+  <div id="repo-list" class="repo-list">
+    <span class="caption">Loading repositories…</span>
+  </div>
+</section>
+
+<!-- Temp removed (kept for later) — Course Notes section
+<section id="notes" class="section">
+  <div class="section-head">
+    <span class="kicker">03 / Course Notes</span>
+    <h2>Written while learning.</h2>
+    <div class="rule-fade"></div>
+  </div>
+  <div id="notes-list" class="notes-grid">
+    <span class="caption">Loading notes…</span>
+  </div>
+  <span class="caption">From <a href="https://github.com/PodorCN/Git_UWnotes" target="_blank" rel="noopener">github.com/PodorCN/Git_UWnotes</a></span>
+</section>
+-->
+
+<!-- Temp removed (kept for later) — Photos section
+<section id="photos" class="section tinted">
+  <div class="section-head">
+    <span class="kicker">04 / Photos</span>
+    <h2>Shot in the dark.</h2>
+    <div class="rule-fade"></div>
+  </div>
+  <div class="photo-grid">
+    <div class="lighten photo-slot wide"><div class="placeholder">Wide night shot</div></div>
+    <div class="lighten photo-slot"><div class="placeholder">Photo</div></div>
+    <div class="lighten photo-slot"><div class="placeholder">Photo</div></div>
+    <div class="lighten photo-slot"><div class="placeholder">Photo</div></div>
+    <div class="lighten photo-slot"><div class="placeholder">Photo</div></div>
+  </div>
+</section>
+-->
+
+<footer class="site-footer">
+  <div class="mark-col">
+    <pre id="footer-ascii"></pre>
+    <span>Powered by MZX</span>
+  </div>
+  <nav>
+    <a href="#market">Market</a>
+    <a href="#github">Github</a>
+    <!-- Temp removed — see #notes/#photos sections above.
+    <a href="#notes">Course Notes</a>
+    <a href="#photos">Photos</a>
+    -->
+  </nav>
+</footer>
+
+<div id="chart-tooltip" class="chart-tooltip" role="tooltip" hidden></div>
+
+<script src="script.js"></script>
+</body>
+</html>
