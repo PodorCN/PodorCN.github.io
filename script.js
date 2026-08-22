@@ -79,7 +79,7 @@ if (reduceMotion) {
   // Animation timing: one full cycle runs over CYCLE_SECONDS (slower than
   // the original ~1.8s), then holds its finished frame for PAUSE_MS before
   // restarting.
-  const CYCLE_SECONDS = 2;
+  const CYCLE_SECONDS = 3;
   const PAUSE_MS = 10000;
   let cycleStart = performance.now();
   function loop() {
