@@ -57,15 +57,16 @@ const footerMarkEl = document.getElementById("footer-ascii");
 
 const SUBTITLE = "POWERED BY MZX";
 
+// t is normalized cycle progress: 0 → 1 over one animation cycle.
 function paint(t) {
   const noise = "▒░#%*+=-";
   heroEl.textContent = heroRows.map((row, y) => row.split("").map((c, x) => {
     if (c === " ") return " ";
-    const p = (t * 0.55 - x * 0.012) % 1;
-    return p < 0.42 ? noise[Math.floor(hash(x, y, Math.floor(t * 14)) * noise.length)] : c;
+    const p = (t - x * 0.012) % 1;
+    return p < 0.42 ? noise[Math.floor(hash(x, y, Math.floor(t * 25)) * noise.length)] : c;
   }).join("")).join("\n");
 
-  const n = Math.floor(((t * 0.55) % 1) * (SUBTITLE.length + 10));
+  const n = Math.floor(Math.min(t, 1) * (SUBTITLE.length + 10));
   subEl.textContent = SUBTITLE.slice(0, Math.min(SUBTITLE.length, n));
 }
 
@@ -75,9 +76,25 @@ if (reduceMotion) {
   heroEl.textContent = heroRows.join("\n");
   subEl.textContent = SUBTITLE;
 } else {
-  const t0 = performance.now();
+  // Animation timing: one full cycle runs over CYCLE_SECONDS (slower than
+  // the original ~1.8s), then holds its finished frame for PAUSE_MS before
+  // restarting.
+  const CYCLE_SECONDS = 2;
+  const PAUSE_MS = 10000;
+  let cycleStart = performance.now();
   function loop() {
-    paint((performance.now() - t0) / 1000);
+    const elapsed = performance.now() - cycleStart;
+    const cycleMs = CYCLE_SECONDS * 1000;
+    let t;
+    if (elapsed < cycleMs) {
+      t = elapsed / cycleMs;
+    } else if (elapsed < cycleMs + PAUSE_MS) {
+      t = 1; // hold the completed frame during the pause
+    } else {
+      cycleStart = performance.now();
+      t = 0;
+    }
+    paint(t);
     requestAnimationFrame(loop);
   }
   requestAnimationFrame(loop);
@@ -326,9 +343,18 @@ function initMarket() {
 // ── Github (real repos via the public GitHub REST API — no token needed) ──
 
 const GITHUB_USER = "PodorCN";
-const GITHUB_REPOS_CACHE_KEY = "podorm_github_repos_cache_v2";
+const GITHUB_REPOS_CACHE_KEY = "podorm_github_repos_cache_v4";
 // Curated picks, shown in this order — not an automatic "most active" selection.
-const GITHUB_PINNED_REPOS = ["StockSentimentAnalyzer", "ETF_Allocator", "Mini_OCR"];
+const GITHUB_PINNED_REPOS = ["StockSentimentAnalyzer", "ETF_Allocator", "PodorCN.github.io", "thematic-market-watcher"];
+// Hand-written one-line descriptions (override the repos' GitHub "About"
+// text) — kept here so the site copy stays curated even if the repo About
+// fields change.
+const GITHUB_REPO_DESCRIPTIONS = {
+  StockSentimentAnalyzer: "Python toolkit scraping Reddit/Twitter chatter and pairing it with Yahoo Finance price data to explore sentiment-driven stock signals",
+  ETF_Allocator: "Dash dashboard for a CAD ETF portfolio — weights with pinning, daily/MTD/QTD returns vs a ZSP benchmark, and a correlation heatmap over Yahoo Finance data",
+  "PodorCN.github.io": "This site — a static single-page portfolio with an ASCII-art hero animation, live ETF daily returns via the Twelve Data API, and zero build tooling",
+  "thematic-market-watcher": "Scheduled GitHub Actions pipeline that turns sector market data + news headlines into an LLM-analyzed static HTML digest, published via GitHub Pages",
+};
 const githubReposCache = makeDailyCache(GITHUB_REPOS_CACHE_KEY);
 
 async function fetchTopRepos() {
@@ -342,7 +368,7 @@ async function fetchTopRepos() {
     .map(r => ({
       fullName: r.full_name,
       url: r.html_url,
-      description: r.description,
+      description: GITHUB_REPO_DESCRIPTIONS[r.name] || r.description,
       language: r.language,
       stars: r.stargazers_count,
     }));
