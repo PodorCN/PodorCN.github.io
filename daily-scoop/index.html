@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daily Scoop · PodorM</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-links">
+    <a href="../index.html" class="brand">PodorM</a>
+    <span class="brand-divider">/</span>
+    <a href="./" class="brand current">Daily Scoop</a>
+  </div>
+  <nav>
+    <a href="#overview">Overview</a>
+    <a href="#gas">Gas</a>
+    <a href="#deals">RedFlagDeals</a>
+    <a href="../toronto-weekend/">Weekend TO</a>
+    <a href="../index.html">Home</a>
+  </nav>
+</header>
+
+<main>
+  <section id="overview" class="hero">
+    <p class="kicker">Daily Scoop</p>
+    <h1 id="page-title">Daily Scoop</h1>
+    <p id="page-dates" class="hero-dates">Loading date…</p>
+    <p id="page-meta" class="hero-meta"></p>
+    <div class="hero-note">
+      使用 git 中保存的多伦多每日油价数据画走势图并预测第二天油价，同时按热度展示最近 7 天 RedFlagDeals 的 12 条 deal。
+    </div>
+  </section>
+
+  <section id="gas" class="items-section">
+    <div class="section-head">
+      <h2 class="section-title">Toronto Gas Price Trend</h2>
+      <span id="gas-caption" class="section-count">Loading Toronto gas prices…</span>
+    </div>
+    <div id="gas-chart" class="chart-card">
+      <p class="loading">Loading chart…</p>
+    </div>
+    <p id="gas-prediction" class="gas-prediction">Loading tomorrow’s prediction…</p>
+  </section>
+
+  <section id="deals" class="items-section tinted">
+    <div class="section-head">
+      <h2 class="section-title">RedFlagDeals · Hot Deals</h2>
+      <span id="deals-caption" class="section-count">Loading latest deals…</span>
+    </div>
+    <div id="deals-list" class="deal-grid">
+      <p class="loading">Loading latest deals…</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div>
+    <span class="brand">PodorM / Daily Scoop</span>
+    <span id="footer-updated"></span>
+  </div>
+  <a href="../index.html">← Back to home</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

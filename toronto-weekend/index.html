@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Toronto Weekend · PodorM</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-links">
+    <a href="../index.html" class="brand">PodorM</a>
+    <span class="brand-divider">/</span>
+    <a href="./" class="brand current">Toronto Weekend</a>
+  </div>
+  <nav>
+    <a href="#overview">Overview</a>
+    <a href="#events">Events</a>
+    <a href="../daily-scoop/">Daily Scoop</a>
+    <a href="../index.html">Home</a>
+  </nav>
+</header>
+
+<main>
+  <section id="overview" class="hero">
+    <p class="kicker">Weekend Toronto</p>
+    <h1 id="page-title">Toronto Weekend</h1>
+    <p id="page-dates" class="hero-dates">Loading dates…</p>
+    <p id="page-meta" class="hero-meta"></p>
+    <div class="weather-grid">
+      <div class="weather-card">
+        <span class="weather-day">Saturday</span>
+        <span id="weather-saturday" class="weather-value">—</span>
+      </div>
+      <div class="weather-card">
+        <span class="weather-day">Sunday</span>
+        <span id="weather-sunday" class="weather-value">—</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="events" class="events-section">
+    <div class="toolbar" id="toolbar" hidden>
+      <div class="filter-group" id="day-filters"></div>
+      <div class="filter-group" id="section-filters"></div>
+    </div>
+    <div id="sections" class="sections">
+      <p class="loading">Loading events…</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div>
+    <span class="brand">PodorM / Toronto Weekend</span>
+    <span id="footer-updated"></span>
+  </div>
+  <a href="../index.html">← Back to home</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
