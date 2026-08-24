@@ -1,0 +1,37 @@
+name: Sync Macro Pages
+
+on:
+  schedule:
+    - cron: "40 13 * * *"
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout public site
+        uses: actions/checkout@v4
+
+      - name: Checkout macro source
+        uses: actions/checkout@v4
+        with:
+          repository: PodorCN/thematic-market-watcher
+          ref: dev
+          path: _thematic-market-watcher
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sync pages and archives
+        run: python sync_macro_pages.py --source _thematic-market-watcher/docs
+
+      - name: Commit public updates
+        run: |
+          git config user.name "macro-pages-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add macro/
+          git commit -m "Sync macro page snapshots" || echo "nothing to commit"
+          git push
