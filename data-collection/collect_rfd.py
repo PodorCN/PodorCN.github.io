@@ -49,6 +49,56 @@ def is_excluded(title, dealer):
     )
 
 
+
+def clean_title(value):
+    s = re.sub(r"[|]+", " - ", value or "")
+    s = re.sub(r"\s+", " ", s).strip(" -")
+    return s
+
+
+def extract_discount(title):
+    patterns = [
+        re.compile(r"(?:save\s+)?\d{1,3}\s*%\s*(?:off|sitewide)?", re.I),
+        re.compile(r"\b(bogo(?:\s+for\s+\$\d+(?:\.\d+)?)?|free)\b", re.I),
+        re.compile(r"\$\s?\d+(?:[.,]\d+)?(?:\s*(?:off|was\.?|was\s*\$?\s?\d+(?:[.,]\d+)?))?", re.I),
+        re.compile(r"\d+\s*(?:scene\s*points|miles|points|air\s*miles)", re.I),
+    ]
+    for pattern in patterns:
+        m = pattern.search(title)
+        if m:
+            return m.group(0).strip()
+    return ""
+
+
+def normalize_deal(title, dealer):
+    raw = clean_title(title)
+    brand = (dealer or "").strip()
+    discount = extract_discount(raw)
+
+    item = raw
+    if discount:
+        item = item.replace(discount, " ", 1)
+
+    if brand:
+        if item.lower().startswith(brand.lower()):
+            item = item[len(brand):]
+        item = re.sub(
+            r"\s*[:|\-\u2013\u2014]+\s*" + re.escape(brand) + r"\b",
+            "",
+            item,
+            flags=re.I,
+        )
+
+    # Turn parenthetical notes into plain text and clean separators.
+    item = re.sub(r"\s*\(([^)]*)\)", r" \1", item)
+    item = re.sub(r"^\s*[,;:]+", "", item)
+    item = re.sub(r"\s+-\s+", " - ", item)
+    item = re.sub(r"\s*[\u2013\u2014|]\s*", " - ", item)
+    item = re.sub(r"\s*:\s*", " - ", item)
+    item = re.sub(r"\s+", " ", item).strip(" -")
+    return brand, discount, item
+
+
 def fetch(url, cookie=None):
     headers = {
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -216,10 +266,14 @@ def main():
             continue
 
         href = urllib.parse.urljoin("https://forums.redflagdeals.com", card.get("href", ""))
+        brand, discount, item = normalize_deal(title, dealer)
         deals.append({
             "title": title,
             "href": href,
             "dealer": dealer,
+            "brand": brand,
+            "discount": discount,
+            "item": item,
             "date": card.get("date", ""),
             "votes": votes,
             "posts": posts,
