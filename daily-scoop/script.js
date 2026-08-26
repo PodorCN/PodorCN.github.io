@@ -1,36 +1,13 @@
 // Daily Scoop — static GitHub Pages site.
 // Data files are updated separately by a cron job; the HTML/JS only reads them.
 // Sources:
-//   - Gas:  data/gas-prices.json
-//   - Deals: data/rfd-deals.json
+//   - Gas:      data/gas-prices.json
+//   - Forecast: data/gas-forecast.json
+//   - Deals:    data/rfd-deals.json
 
 const GAS_DATA_URL = "data/gas-prices.json";
+const GAS_FORECAST_URL = "data/gas-forecast.json";
 const RFD_DATA_URL = "data/rfd-deals.json";
-const FALLBACK_GAS_PRICES = [
-  {"date": "2026-08-01", "price": 174.9},
-  {"date": "2026-08-02", "price": 172.9},
-  {"date": "2026-08-03", "price": 172.9},
-  {"date": "2026-08-04", "price": 172.9},
-  {"date": "2026-08-05", "price": 172.9},
-  {"date": "2026-08-06", "price": 163.9},
-  {"date": "2026-08-07", "price": 162.9},
-  {"date": "2026-08-08", "price": 164.9},
-  {"date": "2026-08-09", "price": 164.9},
-  {"date": "2026-08-10", "price": 164.9},
-  {"date": "2026-08-11", "price": 164.9},
-  {"date": "2026-08-12", "price": 169.9},
-  {"date": "2026-08-13", "price": 169.9},
-  {"date": "2026-08-14", "price": 169.9},
-  {"date": "2026-08-15", "price": 168.9},
-  {"date": "2026-08-16", "price": 170.9},
-  {"date": "2026-08-17", "price": 170.9},
-  {"date": "2026-08-18", "price": 170.9},
-  {"date": "2026-08-19", "price": 173.9},
-  {"date": "2026-08-20", "price": 174.9},
-  {"date": "2026-08-21", "price": 173.9},
-  {"date": "2026-08-22", "price": 173.9},
-  {"date": "2026-08-23", "price": 176.9}
-];
 
 const FALLBACK_RFD_DEALS = [{"title": "Google Pixel 10 128G - Lemongrass $400 off", "href": "https://forums.redflagdeals.com/best-buy-google-pixel-10-128g-lemongrass-400-off-2823673/", "dealer": "Best Buy", "date": "2026-08-21T07:15:16+00:00", "votes": 74, "posts": 97, "giftCard": false, "heat": 74}, {"title": "Costco West |Aug 17-23 |357 pics| Week #33", "href": "https://forums.redflagdeals.com/costco-costco-west-aug-17-23-357-pics-week-33-2823818/", "dealer": "Costco", "date": "2026-08-22T19:31:37+00:00", "votes": 51, "posts": 14, "giftCard": false, "heat": 51}, {"title": "Aluminum Sealing Tape (2 in. x 33 ft) $2.99", "href": "https://forums.redflagdeals.com/princess-auto-aluminum-sealing-tape-2-x-33-ft-2-99-2823768/", "dealer": "Princess Auto", "date": "2026-08-22T03:01:56+00:00", "votes": 43, "posts": 7, "giftCard": false, "heat": 43}, {"title": "Fill up with a minimum of 25L to earn 500 Scene points", "href": "https://forums.redflagdeals.com/shell-fill-up-minimum-25l-earn-500-scene-points-2823856/", "dealer": "Shell", "date": "2026-08-23T13:22:03+00:00", "votes": 23, "posts": 2, "giftCard": false, "heat": 23}, {"title": "SUNLU PLA+ Filament, 1.75mm, Grey, 4KG (4 Spools) -- $50.39", "href": "https://forums.redflagdeals.com/amazon-ca-sunlu-pla-filament-1-75mm-grey-4kg-4-spools-50-39-2823713/", "dealer": "Amazon.ca", "date": "2026-08-21T17:26:37+00:00", "votes": 13, "posts": 14, "giftCard": false, "heat": 13}, {"title": "SAVE 30% SITEWIDE - When You Reserve Any Product Online - 30th ANNIVERSARY SALE", "href": "https://forums.redflagdeals.com/save-30-sitewide-when-you-reserve-any-product-online-30th-anniversary-sale-2823706/", "dealer": "PartSource", "date": "2026-08-21T16:06:27+00:00", "votes": 10, "posts": 38, "giftCard": false, "heat": 10}, {"title": "Swiss Chalet - 2 can Dine for $19.99 (Dine-in or Takeout)", "href": "https://forums.redflagdeals.com/swiss-chalet-swiss-chalet-2-can-dine-19-99-dine-takeout-2823831/", "dealer": "Swiss Chalet", "date": "2026-08-22T22:45:14+00:00", "votes": 9, "posts": 6, "giftCard": false, "heat": 9}, {"title": "BOGO for $1, 8/24-30, online only participating locations", "href": "https://forums.redflagdeals.com/dominos-pizza-bogo-1-8-24-30-online-only-participating-locations-2823779/", "dealer": "Domino's Pizza", "date": "2026-08-22T05:01:52+00:00", "votes": 9, "posts": 1, "giftCard": false, "heat": 9}, {"title": "$120 ASUS TUF Gaming BE3600 Dual Band WiFi 7 Gaming Router", "href": "https://forums.redflagdeals.com/staples-120-asus-tuf-gaming-be3600-dual-band-wifi-7-gaming-router-2823821/", "dealer": "Staples", "date": "2026-08-22T19:52:41+00:00", "votes": 8, "posts": 12, "giftCard": false, "heat": 8}, {"title": "Vancouver: EQ Bank Pop Up at Superstore on Grandview and Rupert", "href": "https://forums.redflagdeals.com/eq-bank-vancouver-eq-bank-pop-up-superstore-grandview-rupert-2823729/", "dealer": "EQ Bank", "date": "2026-08-21T19:22:23+00:00", "votes": 8, "posts": 12, "giftCard": false, "heat": 8}, {"title": "DJI Lito 1 Two-Battery Combo – $399.99 (was. $ 475)", "href": "https://forums.redflagdeals.com/amazon-ca-dji-lito-1-two-battery-combo-ci-399-99-475-2823678/", "dealer": "Amazon.ca", "date": "2026-08-21T11:23:30+00:00", "votes": 8, "posts": 8, "giftCard": false, "heat": 8}, {"title": "Korky Quiet-Fill Platinum Fill Valve 528MP - $13.87", "href": "https://forums.redflagdeals.com/amazon-ca-korky-quiet-fill-platinum-fill-valve-528mp-13-87-2823871/", "dealer": "Amazon.ca", "date": "2026-08-23T14:56:22+00:00", "votes": 6, "posts": 4, "giftCard": false, "heat": 6}];
 
@@ -139,7 +116,7 @@ function relativeTime(iso) {
 }
 
 function predictNextPrice(points) {
-  if (!points || points.length < 3) return null;
+  if (!points || points.length < 2) return null;
   const lookback = Math.min(7, points.length - 1);
   let sumChange = 0;
   for (let i = points.length - lookback; i < points.length; i++) {
@@ -149,60 +126,135 @@ function predictNextPrice(points) {
   return points[points.length - 1].price + avgChange;
 }
 
-function setGasPrediction(points, note) {
-  const node = document.getElementById("gas-prediction");
-  if (!node) return;
-  const pred = predictNextPrice(points);
-  node.textContent = `Tomorrow's predicted Toronto gas price: ~${pred ? pred.toFixed(1) : "—"} CAD c/L${note ? ` (${note})` : ""}`;
+function addDays(isoDate, days) {
+  const [year, month, day] = isoDate.split("-").map(Number);
+  const date = new Date(Date.UTC(year, month - 1, day + days));
+  return date.toISOString().slice(0, 10);
+}
+
+function getTorontoDate() {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "America/Toronto",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(new Date());
+  const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+  return `${values.year}-${values.month}-${values.day}`;
+}
+
+function formatGasDate(isoDate) {
+  const [year, month, day] = isoDate.split("-").map(Number);
+  return new Date(year, month - 1, day, 12).toLocaleDateString("en-CA", {
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+  });
+}
+
+function normalizeGasPoints(data) {
+  return (Array.isArray(data) ? data : [])
+    .filter((point) => point && /^\d{4}-\d{2}-\d{2}$/.test(point.date))
+    .map((point) => ({ date: point.date, price: Number(point.price) }))
+    .filter((point) => Number.isFinite(point.price))
+    .sort((a, b) => a.date.localeCompare(b.date));
+}
+
+function getGasForecast(points, data) {
+  const last = points[points.length - 1];
+  if (data && /^\d{4}-\d{2}-\d{2}$/.test(data.date)) {
+    const price = Number(data.price);
+    if (Number.isFinite(price) && data.date > last.date) {
+      return {
+        date: data.date,
+        price,
+        change: Number.isFinite(Number(data.change)) ? Number(data.change) : price - last.price,
+        source: data.source || "CityNews / En-Pro",
+        estimated: false,
+      };
+    }
+  }
+
+  const price = predictNextPrice(points);
+  if (price === null) return null;
+  return {
+    date: addDays(last.date, 1),
+    price,
+    change: price - last.price,
+    source: "Estimate based on the latest 7 recorded changes",
+    estimated: true,
+  };
+}
+
+function setGasPrediction(forecast) {
+  if (!forecast) return;
+  const card = document.getElementById("gas-prediction");
+  const label = document.getElementById("gas-prediction-label");
+  const date = document.getElementById("gas-prediction-date");
+  const source = document.getElementById("gas-prediction-source");
+  const value = document.getElementById("gas-prediction-value");
+  const change = document.getElementById("gas-prediction-change");
+  const isTomorrow = forecast.date === addDays(getTorontoDate(), 1);
+
+  label.textContent = forecast.estimated
+    ? "Next-day trend estimate"
+    : isTomorrow ? "Tomorrow in Toronto" : "Last published forecast";
+  date.textContent = formatGasDate(forecast.date);
+  source.textContent = forecast.source;
+  value.textContent = forecast.price.toFixed(1);
+
+  const direction = forecast.change > 0 ? "is-up" : forecast.change < 0 ? "is-down" : "";
+  const arrow = forecast.change > 0 ? "▲" : forecast.change < 0 ? "▼" : "";
+  const magnitude = Math.abs(forecast.change).toFixed(1);
+  change.className = `gas-prediction-change ${direction}`.trim();
+  change.textContent = arrow ? `${arrow} ${magnitude}¢` : `${magnitude}¢`;
+  card.classList.toggle("is-stale", !isTomorrow);
 }
 
 async function loadOilPrices() {
   const container = document.getElementById("gas-chart");
   const caption = document.getElementById("gas-caption");
 
-  const fallback = FALLBACK_GAS_PRICES
-    .filter((p) => p && p.date && p.price !== null && p.price !== undefined)
-    .map((p) => ({ date: new Date(p.date), price: p.price }));
-
-  // Show fallback immediately so the chart is never blank.
-  if (fallback.length >= 2) {
-    renderOilChart(fallback);
-    setGasPrediction(fallback, "fallback");
-    const fallbackLast = fallback[fallback.length - 1];
-    const fallbackPred = predictNextPrice(fallback);
-    caption.textContent = `Toronto gas · last ${fallbackLast.price.toFixed(1)} · tomorrow ~${fallbackPred ? fallbackPred.toFixed(1) : "—"} (fallback shown, loading…)`;
-  }
-
   try {
-    const res = await fetch(GAS_DATA_URL, { cache: "no-store" });
-    if (!res.ok) throw new Error(`Gas data ${res.status}`);
-    const data = await res.json();
-    const points = data
-      .filter((p) => p && p.date && p.price !== null && p.price !== undefined)
-      .map((p) => ({ date: new Date(p.date), price: p.price }));
+    const cacheKey = Date.now();
+    const [pricesResult, forecastResult] = await Promise.allSettled([
+      fetch(`${GAS_DATA_URL}?v=${cacheKey}`, { cache: "no-store" }).then((res) => {
+        if (!res.ok) throw new Error(`Gas data ${res.status}`);
+        return res.json();
+      }),
+      fetch(`${GAS_FORECAST_URL}?v=${cacheKey}`, { cache: "no-store" }).then((res) => {
+        if (!res.ok) throw new Error(`Gas forecast ${res.status}`);
+        return res.json();
+      }),
+    ]);
+
+    if (pricesResult.status === "rejected") throw pricesResult.reason;
+    const points = normalizeGasPoints(pricesResult.value);
 
     if (points.length < 2) throw new Error("Not enough gas price points");
 
-    renderOilChart(points);
-    setGasPrediction(points, "trend-based prediction");
+    const forecastData = forecastResult.status === "fulfilled" ? forecastResult.value : null;
+    const forecast = getGasForecast(points, forecastData);
+    renderOilChart(points, forecast);
+    setGasPrediction(forecast);
     const last = points[points.length - 1];
-    const pred = predictNextPrice(points);
-    caption.textContent = `Toronto gas · last ${last.price.toFixed(1)} · tomorrow ~${pred ? pred.toFixed(1) : "—"} (predicted)`;
+    const forecastStatus = forecast && !forecast.estimated
+      ? `forecast for ${formatGasDate(forecast.date)}`
+      : "source forecast unavailable · showing trend estimate";
+    caption.textContent = `${points.length} recorded days · data through ${formatGasDate(last.date)} · ${forecastStatus}`;
   } catch (err) {
-    if (fallback.length >= 2) {
-      setGasPrediction(fallback, "built-in fallback");
-      const last = fallback[fallback.length - 1];
-      const pred = predictNextPrice(fallback);
-      caption.textContent = `Toronto gas · last ${last.price.toFixed(1)} · tomorrow ~${pred ? pred.toFixed(1) : "—"} (built-in fallback)`;
-    } else {
-      container.textContent = "";
-      container.appendChild(el("p", "loading", `Could not load gas chart: ${err.message}`));
-      caption.textContent = "Gas chart unavailable";
-    }
+    container.textContent = "";
+    container.appendChild(el("p", "loading", `Could not load gas chart: ${err.message}`));
+    caption.textContent = "Gas chart unavailable · no stale snapshot shown";
+    document.getElementById("gas-prediction").classList.add("is-stale");
+    document.getElementById("gas-prediction-label").textContent = "Forecast unavailable";
+    document.getElementById("gas-prediction-date").textContent = "Live data could not be loaded";
+    document.getElementById("gas-prediction-source").textContent = "Refresh to try again";
+    document.getElementById("gas-prediction-change").textContent = "No stale snapshot shown";
   }
 }
 
-function renderOilChart(points) {
+function renderOilChart(points, forecast) {
   const container = document.getElementById("gas-chart");
   container.innerHTML = "";
 
@@ -214,9 +266,10 @@ function renderOilChart(points) {
   const x = points.map((p) => p.date);
   const y = points.map((p) => p.price);
 
-  const trace = {
+  const historyTrace = {
     x,
     y,
+    name: "Recorded",
     mode: "lines+markers",
     type: "scatter",
     line: { color: "#9184d9", width: 2, shape: "spline" },
@@ -224,9 +277,29 @@ function renderOilChart(points) {
     hovertemplate: "%{x|%b %d, %Y}<br>CAD c/L: %{y:.1f}<extra></extra>",
   };
 
+  const traces = [historyTrace];
+  const last = points[points.length - 1];
+  if (forecast && forecast.date > last.date) {
+    traces.push({
+      x: [last.date, forecast.date],
+      y: [last.price, forecast.price],
+      name: forecast.estimated ? "Trend estimate" : "Published forecast",
+      mode: "lines+markers",
+      type: "scatter",
+      line: { color: "#ffcc73", width: 3, dash: "dot" },
+      marker: {
+        color: ["#d2cefd", "#ffcc73"],
+        size: [6, 12],
+        symbol: ["circle", "diamond"],
+        line: { color: "#232532", width: 1 },
+      },
+      hovertemplate: "%{x|%b %d, %Y}<br>CAD c/L: %{y:.1f}<extra></extra>",
+    });
+  }
+
   const layout = {
     height: 360,
-    margin: { l: 60, r: 20, t: 20, b: 40 },
+    margin: { l: 60, r: 20, t: 48, b: 40 },
     xaxis: {
       type: "date",
       showgrid: false,
@@ -244,7 +317,13 @@ function renderOilChart(points) {
     paper_bgcolor: "#232532",
     plot_bgcolor: "#232532",
     font: { color: "#e9e9ed" },
-    showlegend: false,
+    showlegend: true,
+    legend: {
+      orientation: "h",
+      x: 0,
+      y: 1.16,
+      font: { family: "JetBrains Mono, monospace", size: 10, color: "#b2b6ca" },
+    },
     hoverlabel: {
       bgcolor: "#1a1c2b",
       bordercolor: "#9184d9",
@@ -258,7 +337,7 @@ function renderOilChart(points) {
     displayModeBar: false,
   };
 
-  Plotly.newPlot(container, [trace], layout, config);
+  Plotly.newPlot(container, traces, layout, config);
 }
 
 async function loadDeals() {
@@ -346,7 +425,7 @@ function initPage() {
     day: "numeric",
   });
   document.getElementById("page-meta").textContent = "Toronto gas price from git + RFD top heat deals from last 7 days";
-  document.getElementById("footer-updated").textContent = `updated ${today.toISOString().slice(0, 10)}`;
+  document.getElementById("footer-updated").textContent = `viewed ${today.toISOString().slice(0, 10)}`;
 
   loadOilPrices();
   loadDeals();

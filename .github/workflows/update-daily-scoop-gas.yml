@@ -1,0 +1,43 @@
+name: Update Daily Scoop Gas
+
+on:
+  schedule:
+    - cron: "30 15 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: daily-scoop-gas-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout site
+        uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test gas collector
+        run: python -m unittest discover -s data-collection -p "test_*.py" -v
+
+      - name: Collect CityNews gas data
+        run: python data-collection/collect_gas.py --fetch
+
+      - name: Commit gas data
+        run: |
+          git config user.name "daily-scoop-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add daily-scoop/data/gas-prices.json daily-scoop/data/gas-forecast.json
+          if git diff --cached --quiet; then
+            echo "Gas data is already current"
+            exit 0
+          fi
+          git commit -m "Update Daily Scoop gas prices"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

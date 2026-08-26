@@ -15,6 +15,7 @@
   --color-neutral-800: #3f424d;
   --color-card: #232532;
   --color-card-soft: #1b1d2a;
+  --color-warm: #ffcc73;
   --font-heading: "Inter", system-ui, sans-serif;
   --font-body: "Inter", system-ui, sans-serif;
   --font-mono: "JetBrains Mono", monospace;
@@ -418,6 +419,109 @@ h1 {
   padding: 20px;
 }
 
+.gas-prediction {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  overflow: hidden;
+  padding: 24px 28px;
+  border: 1px solid rgba(255, 204, 115, .52);
+  border-radius: var(--radius-md);
+  background:
+    radial-gradient(circle at 88% 12%, rgba(255, 204, 115, .18), transparent 40%),
+    linear-gradient(120deg, #282838, #202231);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, .2), inset 4px 0 0 var(--color-warm);
+}
+
+.gas-prediction-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.gas-prediction-label {
+  color: var(--color-warm);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+
+.gas-prediction-date {
+  font-family: var(--font-heading);
+  font-size: clamp(20px, 3vw, 28px);
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.gas-prediction-source {
+  color: var(--color-neutral-500);
+  font-family: var(--font-mono);
+  font-size: 11px;
+}
+
+.gas-prediction-reading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  flex: 0 0 auto;
+}
+
+.gas-prediction-change {
+  font-family: var(--font-heading);
+  font-size: clamp(64px, 9vw, 104px);
+  font-weight: 800;
+  letter-spacing: -.05em;
+  line-height: .9;
+  color: var(--color-neutral-300);
+  white-space: nowrap;
+}
+
+.gas-prediction-change.is-down {
+  color: #7fe08a;
+}
+
+.gas-prediction-change.is-up {
+  color: #ff9a8b;
+}
+
+.gas-prediction-value-wrap {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.gas-prediction-value {
+  color: #fff5df;
+  font-family: var(--font-heading);
+  font-size: clamp(26px, 3.5vw, 40px);
+  font-weight: 700;
+  letter-spacing: -.03em;
+  line-height: 1;
+}
+
+.gas-prediction-unit {
+  color: var(--color-warm);
+  font-family: var(--font-mono);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.gas-prediction-note {
+  color: var(--color-neutral-500);
+  font-family: var(--font-mono);
+  font-size: 10px;
+}
+
+.gas-prediction.is-stale {
+  border-color: var(--color-neutral-800);
+  box-shadow: var(--shadow-sm);
+}
+
 .chart-wrap {
   width: 100%;
   overflow-x: auto;
@@ -553,9 +657,20 @@ h1 {
   border-color: rgba(255, 200, 87, .35);
 }
 
-.gas-prediction {
-  margin: 6px 0 0;
-  color: var(--color-accent-300);
-  font-family: var(--font-mono);
-  font-size: 13px;
+@media (max-width: 760px) {
+  .section-head,
+  .gas-prediction {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .gas-prediction {
+    gap: 22px;
+    padding: 22px;
+  }
+
+  .gas-prediction-reading {
+    align-self: stretch;
+    align-items: flex-start;
+  }
 }

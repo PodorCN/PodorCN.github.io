@@ -30,7 +30,7 @@
     <p id="page-dates" class="hero-dates">Loading date…</p>
     <p id="page-meta" class="hero-meta"></p>
     <div class="hero-note">
-      使用 git 中保存的多伦多每日油价数据画走势图并预测第二天油价，同时按热度展示最近 7 天 RedFlagDeals 的 12 条 deal。
+      使用 git 中保存的多伦多每日油价数据画走势图并显示 CityNews / En-Pro 发布的次日油价，同时按热度展示最近 7 天 RedFlagDeals 的 12 条 deal。
     </div>
   </section>
 
@@ -39,10 +39,24 @@
       <h2 class="section-title">Toronto Gas Price Trend</h2>
       <span id="gas-caption" class="section-count">Loading Toronto gas prices…</span>
     </div>
+    <aside id="gas-prediction" class="gas-prediction" aria-live="polite">
+      <div class="gas-prediction-copy">
+        <p id="gas-prediction-label" class="gas-prediction-label">Tomorrow in Toronto</p>
+        <p id="gas-prediction-date" class="gas-prediction-date">Loading forecast…</p>
+        <p id="gas-prediction-source" class="gas-prediction-source">CityNews / En-Pro</p>
+      </div>
+      <div class="gas-prediction-reading">
+        <span id="gas-prediction-change" class="gas-prediction-change">—</span>
+        <span class="gas-prediction-value-wrap">
+          <span id="gas-prediction-value" class="gas-prediction-value">—</span>
+          <span class="gas-prediction-unit">¢/L</span>
+        </span>
+        <span class="gas-prediction-note">vs last recorded price</span>
+      </div>
+    </aside>
     <div id="gas-chart" class="chart-card">
       <p class="loading">Loading chart…</p>
     </div>
-    <p id="gas-prediction" class="gas-prediction">Loading tomorrow’s prediction…</p>
   </section>
 
   <section id="deals" class="items-section tinted">

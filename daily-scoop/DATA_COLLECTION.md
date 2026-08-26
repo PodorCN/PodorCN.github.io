@@ -18,9 +18,36 @@
 
 - `date`：`YYYY-MM-DD`
 - `price`：Toronto regular gas 价格，单位是 **CAD cents per litre**
-- 页面会读取这个数组，画走势图，并根据最近 7 天趋势预测第二天油价
+- 页面会读取这个数组画走势图，并读取 `gas-forecast.json` 显示已发布的次日油价
 
-维护脚本：
+自动采集：
+
+```bash
+python3 data-collection/collect_gas.py --fetch
+```
+
+该命令读取 CityNews Toronto 的 Historical Values 表，并将 CityNews / En-Pro 发布的次日预测写入 `data/gas-forecast.json`。页面优先显示已发布预测，只有预测文件不可用时才显示最近 7 次变化的趋势估算。
+
+`data/gas-forecast.json` 格式：
+
+```json
+{
+  "date": "2026-08-27",
+  "price": 173.9,
+  "change": -1.0,
+  "source": "CityNews / En-Pro published forecast",
+  "sourceUrl": "https://toronto.citynews.ca/toronto-gta-gas-prices/",
+  "updatedAt": "2026-08-26T16:07:44Z"
+}
+```
+
+- `date`：预测生效日期 `YYYY-MM-DD`
+- `price`：次日预测均价（CAD cents per litre）
+- `change`：相对前一记录日的涨跌（正为涨、负为跌）
+- `source` / `sourceUrl`：预测来源与出处
+- `updatedAt`：采集时间（UTC ISO 8601）
+
+手工维护历史数据：
 
 ```bash
 python3 data-collection/collect_gas.py --date 2026-08-23 --price 166.5
@@ -116,8 +143,8 @@ gift card / giftcard  ->  heat + 50
 
 ## HTML 如何配合
 
-1. cron / 后台脚本运行 `data-collection/` 里的工具。
-2. 脚本更新 `daily-scoop/data/gas-prices.json` 和 `daily-scoop/data/rfd-deals.json`。
+1. GitHub Actions 每天运行 `data-collection/collect_gas.py --fetch`；其他后台任务运行 RFD 工具。
+2. 脚本更新 `daily-scoop/data/gas-prices.json`、`daily-scoop/data/gas-forecast.json` 和 `daily-scoop/data/rfd-deals.json`。
 3. 将更新后的 JSON commit 并 push 到 GitHub。
 4. GitHub Pages 上的 `daily-scoop/script.js` 会读取这些 JSON，自动渲染最新走势图、预测和 deal 列表。
 
