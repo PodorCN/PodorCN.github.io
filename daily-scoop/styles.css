@@ -109,52 +109,22 @@ code {
 
 /* — hero — */
 .hero {
-  min-height: 50vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 18px;
-  padding: 80px 48px 60px;
+  gap: 8px;
+  padding: 28px 48px 20px;
   border-bottom: 1px solid var(--color-neutral-800);
-  background:
-    radial-gradient(ellipse at 70% 20%, rgba(145,132,217,.14), transparent 45%),
-    linear-gradient(180deg, #171a2e 0%, #0f101c 100%);
-}
-
-.kicker {
-  font-family: var(--font-mono);
-  font-size: 12px;
-  letter-spacing: .3em;
-  text-transform: uppercase;
-  color: var(--color-accent-300);
-}
-
-h1 {
-  font-family: var(--font-heading);
-  font-weight: 500;
-  font-size: clamp(42px, 7vw, 88px);
-  letter-spacing: -.02em;
-  color: var(--color-text);
 }
 
 .hero-dates {
   font-family: var(--font-mono);
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: .12em;
   color: var(--color-accent-400);
 }
 
 .hero-meta {
   color: var(--color-neutral-500);
-  max-width: 640px;
-}
-
-.hero-note {
-  font-family: var(--font-mono);
-  font-size: 12px;
-  line-height: 1.7;
-  color: var(--color-neutral-500);
-  margin-top: 10px;
 }
 
 /* — items — */
@@ -387,7 +357,7 @@ h1 {
   }
 
   .hero {
-    padding: 60px 20px 40px;
+    padding: 24px 20px 16px;
   }
 
   .items-section {
