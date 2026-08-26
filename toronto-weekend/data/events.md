@@ -1,10 +1,10 @@
 ---
 title: Toronto Weekend
-weekend: 2026-08-22
-dates: Saturday Aug 22 – Sunday Aug 23
-updated: 2026-08-22
-weather_saturday: "24°C / 17°C · Light drizzle, 63% chance of rain"
-weather_sunday: "20°C / 15°C · Light to moderate rain, 48% chance of rain"
+weekend: 2026-08-29
+dates: Saturday Aug 29 – Sunday Aug 30
+updated: 2026-08-26
+weather_saturday: "24°C / 17°C · Mostly clear, 1% chance of rain"
+weather_sunday: "24°C / 19°C · Mostly clear, 17% chance of rain"
 source: Ticketmaster, Mirvish, AGO, ROM, Aga Khan, Gardiner, Fever / Open-Meteo
 ---
 
