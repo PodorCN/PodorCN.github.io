@@ -2,9 +2,9 @@
 title: Toronto Weekend
 weekend: 2026-08-29
 dates: Saturday Aug 29 – Sunday Aug 30
-updated: 2026-08-28
-weather_saturday: "25°C / 14°C · Mostly cloudy, 11% chance of rain"
-weather_sunday: "21°C / 18°C · Light drizzle, 56% chance of rain"
+updated: 2026-08-29
+weather_saturday: "25°C / 19°C · Overcast, 12% chance of rain"
+weather_sunday: "21°C / 18°C · Light rain showers, 12% chance of rain"
 source: Ticketmaster, Mirvish, AGO, ROM, Aga Khan, Gardiner, Fever / Open-Meteo
 ---
 
