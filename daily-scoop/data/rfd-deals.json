@@ -7,10 +7,10 @@
     "discount": "$200",
     "item": "Spend , get a $20 Staples Gift Card or Spend $500, get a $100 Staples Gift Card in-store only",
     "date": "2026-09-04T12:00:59+00:00",
-    "votes": 4,
+    "votes": 5,
     "posts": 5,
     "giftCard": true,
-    "heat": 54
+    "heat": 55
   },
   {
     "title": "BOGO whopper long weekend APP special",
@@ -20,10 +20,23 @@
     "discount": "BOGO",
     "item": "whopper long weekend APP special",
     "date": "2026-09-04T15:14:09+00:00",
-    "votes": 36,
-    "posts": 10,
+    "votes": 49,
+    "posts": 14,
     "giftCard": false,
-    "heat": 36
+    "heat": 49
+  },
+  {
+    "title": "Costco West |Aug 31 - Sept 6 |367 pics| Week #35",
+    "href": "https://forums.redflagdeals.com/costco-costco-west-aug-31-sept-6-367-pics-week-35-2825191/",
+    "dealer": "Costco",
+    "brand": "Costco",
+    "discount": "",
+    "item": "West - Aug 31 - Sept 6 - 367 pics - Week #35",
+    "date": "2026-09-04T23:19:15+00:00",
+    "votes": 38,
+    "posts": 16,
+    "giftCard": false,
+    "heat": 38
   },
   {
     "title": "Timber Ridge Zero Gravity Camping Lounger $69.97",
@@ -33,10 +46,10 @@
     "discount": "$69.97",
     "item": "Timber Ridge Zero Gravity Camping Lounger",
     "date": "2026-09-04T01:54:14+00:00",
-    "votes": 32,
-    "posts": 8,
+    "votes": 38,
+    "posts": 9,
     "giftCard": false,
-    "heat": 32
+    "heat": 38
   },
   {
     "title": "Bowers and Wilkins PX7 S2e Wireless Noise Cancelling Headphones - $298",
@@ -46,10 +59,10 @@
     "discount": "$298",
     "item": "Bowers and Wilkins PX7 S2e Wireless Noise Cancelling Headphones",
     "date": "2026-09-04T00:17:25+00:00",
-    "votes": 31,
-    "posts": 21,
+    "votes": 34,
+    "posts": 26,
     "giftCard": false,
-    "heat": 31
+    "heat": 34
   },
   {
     "title": "Blue Rewards Card Link Offers: 750 Bonus Points WUS $20+ at Dollarama (Sep 3-6) | $1 at Mr. Sub/Mucho Burrito/Thai/Jugo",
@@ -59,49 +72,10 @@
     "discount": "$20",
     "item": "Blue Rewards Card Link Offers - 750 Bonus Points WUS + at Dollarama Sep 3-6 - $1 at Mr. Sub/Mucho Burrito/Thai/Jugo",
     "date": "2026-09-03T23:45:20+00:00",
-    "votes": 29,
-    "posts": 24,
+    "votes": 30,
+    "posts": 25,
     "giftCard": false,
-    "heat": 29
-  },
-  {
-    "title": "[Walmart] Miracle-Gro Garden Feeder Hose Attachment | Plant Food Sprayer $6.00 (reg. $21.98)",
-    "href": "https://forums.redflagdeals.com/amazon-ca-walmart-miracle-gro-garden-feeder-hose-attachment-plant-food-sprayer-6-00-reg-21-98-2825058/",
-    "dealer": "Amazon.ca",
-    "brand": "Amazon.ca",
-    "discount": "$6.00",
-    "item": "[Walmart] Miracle-Gro Garden Feeder Hose Attachment - Plant Food Sprayer reg. $21.98",
-    "date": "2026-09-03T19:46:29+00:00",
-    "votes": 22,
-    "posts": 12,
-    "giftCard": false,
-    "heat": 22
-  },
-  {
-    "title": "Polymaker Panchroma Matte PLA Filament Bundle 1.75mm, 2kg Spoolless. (23.99$)",
-    "href": "https://forums.redflagdeals.com/amazon-ca-polymaker-panchroma-matte-pla-filament-bundle-1-75mm-2kg-spoolless-23-99-2825135/",
-    "dealer": "Amazon.ca",
-    "brand": "Amazon.ca",
-    "discount": "",
-    "item": "Polymaker Panchroma Matte PLA Filament Bundle 1.75mm, 2kg Spoolless. 23.99$",
-    "date": "2026-09-04T15:23:12+00:00",
-    "votes": 18,
-    "posts": 8,
-    "giftCard": false,
-    "heat": 18
-  },
-  {
-    "title": "Midomi Retainer & Denture Cleaner Machine – $14.99",
-    "href": "https://forums.redflagdeals.com/amazon-ca-midomi-retainer-denture-cleaner-machine-ci-14-99-2825145/",
-    "dealer": "Amazon.ca",
-    "brand": "Amazon.ca",
-    "discount": "$14.99",
-    "item": "Midomi Retainer & Denture Cleaner Machine",
-    "date": "2026-09-04T16:40:01+00:00",
-    "votes": 17,
-    "posts": 14,
-    "giftCard": false,
-    "heat": 17
+    "heat": 30
   },
   {
     "title": "Batman: The Dark Knight Trilogy [4K UHD + Blu-ray] – $39.49 (New ATL)",
@@ -111,23 +85,23 @@
     "discount": "$39.49",
     "item": "Batman - The Dark Knight Trilogy [4K UHD + Blu-ray] - New ATL",
     "date": "2026-09-04T19:07:48+00:00",
-    "votes": 16,
-    "posts": 14,
+    "votes": 21,
+    "posts": 20,
     "giftCard": false,
-    "heat": 16
+    "heat": 21
   },
   {
-    "title": "Corelle Open Stock Dinnerware - 20% off",
-    "href": "https://forums.redflagdeals.com/walmart-corelle-open-stock-dinnerware-20-off-2825064/",
-    "dealer": "Walmart",
-    "brand": "Walmart",
-    "discount": "20% off",
-    "item": "Corelle Open Stock Dinnerware",
-    "date": "2026-09-03T20:19:26+00:00",
-    "votes": 16,
-    "posts": 15,
+    "title": "Polymaker Panchroma Matte PLA Filament Bundle 1.75mm, 2kg Spoolless. (23.99$)",
+    "href": "https://forums.redflagdeals.com/amazon-ca-polymaker-panchroma-matte-pla-filament-bundle-1-75mm-2kg-spoolless-23-99-2825135/",
+    "dealer": "Amazon.ca",
+    "brand": "Amazon.ca",
+    "discount": "",
+    "item": "Polymaker Panchroma Matte PLA Filament Bundle 1.75mm, 2kg Spoolless. 23.99$",
+    "date": "2026-09-04T15:23:12+00:00",
+    "votes": 20,
+    "posts": 10,
     "giftCard": false,
-    "heat": 16
+    "heat": 20
   },
   {
     "title": "50% Off Regular‑Priced Pizzas From September 4‑7, Excludes Party Pizzas, Ancient Grains Pizzas and Pizza Specials",
@@ -137,8 +111,34 @@
     "discount": "50% Off",
     "item": "Regular‑Priced Pizzas From September 4‑7, Excludes Party Pizzas, Ancient Grains Pizzas and Pizza Specials",
     "date": "2026-09-04T15:27:50+00:00",
+    "votes": 18,
+    "posts": 16,
+    "giftCard": false,
+    "heat": 18
+  },
+  {
+    "title": "Bestway Hydrium 15' x 42\" Steel Pro MAX Pool Set with LED Lights - $164.00",
+    "href": "https://forums.redflagdeals.com/walmart-bestway-hydrium-15-x-42-steel-pro-max-pool-set-led-lights-164-00-2825150/",
+    "dealer": "Walmart",
+    "brand": "Walmart",
+    "discount": "$164.00",
+    "item": "Bestway Hydrium 15' x 42\" Steel Pro MAX Pool Set with LED Lights",
+    "date": "2026-09-04T18:01:31+00:00",
+    "votes": 17,
+    "posts": 9,
+    "giftCard": false,
+    "heat": 17
+  },
+  {
+    "title": "Acer Predator Helios 18 / RTX 5070ti",
+    "href": "https://forums.redflagdeals.com/acer-acer-predator-helios-18-rtx-5070ti-2825194/",
+    "dealer": "Acer",
+    "brand": "Acer",
+    "discount": "",
+    "item": "Predator Helios 18 / RTX 5070ti",
+    "date": "2026-09-05T02:28:23+00:00",
     "votes": 14,
-    "posts": 15,
+    "posts": 8,
     "giftCard": false,
     "heat": 14
   },
@@ -150,9 +150,9 @@
     "discount": "25% off",
     "item": "Endorphin Elite 2 extra $149.96 msrp $370",
     "date": "2026-09-04T14:03:57+00:00",
-    "votes": 13,
+    "votes": 14,
     "posts": 8,
     "giftCard": false,
-    "heat": 13
+    "heat": 14
   }
 ]
