@@ -7,10 +7,10 @@
     "discount": "Free",
     "item": "+ for 9 Months",
     "date": "2026-09-06T17:15:09+00:00",
-    "votes": 94,
-    "posts": 33,
+    "votes": 128,
+    "posts": 37,
     "giftCard": false,
-    "heat": 94
+    "heat": 128
   },
   {
     "title": "Epic Games Beach Invasion 1944 - Free",
@@ -20,10 +20,10 @@
     "discount": "Free",
     "item": "Beach Invasion 1944",
     "date": "2026-09-05T19:35:31+00:00",
-    "votes": 88,
-    "posts": 20,
+    "votes": 91,
+    "posts": 24,
     "giftCard": false,
-    "heat": 88
+    "heat": 91
   },
   {
     "title": "Costco West |Aug 31 - Sept 6 |367 pics| Week #35",
@@ -46,23 +46,10 @@
     "discount": "$10.79",
     "item": "Everyday Soft Crewneck T-Shirt",
     "date": "2026-09-05T22:08:31+00:00",
-    "votes": 44,
-    "posts": 33,
+    "votes": 45,
+    "posts": 35,
     "giftCard": false,
-    "heat": 44
-  },
-  {
-    "title": "Batman: The Dark Knight Trilogy [4K UHD + Blu-ray] – $39.49 (New ATL)",
-    "href": "https://forums.redflagdeals.com/amazon-ca-batman-dark-knight-trilogy-4k-uhd-blu-ray-ci-39-49-new-atl-2825170/",
-    "dealer": "Amazon.ca",
-    "brand": "Amazon.ca",
-    "discount": "$39.49",
-    "item": "Batman - The Dark Knight Trilogy [4K UHD + Blu-ray] - New ATL",
-    "date": "2026-09-04T19:07:48+00:00",
-    "votes": 27,
-    "posts": 27,
-    "giftCard": false,
-    "heat": 27
+    "heat": 45
   },
   {
     "title": "New Targeted Offer Up To 4.5% September 5th To November 30th",
@@ -72,10 +59,23 @@
     "discount": "5%",
     "item": "New Targeted Offer Up To 4. September 5th To November 30th",
     "date": "2026-09-05T16:11:39+00:00",
-    "votes": 26,
+    "votes": 31,
+    "posts": 29,
+    "giftCard": false,
+    "heat": 31
+  },
+  {
+    "title": "Batman: The Dark Knight Trilogy [4K UHD + Blu-ray] – $39.49 (New ATL)",
+    "href": "https://forums.redflagdeals.com/amazon-ca-batman-dark-knight-trilogy-4k-uhd-blu-ray-ci-39-49-new-atl-2825170/",
+    "dealer": "Amazon.ca",
+    "brand": "Amazon.ca",
+    "discount": "$39.49",
+    "item": "Batman - The Dark Knight Trilogy [4K UHD + Blu-ray] - New ATL",
+    "date": "2026-09-04T19:07:48+00:00",
+    "votes": 28,
     "posts": 27,
     "giftCard": false,
-    "heat": 26
+    "heat": 28
   },
   {
     "title": "870 G honey soaked nuts @ Costco on clearance",
@@ -98,23 +98,10 @@
     "discount": "35% off",
     "item": "Fluid Film Rust and Corrosion Prevention - $12.97",
     "date": "2026-09-06T06:52:14+00:00",
-    "votes": 21,
-    "posts": 16,
+    "votes": 23,
+    "posts": 22,
     "giftCard": false,
-    "heat": 21
-  },
-  {
-    "title": "Bestway Hydrium 15' x 42\" Steel Pro MAX Pool Set with LED Lights - $164.00",
-    "href": "https://forums.redflagdeals.com/walmart-bestway-hydrium-15-x-42-steel-pro-max-pool-set-led-lights-164-00-2825150/",
-    "dealer": "Walmart",
-    "brand": "Walmart",
-    "discount": "$164.00",
-    "item": "Bestway Hydrium 15' x 42\" Steel Pro MAX Pool Set with LED Lights",
-    "date": "2026-09-04T18:01:31+00:00",
-    "votes": 21,
-    "posts": 10,
-    "giftCard": false,
-    "heat": 21
+    "heat": 23
   },
   {
     "title": "Amazon Basics CR2032 Lithium Batteries, 10-Pack, Child-Proof Package, Non-Coated - AirTag Compatible - $7.46",
@@ -124,10 +111,10 @@
     "discount": "$7.46",
     "item": "Amazon Basics CR2032 Lithium Batteries, 10-Pack, Child-Proof Package, Non-Coated - AirTag Compatible",
     "date": "2026-09-05T23:01:32+00:00",
-    "votes": 19,
+    "votes": 22,
     "posts": 13,
     "giftCard": false,
-    "heat": 19
+    "heat": 22
   },
   {
     "title": "Acer Predator Helios 18 / RTX 5070ti",
@@ -154,5 +141,18 @@
     "posts": 12,
     "giftCard": false,
     "heat": 17
+  },
+  {
+    "title": "Rona clearance center Smoker Sales",
+    "href": "https://forums.redflagdeals.com/rona-rona-clearance-center-smoker-sales-2825283/",
+    "dealer": "Rona",
+    "brand": "Rona",
+    "discount": "",
+    "item": "clearance center Smoker Sales",
+    "date": "2026-09-06T21:12:00+00:00",
+    "votes": 16,
+    "posts": 11,
+    "giftCard": false,
+    "heat": 16
   }
 ]
