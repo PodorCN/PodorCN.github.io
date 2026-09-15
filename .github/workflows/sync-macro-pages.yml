@@ -17,16 +17,16 @@ jobs:
       - name: Checkout macro source
         uses: actions/checkout@v4
         with:
-          repository: PodorCN/thematic-market-watcher
-          ref: dev
-          path: _thematic-market-watcher
+          repository: PodorCN/thematic-tracker
+          ref: main
+          path: _thematic-tracker
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: Sync pages and archives
-        run: python sync_macro_pages.py --source _thematic-market-watcher/docs
+        run: python sync_macro_pages.py --source _thematic-tracker
 
       - name: Commit public updates
         run: |

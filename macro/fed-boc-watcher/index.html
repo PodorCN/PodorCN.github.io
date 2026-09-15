@@ -362,7 +362,7 @@ body:not(.detail-open) .detail-only{display:none!important}
       <span class="badge">As of <b id="as-of" style="color:var(--color-text)">2026-09-09 12:40 Toronto</b></span>
       <span class="badge" id="data-status">Static fallback</span>
       <label class="badge snapshot-badge" for="dashboard-snapshot-date">View date <select id="dashboard-snapshot-date" aria-label="View Fed and BOC snapshot by date"><option>2026-09-09</option></select></label>
-      <a class="badge" href="economic_calendar.html" target="_blank">→ Full Calendar</a>
+      <a class="badge" href="../economic-calendar/" target="_blank">→ Full Calendar</a>
     </span>
   </div>
 
@@ -859,9 +859,9 @@ body:not(.detail-open) .detail-only{display:none!important}
 </footer>
 
 <script>
-const DATA_URL='data/fed-boc/latest.json';
-const DATA_DATES_URL='data/fed-boc/dates.json';
-const DATA_ARCHIVE_ROOT='data/fed-boc/archive';
+const DATA_URL='data/latest.json';
+const DATA_DATES_URL='data/dates.json';
+const DATA_ARCHIVE_ROOT='data/archive';
 const TORONTO_TZ='America/Toronto';
 let dashboardManifest={latest:null,dates:[]};
 let dashboardReferenceTime=null;

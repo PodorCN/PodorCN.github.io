@@ -1334,7 +1334,7 @@
 const snapshotSelect = document.getElementById('snapshotDate');
 const currentSnapshot = "2026-08-30";
 const isArchivedSnapshot = /\/economic-calendar\/archive\/[^/]+\.html$/.test(window.location.pathname);
-const snapshotManifestURL = isArchivedSnapshot ? '../../data/economic-calendar/dates.json' : 'data/economic-calendar/dates.json';
+const snapshotManifestURL = isArchivedSnapshot ? '../data/dates.json' : 'data/dates.json';
 
 async function initSnapshotHistory(){
   if(!snapshotSelect) return;
@@ -1354,7 +1354,7 @@ async function initSnapshotHistory(){
     snapshotSelect.addEventListener('change',()=>{
       const date = snapshotSelect.value;
       if(!date || date === currentSnapshot) return;
-      window.location.href = isArchivedSnapshot ? `${date}.html` : `economic-calendar/archive/${date}.html`;
+      window.location.href = isArchivedSnapshot ? `${date}.html` : `archive/${date}.html`;
     });
   }catch(error){
     snapshotSelect.title = 'Snapshot history is temporarily unavailable';
