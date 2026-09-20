@@ -7,10 +7,10 @@
     "discount": "$19.99",
     "item": "20 G.O.A.T. Movies Paramount 20-Film Bundle",
     "date": "2026-09-18T13:47:43+00:00",
-    "votes": 85,
-    "posts": 54,
+    "votes": 89,
+    "posts": 58,
     "giftCard": false,
-    "heat": 85
+    "heat": 89
   },
   {
     "title": "Airmate 2-in-1 Circulator Fan",
@@ -20,10 +20,10 @@
     "discount": "",
     "item": "Airmate 2-in-1 Circulator Fan",
     "date": "2026-09-18T12:36:47+00:00",
-    "votes": 77,
-    "posts": 76,
+    "votes": 80,
+    "posts": 88,
     "giftCard": false,
-    "heat": 77
+    "heat": 80
   },
   {
     "title": "DOOM Eternal free on Amazon Luna (Prime required)",
@@ -33,10 +33,10 @@
     "discount": "free",
     "item": "DOOM Eternal on Amazon Luna Prime required",
     "date": "2026-09-18T10:20:08+00:00",
-    "votes": 70,
-    "posts": 23,
+    "votes": 74,
+    "posts": 25,
     "giftCard": false,
-    "heat": 70
+    "heat": 74
   },
   {
     "title": "$15 bonus in CT Money with each purchase of $100 SportChek or Mark's Gift Cards",
@@ -46,10 +46,10 @@
     "discount": "$15",
     "item": "bonus in CT Money with each purchase of $100 SportChek or Mark's Gift Cards",
     "date": "2026-09-18T12:40:01+00:00",
-    "votes": 9,
-    "posts": 6,
+    "votes": 10,
+    "posts": 7,
     "giftCard": true,
-    "heat": 59
+    "heat": 60
   },
   {
     "title": "[FREE] Deadshot - Steam",
@@ -59,10 +59,23 @@
     "discount": "FREE",
     "item": "[ ] Deadshot",
     "date": "2026-09-18T20:38:26+00:00",
-    "votes": 52,
+    "votes": 55,
     "posts": 2,
     "giftCard": false,
-    "heat": 52
+    "heat": 55
+  },
+  {
+    "title": "Cast Iron Frying Pan, 10-in ; Master Chef Pre-Seasoned $9.99",
+    "href": "https://forums.redflagdeals.com/canadian-tire-cast-iron-frying-pan-10-master-chef-pre-seasoned-9-99-2826491/",
+    "dealer": "Canadian Tire",
+    "brand": "Canadian Tire",
+    "discount": "$9.99",
+    "item": "Cast Iron Frying Pan, 10-in ; Master Chef Pre-Seasoned",
+    "date": "2026-09-19T02:32:38+00:00",
+    "votes": 39,
+    "posts": 23,
+    "giftCard": false,
+    "heat": 39
   },
   {
     "title": "JD Sports Canada - up to 70% off on new sale products",
@@ -78,32 +91,6 @@
     "heat": 37
   },
   {
-    "title": "Huntshield folding knife with axis lock - $9.99",
-    "href": "https://forums.redflagdeals.com/canadian-tire-huntshield-folding-knife-axis-lock-9-99-2826410/",
-    "dealer": "Canadian Tire",
-    "brand": "Canadian Tire",
-    "discount": "$9.99",
-    "item": "Huntshield folding knife with axis lock",
-    "date": "2026-09-18T03:14:47+00:00",
-    "votes": 37,
-    "posts": 25,
-    "giftCard": false,
-    "heat": 37
-  },
-  {
-    "title": "Cast Iron Frying Pan, 10-in ; Master Chef Pre-Seasoned $9.99",
-    "href": "https://forums.redflagdeals.com/canadian-tire-cast-iron-frying-pan-10-master-chef-pre-seasoned-9-99-2826491/",
-    "dealer": "Canadian Tire",
-    "brand": "Canadian Tire",
-    "discount": "$9.99",
-    "item": "Cast Iron Frying Pan, 10-in ; Master Chef Pre-Seasoned",
-    "date": "2026-09-19T02:32:38+00:00",
-    "votes": 33,
-    "posts": 21,
-    "giftCard": false,
-    "heat": 33
-  },
-  {
     "title": "Costco - The Unscented Company Dishwasher Tabs (3 x 72 count) - $39.99 ($15 off)",
     "href": "https://forums.redflagdeals.com/costco-costco-unscented-company-dishwasher-tabs-3-x-72-count-39-99-15-off-2826499/",
     "dealer": "Costco",
@@ -111,23 +98,10 @@
     "discount": "$39.99",
     "item": "The Unscented Company Dishwasher Tabs 3 x 72 count - $15 off",
     "date": "2026-09-19T10:48:42+00:00",
-    "votes": 32,
+    "votes": 33,
     "posts": 20,
     "giftCard": false,
-    "heat": 32
-  },
-  {
-    "title": "Lee Valley Hardware Warehouse Event - $1 Knobs, Handles, Hooks, etc",
-    "href": "https://forums.redflagdeals.com/lee-valley-lee-valley-hardware-warehouse-event-1-knobs-handles-hooks-etc-2826411/",
-    "dealer": "Lee Valley",
-    "brand": "Lee Valley",
-    "discount": "$1",
-    "item": "Hardware Warehouse Event - Knobs, Handles, Hooks, etc",
-    "date": "2026-09-18T04:00:08+00:00",
-    "votes": 28,
-    "posts": 2,
-    "giftCard": false,
-    "heat": 28
+    "heat": 33
   },
   {
     "title": "Costco - EcoFlow Trail Plus 300 portable power bank | $149.97 - Clearance",
@@ -137,10 +111,23 @@
     "discount": "$149.97",
     "item": "EcoFlow Trail Plus 300 portable power bank - - Clearance",
     "date": "2026-09-18T04:55:10+00:00",
-    "votes": 26,
-    "posts": 32,
+    "votes": 28,
+    "posts": 33,
     "giftCard": false,
-    "heat": 26
+    "heat": 28
+  },
+  {
+    "title": "FREE Ubisoft games added to Amazon Luna (AC Valhalla, AC Mirage, Avatar Frontiers of Pandora and Star Wars Outlaws)",
+    "href": "https://forums.redflagdeals.com/amazon-ca-free-ubisoft-games-added-amazon-luna-ac-valhalla-ac-mirage-avatar-frontiers-pandora-star-wars-outlaws-2826433/",
+    "dealer": "Amazon.ca",
+    "brand": "Amazon.ca",
+    "discount": "FREE",
+    "item": "Ubisoft games added to Amazon Luna AC Valhalla, AC Mirage, Avatar Frontiers of Pandora and Star Wars Outlaws",
+    "date": "2026-09-18T13:39:59+00:00",
+    "votes": 25,
+    "posts": 4,
+    "giftCard": false,
+    "heat": 25
   },
   {
     "title": "MERACH Under Desk Elliptical Exercise Machine $30.99 FS",
@@ -154,5 +141,18 @@
     "posts": 19,
     "giftCard": false,
     "heat": 23
+  },
+  {
+    "title": "Adidas Ebay Canada Store 40% off coupon code stacks on top of sale items, shoes as low as $31 with free ship!",
+    "href": "https://forums.redflagdeals.com/ebay-canada-adidas-ebay-canada-store-40-off-coupon-code-stacks-top-sale-items-shoes-low-31-free-ship-2826532/",
+    "dealer": "eBay.ca",
+    "brand": "eBay.ca",
+    "discount": "40% off",
+    "item": "Adidas Ebay Canada Store coupon code stacks on top of sale items, shoes as low as $31 with free ship!",
+    "date": "2026-09-20T01:01:43+00:00",
+    "votes": 21,
+    "posts": 13,
+    "giftCard": false,
+    "heat": 21
   }
 ]
