@@ -1,29 +1,16 @@
 [
   {
-    "title": "Dollarama Deals (Sep 21, 2026)",
-    "href": "https://forums.redflagdeals.com/dollarama-dollarama-deals-sep-21-2026-2826701/",
-    "dealer": "Dollarama",
-    "brand": "Dollarama",
-    "discount": "",
-    "item": "Deals Sep 21, 2026",
-    "date": "2026-09-21T19:48:51+00:00",
-    "votes": 54,
-    "posts": 16,
-    "giftCard": false,
-    "heat": 54
-  },
-  {
-    "title": "NHL Men's Hockey Jersey - $9.97 +FS",
-    "href": "https://forums.redflagdeals.com/costco-nhl-mens-hockey-jersey-9-97-fs-2826696/",
-    "dealer": "Costco",
-    "brand": "Costco",
-    "discount": "$9.97",
-    "item": "NHL Men's Hockey Jersey - +FS",
-    "date": "2026-09-21T19:18:08+00:00",
-    "votes": 36,
-    "posts": 24,
-    "giftCard": false,
-    "heat": 36
+    "title": "ON: Metro/ Foodbasics buy a $50 Zift Zillions, get a $10 store gift card...",
+    "href": "https://forums.redflagdeals.com/metro-metro-foodbasics-buy-50-zift-zillions-get-10-store-gift-card-2826855/",
+    "dealer": "Metro",
+    "brand": "Metro",
+    "discount": "$50",
+    "item": "ON/ Foodbasics buy a Zift Zillions, get a $10 store gift card...",
+    "date": "2026-09-23T05:12:20+00:00",
+    "votes": 5,
+    "posts": 6,
+    "giftCard": true,
+    "heat": 55
   },
   {
     "title": "Bissell Little Green Pro Portable Carpet Cleaner ($99.97 from $159.99 Save 37%)",
@@ -33,36 +20,10 @@
     "discount": "Save 37%",
     "item": "Bissell Little Green Pro Portable Carpet Cleaner $99.97 from $159.99",
     "date": "2026-09-22T03:15:47+00:00",
-    "votes": 29,
-    "posts": 16,
+    "votes": 32,
+    "posts": 17,
     "giftCard": false,
-    "heat": 29
-  },
-  {
-    "title": "Titan Pro - 40 Can Zipperless Cooler - Last Chance - $29.97",
-    "href": "https://forums.redflagdeals.com/costco-titan-pro-40-can-zipperless-cooler-last-chance-29-97-2826719/",
-    "dealer": "Costco",
-    "brand": "Costco",
-    "discount": "$29.97",
-    "item": "Titan Pro - 40 Can Zipperless Cooler - Last Chance",
-    "date": "2026-09-21T22:40:19+00:00",
-    "votes": 29,
-    "posts": 24,
-    "giftCard": false,
-    "heat": 29
-  },
-  {
-    "title": "2026 WINTER , ALL WEATHER , ALL ASEASON (WINTER 2026 TIRE REBATES)",
-    "href": "https://forums.redflagdeals.com/continentaltirerewards-ca-2026-winter-all-weather-all-aseason-winter-2026-tire-rebates-2826771/",
-    "dealer": "ContinentalTireRewards.ca",
-    "brand": "ContinentalTireRewards.ca",
-    "discount": "",
-    "item": "2026 WINTER , ALL WEATHER , ALL ASEASON WINTER 2026 TIRE REBATES",
-    "date": "2026-09-22T12:17:59+00:00",
-    "votes": 23,
-    "posts": 27,
-    "giftCard": false,
-    "heat": 23
+    "heat": 32
   },
   {
     "title": "Instacart - No tax on Costco purchases",
@@ -72,23 +33,36 @@
     "discount": "",
     "item": "No tax on Costco purchases",
     "date": "2026-09-22T20:49:55+00:00",
-    "votes": 16,
-    "posts": 17,
+    "votes": 30,
+    "posts": 32,
     "giftCard": false,
-    "heat": 16
+    "heat": 30
   },
   {
-    "title": "[ON] PC Ground or Whole Bean Coffee 800-930g or Pods 30's $13.99 for PCO Members, Flamingo Young Turkey $1.44 lb",
-    "href": "https://forums.redflagdeals.com/no-frills-pc-ground-whole-bean-coffee-800-930g-pods-30s-13-99-pco-members-flamingo-young-turkey-1-44-lb-2826796/",
-    "dealer": "No Frills",
-    "brand": "No Frills",
-    "discount": "$13.99",
-    "item": "[ON] PC Ground or Whole Bean Coffee 800-930g or Pods 30's for PCO Members, Flamingo Young Turkey $1.44 lb",
-    "date": "2026-09-22T14:47:39+00:00",
-    "votes": 16,
-    "posts": 8,
+    "title": "Titan Pro - 40 Can Zipperless Cooler - Last Chance - $29.97",
+    "href": "https://forums.redflagdeals.com/costco-titan-pro-40-can-zipperless-cooler-last-chance-29-97-2826719/",
+    "dealer": "Costco",
+    "brand": "Costco",
+    "discount": "$29.97",
+    "item": "Titan Pro - 40 Can Zipperless Cooler - Last Chance",
+    "date": "2026-09-21T22:40:19+00:00",
+    "votes": 30,
+    "posts": 24,
     "giftCard": false,
-    "heat": 16
+    "heat": 30
+  },
+  {
+    "title": "2026 WINTER , ALL WEATHER , ALL ASEASON (WINTER 2026 TIRE REBATES)",
+    "href": "https://forums.redflagdeals.com/continentaltirerewards-ca-2026-winter-all-weather-all-aseason-winter-2026-tire-rebates-2826771/",
+    "dealer": "ContinentalTireRewards.ca",
+    "brand": "ContinentalTireRewards.ca",
+    "discount": "",
+    "item": "2026 WINTER , ALL WEATHER , ALL ASEASON WINTER 2026 TIRE REBATES",
+    "date": "2026-09-22T12:17:59+00:00",
+    "votes": 26,
+    "posts": 28,
+    "giftCard": false,
+    "heat": 26
   },
   {
     "title": "Star Trek: The Next Generation, the series set 19.99",
@@ -98,10 +72,10 @@
     "discount": "",
     "item": "Star Trek - The Next Generation, the series set 19.99",
     "date": "2026-09-22T20:55:59+00:00",
-    "votes": 13,
-    "posts": 6,
+    "votes": 20,
+    "posts": 9,
     "giftCard": false,
-    "heat": 13
+    "heat": 20
   },
   {
     "title": "Dreame AquaPlus Bone Conduction Headphone $49.99",
@@ -111,10 +85,23 @@
     "discount": "$49.99",
     "item": "Dreame AquaPlus Bone Conduction Headphone",
     "date": "2026-09-22T19:12:24+00:00",
-    "votes": 13,
-    "posts": 10,
+    "votes": 20,
+    "posts": 16,
     "giftCard": false,
-    "heat": 13
+    "heat": 20
+  },
+  {
+    "title": "[ON] PC Ground or Whole Bean Coffee 800-930g or Pods 30's $13.99 for PCO Members, Flamingo Young Turkey $1.44 lb",
+    "href": "https://forums.redflagdeals.com/no-frills-pc-ground-whole-bean-coffee-800-930g-pods-30s-13-99-pco-members-flamingo-young-turkey-1-44-lb-2826796/",
+    "dealer": "No Frills",
+    "brand": "No Frills",
+    "discount": "$13.99",
+    "item": "[ON] PC Ground or Whole Bean Coffee 800-930g or Pods 30's for PCO Members, Flamingo Young Turkey $1.44 lb",
+    "date": "2026-09-22T14:47:39+00:00",
+    "votes": 19,
+    "posts": 8,
+    "giftCard": false,
+    "heat": 19
   },
   {
     "title": "Jack's Bargain Attic Sale (Musical Instruments)",
@@ -124,23 +111,23 @@
     "discount": "",
     "item": "Jack's Bargain Attic Sale Musical Instruments",
     "date": "2026-09-22T03:04:21+00:00",
-    "votes": 13,
+    "votes": 16,
     "posts": 0,
     "giftCard": false,
-    "heat": 13
+    "heat": 16
   },
   {
-    "title": "Ryzen 7 5700 $150 in store stock - Canada Computers",
-    "href": "https://forums.redflagdeals.com/canada-computers-ryzen-7-5700-150-store-stock-canada-computers-2826810/",
-    "dealer": "Canada Computers",
-    "brand": "Canada Computers",
-    "discount": "$150",
-    "item": "Ryzen 7 5700 in store stock",
-    "date": "2026-09-22T16:29:36+00:00",
-    "votes": 10,
-    "posts": 5,
+    "title": "Week of 24th of September to 30th of September grocery round up (QUEBEC)",
+    "href": "https://forums.redflagdeals.com/multiple-week-24th-september-30th-september-grocery-round-up-quebec-2826857/",
+    "dealer": "Multiple",
+    "brand": "Multiple",
+    "discount": "",
+    "item": "Week of 24th of September to 30th of September grocery round up QUEBEC",
+    "date": "2026-09-23T08:02:43+00:00",
+    "votes": 14,
+    "posts": 4,
     "giftCard": false,
-    "heat": 10
+    "heat": 14
   },
   {
     "title": "[ON] Gray Ridge or Prestige Grade A Large White Eggs 18pk ($4.44) Sept 24-30th",
@@ -150,8 +137,21 @@
     "discount": "$4.44",
     "item": "[ON] Gray Ridge or Prestige Grade A Large White Eggs 18pk Sept 24-30th",
     "date": "2026-09-22T14:14:50+00:00",
-    "votes": 10,
+    "votes": 12,
     "posts": 10,
+    "giftCard": false,
+    "heat": 12
+  },
+  {
+    "title": "Skip \"Deals\" $5, East End Restaurants (Toronto Summary)",
+    "href": "https://forums.redflagdeals.com/skip-skip-deals-5-east-end-restaurants-toronto-summary-2826718/",
+    "dealer": "Skip",
+    "brand": "Skip",
+    "discount": "$5",
+    "item": "\"Deals\" , East End Restaurants Toronto Summary",
+    "date": "2026-09-21T22:14:02+00:00",
+    "votes": 10,
+    "posts": 26,
     "giftCard": false,
     "heat": 10
   }
