@@ -141,7 +141,8 @@ h2 {
   color: var(--color-accent-300);
 }
 .blink-cursor { animation: podBlink 1s steps(1) infinite; }
-.hero-actions { display: flex; gap: 12px; margin-top: 10px; }
+.hero-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 10px; }
+.options-caption { margin-top: 24px; }
 
 /* — sections — */
 .section {
