@@ -3,8 +3,8 @@ title: Toronto Weekend
 weekend: 2026-09-19
 dates: Saturday Sep 19 – Sunday Sep 20
 updated: 2026-09-19
-weather_saturday: "24°C / 13°C · Overcast, 0% chance of rain"
-weather_sunday: "25°C / 14°C · Overcast, 3% chance of rain"
+weather_saturday: "24°C / 14°C · Overcast, 0% chance of rain"
+weather_sunday: "24°C / 14°C · Overcast, 3% chance of rain"
 source: AdmitONE, Fever, AGO, ROM, official festival sites, TodoCanada / Open-Meteo
 ---
 
