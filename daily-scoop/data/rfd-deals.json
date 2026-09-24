@@ -20,10 +20,10 @@
     "discount": "",
     "item": "Star Trek - The Next Generation, the series set 19.99",
     "date": "2026-09-22T20:55:59+00:00",
-    "votes": 40,
-    "posts": 19,
+    "votes": 45,
+    "posts": 25,
     "giftCard": false,
-    "heat": 40
+    "heat": 45
   },
   {
     "title": "Instacart - No tax on Costco purchases",
@@ -33,10 +33,10 @@
     "discount": "",
     "item": "No tax on Costco purchases",
     "date": "2026-09-22T20:49:55+00:00",
-    "votes": 36,
-    "posts": 43,
+    "votes": 37,
+    "posts": 46,
     "giftCard": false,
-    "heat": 36
+    "heat": 37
   },
   {
     "title": "Week of 24th of September to 30th of September grocery round up (QUEBEC)",
@@ -46,10 +46,10 @@
     "discount": "",
     "item": "Week of 24th of September to 30th of September grocery round up QUEBEC",
     "date": "2026-09-23T08:02:43+00:00",
-    "votes": 30,
+    "votes": 33,
     "posts": 7,
     "giftCard": false,
-    "heat": 30
+    "heat": 33
   },
   {
     "title": "Dreame AquaPlus Bone Conduction Headphone $49.99",
@@ -60,7 +60,7 @@
     "item": "Dreame AquaPlus Bone Conduction Headphone",
     "date": "2026-09-22T19:12:24+00:00",
     "votes": 26,
-    "posts": 19,
+    "posts": 20,
     "giftCard": false,
     "heat": 26
   },
@@ -85,6 +85,32 @@
     "discount": "$59",
     "item": "Gorilla 4.5 cu. ft. Poly Yard Cart",
     "date": "2026-09-23T14:11:26+00:00",
+    "votes": 15,
+    "posts": 13,
+    "giftCard": false,
+    "heat": 15
+  },
+  {
+    "title": "DeLonghi Radia S Full Room Radiant Heater, 3 Power Levels, Light Gray $92.81 after coupon; 1,500 W",
+    "href": "https://forums.redflagdeals.com/amazon-ca-delonghi-radia-s-full-room-radiant-heater-3-power-levels-light-gray-92-81-after-coupon-1-500-w-2826913/",
+    "dealer": "Amazon.ca",
+    "brand": "Amazon.ca",
+    "discount": "$92.81",
+    "item": "DeLonghi Radia S Full Room Radiant Heater, 3 Power Levels, Light Gray after coupon; 1,500 W",
+    "date": "2026-09-23T23:00:22+00:00",
+    "votes": 14,
+    "posts": 12,
+    "giftCard": false,
+    "heat": 14
+  },
+  {
+    "title": "Butterball Seasoned Boneless Turkey Roast Turkey Breast, 1.2 kg (GTA/Montreal) $12.97",
+    "href": "https://forums.redflagdeals.com/giant-tiger-butterball-seasoned-boneless-turkey-roast-turkey-breast-1-2-kg-gta-montreal-12-97-2826877/",
+    "dealer": "Giant Tiger",
+    "brand": "Giant Tiger",
+    "discount": "$12.97",
+    "item": "Butterball Seasoned Boneless Turkey Roast Turkey Breast, 1.2 kg GTA/Montreal",
+    "date": "2026-09-23T15:10:48+00:00",
     "votes": 13,
     "posts": 13,
     "giftCard": false,
@@ -104,19 +130,6 @@
     "heat": 13
   },
   {
-    "title": "Ryzen 7 5700 $150 in store stock - Canada Computers",
-    "href": "https://forums.redflagdeals.com/canada-computers-ryzen-7-5700-150-store-stock-canada-computers-2826810/",
-    "dealer": "Canada Computers",
-    "brand": "Canada Computers",
-    "discount": "$150",
-    "item": "Ryzen 7 5700 in store stock",
-    "date": "2026-09-22T16:29:36+00:00",
-    "votes": 12,
-    "posts": 12,
-    "giftCard": false,
-    "heat": 12
-  },
-  {
     "title": "Sun Joe SBJ597E All-Purpose Electric Leaf Blower, 6-Amp Motor, 155 MPH, corded, $25",
     "href": "https://forums.redflagdeals.com/amazon-ca-sun-joe-sbj597e-all-purpose-electric-leaf-blower-6-amp-motor-155-mph-corded-25-2826872/",
     "dealer": "Amazon.ca",
@@ -124,10 +137,10 @@
     "discount": "$25",
     "item": "Sun Joe SBJ597E All-Purpose Electric Leaf Blower, 6-Amp Motor, 155 MPH, corded,",
     "date": "2026-09-23T14:20:56+00:00",
-    "votes": 11,
+    "votes": 12,
     "posts": 0,
     "giftCard": false,
-    "heat": 11
+    "heat": 12
   },
   {
     "title": "CPU Air Cooler 6 Copper Pipe Heat sink and Thermal Paste Intel AMD $29",
@@ -137,22 +150,9 @@
     "discount": "$29",
     "item": "CPU Air Cooler 6 Copper Pipe Heat sink and Thermal Paste Intel AMD",
     "date": "2026-09-23T13:24:17+00:00",
-    "votes": 9,
-    "posts": 4,
+    "votes": 11,
+    "posts": 5,
     "giftCard": false,
-    "heat": 9
-  },
-  {
-    "title": "ThermoMaven WT07 2-Probe Meat Thermometer - $71.99",
-    "href": "https://forums.redflagdeals.com/amazon-ca-thermomaven-wt07-2-probe-meat-thermometer-71-99-2826817/",
-    "dealer": "Amazon.ca",
-    "brand": "Amazon.ca",
-    "discount": "$71.99",
-    "item": "ThermoMaven WT07 2-Probe Meat Thermometer",
-    "date": "2026-09-22T18:48:15+00:00",
-    "votes": 8,
-    "posts": 8,
-    "giftCard": false,
-    "heat": 8
+    "heat": 11
   }
 ]
