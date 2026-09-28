@@ -1,148 +1,148 @@
 ---
 title: Toronto Weekend
-weekend: 2026-09-26
-dates: Saturday Sep 26 – Sunday Sep 27
-updated: 2026-09-24
-weather_saturday: "23°C / 10°C · Overcast, 0% chance of rain"
-weather_sunday: "23°C / 15°C · Overcast, 1% chance of rain"
-source: Official event organizers, Mirvish, AGO, ROM, MLB, TodoCanada / Open-Meteo
+weekend: 2026-10-03
+dates: Saturday Oct 3 – Sunday Oct 4
+updated: 2026-09-28
+weather_saturday: "16°C / 11°C · Overcast, 19% chance of rain"
+weather_sunday: "18°C / 14°C · Rain showers, 26% chance of rain"
+source: Official organizers, Mirvish, AGO, ROM, Aga Khan Museum, Fever, Songkick / Open-Meteo
 ---
 
 ## Concerts, Musicals & Arts Exhibitions
 
+### Gorillaz — The Mountain Tour
+- **Day:** Sunday
+- **When:** Sunday Oct 4 · 7:30 PM
+- **Where:** Scotiabank Arena, 40 Bay St
+- **Cost:** Ticket prices vary
+- **Info:** Damon Albarn's virtual band brings The Mountain Tour to Scotiabank Arena with special guests Little Simz and Deltron 3030 — the weekend's biggest arena show.
+- **Tags:** concert, alternative, arena, Little Simz
+- **Link:** [Gorillaz at Scotiabank Arena](https://www.songkick.com/concerts/43080595-gorillaz-at-scotiabank-arena)
+
+### Foster the People — Good Mourning Sunshine Tour
+- **Day:** Saturday
+- **When:** Saturday Oct 3 · doors 7:00 PM; show 8:00 PM
+- **Where:** RBC Amphitheatre, 909 Lake Shore Blvd W (Ontario Place)
+- **Cost:** Ticket prices vary
+- **Info:** The "Pumped Up Kicks" hitmakers headline Ontario Place's lakeside amphitheatre on their Good Mourning Sunshine tour, with Goth Babe opening.
+- **Tags:** concert, indie pop, Ontario Place, outdoor
+- **Link:** [Foster the People at RBC Amphitheatre](https://www.songkick.com/concerts/43184584-foster-the-people-at-rbc-amphitheatre)
+
+### Candlelight: Best of Cantonese Pop
+- **Day:** Saturday
+- **When:** Saturday Oct 3 · 6:30 PM–7:30 PM
+- **Where:** The Royal Theatre, 608 College St
+- **Cost:** From CA$68.50 plus booking fee (lower tiers sold out)
+- **Info:** A candlelit live concert of beloved Cantonese-pop songs at The Royal Theatre; the cheapest tiers have sold out, but seats remain in the higher zones.
+- **Tags:** concert, candlelight, Cantonese pop, Fever
+- **Link:** [Candlelight: Best of Cantonese Pop on Fever](https://feverup.com/m/679231)
+
 ### Hell's Kitchen — Alicia Keys Musical
 - **Day:** Saturday / Sunday
-- **When:** Saturday Sep 26 & Sunday Sep 27 · 2:00 PM and 7:30 PM each day
+- **When:** Saturday Oct 3 · 2:00 PM and 7:30 PM; Sunday Oct 4 · 2:00 PM
 - **Where:** CAA Ed Mirvish Theatre, 244 Victoria St
 - **Cost:** Ticket prices vary; check the selected performance
-- **Info:** The Alicia Keys musical follows Ali's coming-of-age in New York. Mirvish's September calendar lists two actual performances on each day; the Toronto run continues through October 25.
+- **Info:** The Alicia Keys musical set in New York's Hell's Kitchen neighbourhood plays two shows Saturday and a matinee Sunday; weekend tickets are selling fast.
 - **Tags:** musical, theatre, Alicia Keys, indoor
 - **Link:** [Hell's Kitchen at Mirvish](https://www.mirvish.com/shows/hells-kitchen)
 
-### Toronto Biennial — Gichigami Opening Procession
-- **Day:** Saturday
-- **When:** Saturday Sep 26 · 12:00–12:30 PM
-- **Where:** Queen Victoria Statue, 111 Wellesley St W; procession to the University of Toronto Art Museum
-- **Cost:** Free; advance registration required
-- **Info:** Rebecca Belmore inaugurates her new Biennial commission with a short procession through the university campus; an accessible alternative route is offered.
-- **Tags:** contemporary art, performance, Toronto Biennial, free
-- **Link:** [Gichigami at Toronto Biennial](https://torontobiennial.org/programs/opening-weekend-performance-gichigami-by-rebecca-belmore/)
+### The Karate Kid – The Musical
+- **Day:** Saturday / Sunday
+- **When:** Saturday Oct 3 · 2:00 PM and 7:30 PM; Sunday Oct 4 · 2:00 PM
+- **Where:** Princess of Wales Theatre, 300 King St W
+- **Cost:** Ticket prices vary; check the selected performance
+- **Info:** The new stage-musical adaptation of the 1984 film plays its first weekend at the Princess of Wales Theatre (Sep 29–Nov 1 run), with four performances Saturday and Sunday.
+- **Tags:** musical, theatre, opening run, indoor
+- **Link:** [The Karate Kid at Mirvish](https://www.mirvish.com/shows/the-karate-kid)
 
-### Toronto Biennial — Konvwa libèté Parade
+### Nuit Blanche Toronto — 20th Anniversary
 - **Day:** Saturday
-- **When:** Saturday Sep 26 · 2:00–3:00 PM
-- **Where:** Meet in front of Hart House, 7 Hart House Cir, University of Toronto
-- **Cost:** Free; advance registration required
-- **Info:** Raphaël Barontini's outdoor Caribbean-inspired parade brings percussion, costumes and banners to the campus; the organizer says it proceeds in light rain or shine.
-- **Tags:** parade, art, Caribbean culture, Toronto Biennial, free
-- **Link:** [Konvwa libèté at Toronto Biennial](https://torontobiennial.org/programs/konvwa-libete/)
+- **When:** Saturday Oct 3 · 7:00 PM–7:00 AM
+- **Where:** City-wide — installations, exhibitions and performances across Toronto
+- **Cost:** Free
+- **Info:** Toronto's free all-night celebration of contemporary art returns for its 20th anniversary; from 7 PM to 7 AM the city's public spaces become galleries under the theme "Tomorrow's Memories".
+- **Tags:** art, all-night, Nuit Blanche, free
+- **Link:** [Nuit Blanche Toronto](https://www.toronto.ca/explore-enjoy/festivals-events/nuitblanche)
 
-### Toronto Biennial — Speculative Futures Dialogue
-- **Day:** Sunday
-- **When:** Sunday Sep 27 · 10:30 AM–12:00 PM
-- **Where:** Harbourfront Centre Studio Theatre, 235 Queens Quay W
-- **Cost:** Free; advance registration required
-- **Info:** Curator Allison Glenn and Biennial artists discuss science fiction, Indigenous epistemologies and imagined futures at an opening-weekend talk.
-- **Tags:** art, talk, Toronto Biennial, waterfront, free
-- **Link:** [Speculative Futures at Toronto Biennial](https://torontobiennial.org/programs/in-dialogue-speculative-futures/)
-
-### ROM — Unbound: The Allegorical Archipelago of Abya Yala
+### Aga Khan Museum — Nuit Blanche: Sacred and Profane
 - **Day:** Saturday
-- **When:** Saturday Sep 26 · opening day; ROM admission hours 10:00 AM–5:30 PM
-- **Where:** Royal Ontario Museum, Gloria Chen Court (Level 1), 100 Queen's Park
-- **Cost:** Included with ROM general admission; free for members
-- **Info:** Raphaël Barontini's five monumental textile panels tell stories of Black and Caribbean histories; ROM explicitly confirms its September 26 opening. Sunday availability is not assumed from the opening-date listing.
-- **Tags:** ROM, special installation, opening day, Toronto Biennial, indoor
-- **Link:** [Unbound at ROM](https://www.rom.on.ca/whats-on/exhibitions/unbound-allegorical-archipelago-abya-yala)
+- **When:** Saturday Oct 3 · 5:30 PM–7:00 AM (galleries open until 2:00 AM)
+- **Where:** Aga Khan Museum, 77 Wynford Dr
+- **Cost:** Free admission for the Nuit Blanche program
+- **Info:** The museum, park and Ismaili Centre stay up late with free gallery admission until 2 AM plus installations, live performances, a whirling workshop, poetry and a late-night Sufi Sama.
+- **Tags:** museum, Nuit Blanche, music, free, North York
+- **Link:** [Nuit Blanche 2026 at Aga Khan Museum](https://agakhanmuseum.org/whats-on/nuit-blanche-2026/)
 
 ### AGO — The Impressionist Revolution: Monet to Matisse
 - **Day:** Saturday / Sunday
-- **When:** Saturday Sep 26 & Sunday Sep 27 · 10:30 AM–5:30 PM
+- **When:** Saturday Oct 3 & Sunday Oct 4 · 10:30 AM–5:30 PM
 - **Where:** Art Gallery of Ontario, 317 Dundas St W
 - **Cost:** AGO single-day admission: adult $30; Ontario residents under 25 free
-- **Info:** Major loans from the Dallas Museum of Art trace Impressionism and its successors; this limited exhibition is on view until October 18.
-- **Tags:** AGO, Monet, Impressionism, major exhibition, indoor
+- **Info:** Major loans from the Dallas Museum of Art trace Impressionism and its successors from Monet through Matisse; the limited-run exhibition closes October 18.
+- **Tags:** AGO, Impressionism, Monet, major exhibition, indoor
 - **Link:** [Impressionist Revolution at AGO](https://ago.ca/exhibitions/impressionist-revolution-monet-matisse-dallas-museum-art)
+
+### AGO — Painted Presence: Rembrandt and his Peers
+- **Day:** Saturday / Sunday
+- **When:** Saturday Oct 3 & Sunday Oct 4 · 10:30 AM–5:30 PM
+- **Where:** Art Gallery of Ontario, 317 Dundas St W
+- **Cost:** AGO single-day admission: adult $30; Ontario residents under 25 free
+- **Info:** Paintings attributed to Rembrandt and his circle from the Bader Collection are gathered in a focused show that closes October 4 — this is the final weekend to see it.
+- **Tags:** AGO, Rembrandt, Dutch painting, final weekend, indoor
+- **Link:** [Painted Presence at AGO](https://ago.ca/exhibitions/painted-presence-rembrandt-and-his-peers)
+
+### ROM — Stolen Childhoods
+- **Day:** Saturday / Sunday
+- **When:** Saturday Oct 3 & Sunday Oct 4 · museum hours, 10:00 AM–5:30 PM
+- **Where:** Royal Ontario Museum, Philosopher's Gallery (Level 1), 100 Queen's Park
+- **Cost:** Included with ROM admission
+- **Info:** Created with the Survivors' Secretariat, this exhibition shares the lived experiences of children at the Mohawk Institute through archival records, Survivor testimonies and a 7-foot sculpture; it closes Monday, so this is its final weekend.
+- **Tags:** ROM, exhibition, Indigenous history, final weekend, indoor
+- **Link:** [Stolen Childhoods at ROM](https://www.rom.on.ca/whats-on/exhibitions/stolen-childhoods)
 
 ## Food, Festivals & Special Experiences
 
-### The Word On The Street Toronto
-- **Day:** Saturday / Sunday
-- **When:** Saturday Sep 26 · 11:00 AM–6:00 PM; Sunday Sep 27 · 10:00 AM–5:00 PM
-- **Where:** David Pecaut Square, 215 King St W
-- **Cost:** Free admission
-- **Info:** The 37th annual book-and-magazine festival gathers authors, publishers and booksellers; the official 2026 program lists readings and panels on both days.
-- **Tags:** books, literary festival, talks, free
-- **Link:** [The Word On The Street 2026 festival program](https://toronto.thewordonthestreet.ca/event-directory/annual-festival/2026-festival/)
-
-### Blue Jays vs Cincinnati Reds — Saturday Home Game
+### Public Pier — Final Weekend with SILO NIGHTS
 - **Day:** Saturday
-- **When:** Saturday Sep 26 · 3:07 PM (Toronto time)
-- **Where:** Rogers Centre, 1 Blue Jays Way
-- **Cost:** Ticket prices vary
-- **Info:** The MLB schedule lists Toronto as the home team at Rogers Centre against Cincinnati; check the official game page for ticket availability.
-- **Tags:** baseball, Blue Jays, MLB, home game
-- **Link:** [Reds at Blue Jays — MLB Gameday](https://www.mlb.com/gameday/reds-vs-blue-jays/2026/09/26/822759)
+- **When:** Saturday Oct 3 · 1:00 PM–7:00 AM (SILO NIGHTS projections 7:00 PM–7:00 AM)
+- **Where:** Marina Quay West, 539 Queens Quay W
+- **Cost:** Free
+- **Info:** The waterfront pilot's final weekend brings a food market, DJs and free beginner dance workshops by day; after dark, SILO NIGHTS projects immersive art onto the Canada Malting Silos for Nuit Blanche.
+- **Tags:** waterfront, Nuit Blanche, projections, food, free
+- **Link:** [Public Pier at Marina Quay West](https://publicpier.ca/)
 
-### Blue Jays vs Cincinnati Reds — Sunday Home Game
-- **Day:** Sunday
-- **When:** Sunday Sep 27 · 3:07 PM (Toronto time)
-- **Where:** Rogers Centre, 1 Blue Jays Way
-- **Cost:** Ticket prices vary
-- **Info:** The Sunday game is a separate Rogers Centre home fixture, confirmed by the MLB schedule; check the official game page for tickets.
-- **Tags:** baseball, Blue Jays, MLB, home game
-- **Link:** [Reds at Blue Jays — MLB Gameday](https://www.mlb.com/gameday/reds-vs-blue-jays/2026/09/27/822761)
-
-### Etobicoke Ribfest X
+### Distillery District Oktoberfest — Closing Weekend
 - **Day:** Saturday / Sunday
-- **When:** Saturday Sep 26 · 12:00–10:00 PM; Sunday Sep 27 · 12:00–8:00 PM
-- **Where:** Colonel Samuel Smith Park, 3145 Lake Shore Blvd W, Etobicoke
-- **Cost:** Free admission; $5 charitable donation suggested; food extra
-- **Info:** Waterfront barbecue, live bands and a Saturday gelato-eating contest; Sunday's program includes the best-ribs awards and closing performances.
-- **Tags:** food festival, barbecue, live music, waterfront
-- **Link:** [Etobicoke Ribfest X 2026](https://ribfestx.com/event/etobicoke-ribfest-2026/)
-
-### Toronto Oktoberfest at Fort York
-- **Day:** Saturday
-- **When:** Saturday Sep 26 · 12:30–4:00 PM daytime session; 6:00–11:30 PM closing party
-- **Where:** Garrison Common at Fort York, 100 Garrison Rd
-- **Cost:** General admission from $40 per TodoCanada; other ticket tiers vary
-- **Info:** This ticketed two-day Oktoberfest ends Saturday with German beer, polka, dancing and festival food; the daytime and evening sessions require the appropriate ticket.
-- **Tags:** Oktoberfest, beer, German culture, outdoor
-- **Link:** [Toronto Oktoberfest official site](https://www.torontooktoberfest.ca/)
-
-### Distillery District Oktoberfest
-- **Day:** Saturday / Sunday
-- **When:** Saturday Sep 26 & Sunday Sep 27 · 2:00–9:00 PM
+- **When:** Saturday Oct 3 & Sunday Oct 4 · 2:00–9:00 PM
 - **Where:** The Distillery District, 21 Tank House Lane
 - **Cost:** Free entry; food and drinks extra
-- **Info:** A separate, free-entry Oktoberfest weekend with the Black Forest Band in Trinity Square from 2–5 PM, evening courtyard music, Saturday beer pong and Sunday trivia at 5 PM.
-- **Tags:** Oktoberfest, music, food, Distillery District, free entry
-- **Link:** [Distillery District Oktoberfest 2026](https://www.thedistillerydistrict.com/oktoberfest/)
+- **Info:** Oktoberfest closes out with the Black Forest Band in Trinity Square (2–5 PM), courtyard music until 9 PM and a Happy Wanderers polka finale on the final Sunday.
+- **Tags:** Oktoberfest, beer, live music, Distillery District, free entry
+- **Link:** [Oktoberfest at The Distillery District](https://www.thedistillerydistrict.com/oktoberfest/)
 
-### Toronto Garlic Festival
-- **Day:** Sunday
-- **When:** Sunday Sep 27 · 10:00 AM–5:00 PM
-- **Where:** Allan Gardens, 160 Gerrard St E
-- **Cost:** Free entry; food and products for sale
-- **Info:** Ontario garlic growers and chefs bring garlic-focused dishes, a garlic-breath contest and live activities to this one-day harvest festival.
-- **Tags:** garlic, food festival, local growers, free
-- **Link:** [Toronto Garlic Festival event details](https://www.todocanada.ca/city/toronto/event/toronto-garlic-festival/)
+### Picklefest Toronto
+- **Day:** Saturday / Sunday
+- **When:** Saturday Oct 3 · 11:00 AM–6:00 PM; Sunday Oct 4 · 12:00–5:00 PM
+- **Where:** Henderson Brewing Co, 128a Sterling Rd
+- **Cost:** General admission $20.95 + fees; VIP early access (Saturday 10 AM) $27.95 + fees
+- **Info:** 60+ local fermented-food vendors, big-dill flavours and a brine-drinking competition take over Henderson Brewing Co for two days of pickle-fuelled fun.
+- **Tags:** food festival, pickles, fermentation, Junction Triangle
+- **Link:** [Picklefest Toronto 2026](https://picklefestcanada.com/events/toronto/)
 
-### Pedestrian Sundays in Kensington Market
-- **Day:** Sunday
-- **When:** Sunday Sep 27 · 12:00–7:00 PM
-- **Where:** Kensington Market, including Augusta Ave and Kensington Ave
-- **Cost:** Free to attend; purchases extra
-- **Info:** September's car-free neighbourhood festival features street food, poetry, dance, the Kensington Market Art Fair and a community yard sale.
-- **Tags:** street festival, art fair, food, pedestrian, free
-- **Link:** [Pedestrian Sundays — September date](https://www.todocanada.ca/city/toronto/event/pedestrian-sundays-kensington-market/)
+### Toronto Sauna Festival
+- **Day:** Saturday / Sunday
+- **When:** Saturday Oct 3 · 2–6 PM and 6–10 PM; Sunday Oct 4 · 10 AM–2 PM and 2–6 PM
+- **Where:** Evergreen Brick Works, 550 Bayview Ave
+- **Cost:** Single-day tickets from CA$58.49 + taxes/fees; nearly sold out
+- **Info:** A full weekend of saunas, cold plunges, live DJs, breathwork and sound baths; Saturday and Sunday each have two four-hour sessions, and most sessions are nearly sold out.
+- **Tags:** wellness, sauna, special experience, Evergreen Brick Works
+- **Link:** [Toronto Sauna Festival 2026](https://www.torontosaunafestival.com/)
 
-### Toronto Biennial — The Calls (Toronto) Tall-Ship Performance
-- **Day:** Sunday
-- **When:** Sunday Sep 27 · first sailing boards 12:00 PM (departs 12:30 PM); second boards 2:15 PM (departs 2:45 PM)
-- **Where:** Tall Ship Kajama, Harbourfront Centre waterfront
-- **Cost:** Free; advance registration required, subject to capacity
-- **Info:** Brendan Fernandes's immersive choral performance unfolds on two one-hour harbour sailings; the organizer provides exact boarding, departure and return times.
-- **Tags:** Toronto Biennial, performance, tall ship, waterfront, free
-- **Link:** [The Calls (Toronto) at Toronto Biennial](https://torontobiennial.org/programs/the-calls-toronto/)
+### Just For Laughs Toronto — Closing Night
+- **Day:** Saturday
+- **When:** Saturday Oct 3 · final night — e.g. Monét X Change 7:00 PM (Bluma Appel Theatre); Joel Kim Booster 9:30 PM (Randolph Theatre); Best of the Fest 10:00 PM (Comedy Bar)
+- **Where:** Downtown venues — Bluma Appel Theatre, Randolph Theatre, Comedy Bar and more
+- **Cost:** Tickets vary by show
+- **Info:** The 10-day comedy festival (Sep 24–Oct 3) closes with its biggest night: drag star Monét X Change, Joel Kim Booster and the "Best of the Fest" showcase all play downtown venues on the final evening.
+- **Tags:** comedy, festival, closing night
+- **Link:** [Just For Laughs Toronto](https://toronto.hahaha.com/en/)
