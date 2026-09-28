@@ -194,18 +194,29 @@ def parse_forecast(payload):
 
     row = matches[0]
     forecast_date = parse_citynews_date(row.get("latest_date", ""))
+    direction = row.get("latest_change")
+
+    # CityNews publishes the total even when the price is unchanged, but then
+    # sends latest_change_value as an empty string rather than "0".
     try:
         price = float(row["latest_new_total"])
-        magnitude = abs(float(row["latest_change_value"]))
     except (KeyError, TypeError, ValueError) as exc:
         raise ValueError("Invalid CityNews forecast price fields") from exc
 
-    direction = row.get("latest_change")
+    raw_magnitude = (row.get("latest_change_value") or "").strip()
+    if raw_magnitude in ("", "-", "--"):
+        magnitude = 0.0
+    else:
+        try:
+            magnitude = abs(float(raw_magnitude))
+        except (TypeError, ValueError) as exc:
+            raise ValueError("Invalid CityNews forecast price fields") from exc
+
     if direction == "priceup":
         change = magnitude
     elif direction == "pricedown":
         change = -magnitude
-    elif magnitude == 0:
+    elif direction == "nochange" or magnitude == 0:
         change = 0.0
     else:
         raise ValueError(f"Unknown CityNews price direction: {direction!r}")
