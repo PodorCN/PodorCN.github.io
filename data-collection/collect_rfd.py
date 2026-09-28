@@ -12,6 +12,9 @@ It will:
   4. Apply filters:
      - exclude title keywords: home depot, tv/television/oled, ymmv, beer
      - exclude dealer keyword: beer
+     - exclude movies (bluray/dvd/4K UHD releases) — games are kept
+     - exclude K-Cup / Keurig coffee pods
+     - exclude deals that name a non-Ontario address
      - gift card / giftcard => heat +50
   5. Sort by heat, keep top 12, write daily-scoop/data/rfd-deals.json.
 """
@@ -35,10 +38,28 @@ EXCLUDED_TITLE_PATTERNS = [
     re.compile(r"\b(?:tv|televisions?|oled)\b", re.I),
     re.compile(r"\bymmv\b", re.I),
     re.compile(r"\bbeer\b", re.I),
+    # Movies: physical media, movie/film box sets, 4K UHD disc releases.
+    # Deliberately does NOT match games (Steam / Nintendo / console titles stay).
+    re.compile(r"\bblu[\s-]?ray\b", re.I),
+    re.compile(r"\bdvd\b", re.I),
+    re.compile(r"\b(?:movie|film)\s+collection\b", re.I),
+    re.compile(r"\b(?:criterion|arrow video|shout factory)\b", re.I),
+    re.compile(r"\b4k\s+uhd\b(?=[^|]{0,40}?\b(?:movie|film|collection|disc|blu|dvd)\b)", re.I),
+    re.compile(r"\b(?:movie|film)\b[^|]{0,30}?\b4k\s+uhd\b", re.I),
+    # K-Cup / Keurig coffee pods.
+    re.compile(r"\bk[\s-]?cups?\b", re.I),
+    re.compile(r"\bkeurig\b", re.I),
+    re.compile(r"\bcoffee\s+pods?\b", re.I),
 ]
 EXCLUDED_DEALER_PATTERNS = [
     re.compile(r"\bbeer\b", re.I),
 ]
+
+# RFD prefixes a location as "[City, ON]" / "[Winnipeg, MB]". Ontario (ON) is kept;
+# every other two-letter province/state code is a non-Ontario address.
+_LOCATION_TAG_RE = re.compile(r"\[\s*([^\[\]]{2,40}?)\s*\]")
+_PROVINCE_CODE_RE = re.compile(r"^[A-Z]{2}$")
+_ONTARIO_CODE = "ON"
 
 
 def is_excluded(title, dealer):
@@ -47,6 +68,23 @@ def is_excluded(title, dealer):
     return any(p.search(title) for p in EXCLUDED_TITLE_PATTERNS) or any(
         p.search(dealer) for p in EXCLUDED_DEALER_PATTERNS
     )
+
+
+def is_non_ontario(title):
+    """True when the title names a location outside Ontario.
+
+    RFD tags a local deal with a leading "[City, ON]" prefix. A two-letter code
+    that is not ON is a hard signal the deal is addressed to another province or
+    state. Titles with no location tag (national online-only deals) are kept.
+    """
+    for raw in _LOCATION_TAG_RE.findall(title or ""):
+        parts = [p.strip() for p in raw.split(",")]
+        if not parts:
+            continue
+        code = parts[-1].upper()
+        if _PROVINCE_CODE_RE.match(code) and code != _ONTARIO_CODE:
+            return True
+    return False
 
 
 
@@ -256,6 +294,8 @@ def main():
         title = card.get("title", "")
         dealer = card.get("dealer", "")
         if is_excluded(title, dealer):
+            continue
+        if is_non_ontario(title):
             continue
 
         gift_card = bool(re.search(r"gift\s*card", title, re.I))

@@ -123,9 +123,19 @@ home depot
 tv / television / oled
 ymmv
 beer
+blu-ray / dvd
+movie collection / film collection
+criterion / arrow video / shout factory
+4K UHD（仅当同一标题内同时出现 movie / film / collection / disc / blu / dvd）
+k-cup / kcups / keurig / coffee pods
 ```
 
 也排除 dealer 名称含 `beer` 的帖子。
+
+**游戏不排除**：Steam / Nintendo / 主机游戏照常保留，即使标题带 "4K UHD"。
+
+排除非安省地址：RFD 用 `[城市, 省份]` 前缀标注本地 deal（如 `[Winnipeg, MB]`、`[Toronto, ON]`）。
+只要方括号里的两字母省份/州代码不是 `ON`，整条丢弃。没有方括号前缀的（全国性线上 deal）保留。
 
 特殊加权：
 
