@@ -2,9 +2,9 @@
 title: Toronto Weekend
 weekend: 2026-10-03
 dates: Saturday Oct 3 – Sunday Oct 4
-updated: 2026-09-28
-weather_saturday: "16°C / 11°C · Overcast, 19% chance of rain"
-weather_sunday: "18°C / 14°C · Rain showers, 26% chance of rain"
+updated: 2026-09-29
+weather_saturday: "15°C / 11°C · Overcast, 7% chance of rain"
+weather_sunday: "19°C / 12°C · Overcast, 13% chance of rain"
 source: Official organizers, Mirvish, AGO, ROM, Aga Khan Museum, Fever, Songkick / Open-Meteo
 ---
 
@@ -21,7 +21,7 @@ source: Official organizers, Mirvish, AGO, ROM, Aga Khan Museum, Fever, Songkick
 
 ### Foster the People — Good Mourning Sunshine Tour
 - **Day:** Saturday
-- **When:** Saturday Oct 3 · doors 7:00 PM; show 8:00 PM
+- **When:** Saturday Oct 3 · 8:00 PM
 - **Where:** RBC Amphitheatre, 909 Lake Shore Blvd W (Ontario Place)
 - **Cost:** Ticket prices vary
 - **Info:** The "Pumped Up Kicks" hitmakers headline Ontario Place's lakeside amphitheatre on their Good Mourning Sunshine tour, with Goth Babe opening.
@@ -42,7 +42,7 @@ source: Official organizers, Mirvish, AGO, ROM, Aga Khan Museum, Fever, Songkick
 - **When:** Saturday Oct 3 · 2:00 PM and 7:30 PM; Sunday Oct 4 · 2:00 PM
 - **Where:** CAA Ed Mirvish Theatre, 244 Victoria St
 - **Cost:** Ticket prices vary; check the selected performance
-- **Info:** The Alicia Keys musical set in New York's Hell's Kitchen neighbourhood plays two shows Saturday and a matinee Sunday; weekend tickets are selling fast.
+- **Info:** The Alicia Keys musical set in New York's Hell's Kitchen neighbourhood plays two shows Saturday and a matinee Sunday at the CAA Ed Mirvish Theatre; weekend tickets are selling fast.
 - **Tags:** musical, theatre, Alicia Keys, indoor
 - **Link:** [Hell's Kitchen at Mirvish](https://www.mirvish.com/shows/hells-kitchen)
 
@@ -51,7 +51,7 @@ source: Official organizers, Mirvish, AGO, ROM, Aga Khan Museum, Fever, Songkick
 - **When:** Saturday Oct 3 · 2:00 PM and 7:30 PM; Sunday Oct 4 · 2:00 PM
 - **Where:** Princess of Wales Theatre, 300 King St W
 - **Cost:** Ticket prices vary; check the selected performance
-- **Info:** The new stage-musical adaptation of the 1984 film plays its first weekend at the Princess of Wales Theatre (Sep 29–Nov 1 run), with four performances Saturday and Sunday.
+- **Info:** The stage-musical adaptation of the 1984 film plays its first weekend at the Princess of Wales Theatre (through Nov 1), with a Saturday matinee and evening plus a Sunday matinee.
 - **Tags:** musical, theatre, opening run, indoor
 - **Link:** [The Karate Kid at Mirvish](https://www.mirvish.com/shows/the-karate-kid)
 
@@ -60,7 +60,7 @@ source: Official organizers, Mirvish, AGO, ROM, Aga Khan Museum, Fever, Songkick
 - **When:** Saturday Oct 3 · 7:00 PM–7:00 AM
 - **Where:** City-wide — installations, exhibitions and performances across Toronto
 - **Cost:** Free
-- **Info:** Toronto's free all-night celebration of contemporary art returns for its 20th anniversary; from 7 PM to 7 AM the city's public spaces become galleries under the theme "Tomorrow's Memories".
+- **Info:** Toronto's free all-night celebration of contemporary art returns for its 20th-anniversary edition with 70+ projects across the city; from 7 PM to 7 AM, public spaces become galleries under the theme "Tomorrow's Memories".
 - **Tags:** art, all-night, Nuit Blanche, free
 - **Link:** [Nuit Blanche Toronto](https://www.toronto.ca/explore-enjoy/festivals-events/nuitblanche)
 
@@ -114,7 +114,7 @@ source: Official organizers, Mirvish, AGO, ROM, Aga Khan Museum, Fever, Songkick
 ### Distillery District Oktoberfest — Closing Weekend
 - **Day:** Saturday / Sunday
 - **When:** Saturday Oct 3 & Sunday Oct 4 · 2:00–9:00 PM
-- **Where:** The Distillery District, 21 Tank House Lane
+- **Where:** The Distillery District, 55 Mill St
 - **Cost:** Free entry; food and drinks extra
 - **Info:** Oktoberfest closes out with the Black Forest Band in Trinity Square (2–5 PM), courtyard music until 9 PM and a Happy Wanderers polka finale on the final Sunday.
 - **Tags:** Oktoberfest, beer, live music, Distillery District, free entry
@@ -133,16 +133,16 @@ source: Official organizers, Mirvish, AGO, ROM, Aga Khan Museum, Fever, Songkick
 - **Day:** Saturday / Sunday
 - **When:** Saturday Oct 3 · 2–6 PM and 6–10 PM; Sunday Oct 4 · 10 AM–2 PM and 2–6 PM
 - **Where:** Evergreen Brick Works, 550 Bayview Ave
-- **Cost:** Single-day tickets from CA$58.49 + taxes/fees; nearly sold out
-- **Info:** A full weekend of saunas, cold plunges, live DJs, breathwork and sound baths; Saturday and Sunday each have two four-hour sessions, and most sessions are nearly sold out.
+- **Cost:** Single-day tickets from CA$58.49 + taxes/fees; 90% sold out
+- **Info:** A full weekend of saunas, cold plunges, live DJs, breathwork and sound baths; Saturday and Sunday each have two four-hour sessions, and the festival reports it is 90% sold out.
 - **Tags:** wellness, sauna, special experience, Evergreen Brick Works
 - **Link:** [Toronto Sauna Festival 2026](https://www.torontosaunafestival.com/)
 
 ### Just For Laughs Toronto — Closing Night
 - **Day:** Saturday
-- **When:** Saturday Oct 3 · final night — e.g. Monét X Change 7:00 PM (Bluma Appel Theatre); Joel Kim Booster 9:30 PM (Randolph Theatre); Best of the Fest 10:00 PM (Comedy Bar)
+- **When:** Saturday Oct 3 · closing night — Monét X Change 7:00 PM (Bluma Appel Theatre); Joel Kim Booster 9:30 PM (Randolph Theatre); Best of the Fest 10:00 PM (Comedy Bar)
 - **Where:** Downtown venues — Bluma Appel Theatre, Randolph Theatre, Comedy Bar and more
 - **Cost:** Tickets vary by show
-- **Info:** The 10-day comedy festival (Sep 24–Oct 3) closes with its biggest night: drag star Monét X Change, Joel Kim Booster and the "Best of the Fest" showcase all play downtown venues on the final evening.
+- **Info:** The Just For Laughs festival (Sep 24–Oct 3) wraps up Saturday night: drag star Monét X Change, Joel Kim Booster and the "Best of the Fest" showcase all play downtown venues on the final evening.
 - **Tags:** comedy, festival, closing night
 - **Link:** [Just For Laughs Toronto](https://toronto.hahaha.com/en/)
