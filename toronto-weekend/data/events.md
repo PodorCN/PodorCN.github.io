@@ -3,8 +3,8 @@ title: Toronto Weekend
 weekend: 2026-10-03
 dates: Saturday Oct 3 – Sunday Oct 4
 updated: 2026-09-29
-weather_saturday: "15°C / 10°C · Partly cloudy, 1% chance of rain"
-weather_sunday: "19°C / 12°C · Overcast, 4% chance of rain"
+weather_saturday: "15°C / 9°C · Overcast, 0% chance of rain"
+weather_sunday: "18°C / 12°C · Overcast, 2% chance of rain"
 source: Official organizers, Mirvish, AGO, ROM, Aga Khan Museum, Fever, Songkick / Open-Meteo
 ---
 
