@@ -353,7 +353,7 @@ const GITHUB_REPO_DESCRIPTIONS = {
   StockSentimentAnalyzer: "Python toolkit scraping Reddit/Twitter chatter and pairing it with Yahoo Finance price data to explore sentiment-driven stock signals",
   ETF_Allocator: "Dash dashboard for a CAD ETF portfolio — weights with pinning, daily/MTD/QTD returns vs a ZSP benchmark, and a correlation heatmap over Yahoo Finance data",
   "PodorCN.github.io": "This site — a static single-page portfolio with an ASCII-art hero animation, live ETF daily returns via the Twelve Data API, and zero build tooling",
-  "thematic-tracker": "The site behind podor.org/thematic-tracker — two hand-written theme trackers plus a Python pipeline that publishes a global economic calendar and a Fed/BOC rate-decision watcher, all on GitHub Pages",
+  "thematic-tracker": "The site behind podor.org/thematic-tracker — a Fed/BOC rate-decision dashboard and a global economic calendar, JSON-driven on GitHub Pages",
 };
 const githubReposCache = makeDailyCache(GITHUB_REPOS_CACHE_KEY);
 
