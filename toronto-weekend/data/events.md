@@ -1,148 +1,130 @@
 ---
 title: Toronto Weekend
-weekend: 2026-10-03
-dates: Saturday Oct 3 – Sunday Oct 4
-updated: 2026-09-29
-weather_saturday: "15°C / 9°C · Overcast, 0% chance of rain"
-weather_sunday: "18°C / 12°C · Overcast, 2% chance of rain"
-source: Official organizers, Mirvish, AGO, ROM, Aga Khan Museum, Fever, Songkick / Open-Meteo
+weekend: 2026-10-17
+dates: Saturday Oct 17 – Sunday Oct 18
+updated: 2026-10-13
+weather_saturday: "9°C / 1°C · Slight snow showers, 20% chance of rain"
+weather_sunday: "17°C / 6°C · Overcast, 0% chance of rain"
+source: Mirvish, COC, TSO, Fall for Dance North, AGO, ROM, Songkick, Cask Days, Fever / Open-Meteo
 ---
 
 ## Concerts, Musicals & Arts Exhibitions
 
-### Gorillaz — The Mountain Tour
-- **Day:** Sunday
-- **When:** Sunday Oct 4 · 7:30 PM
-- **Where:** Scotiabank Arena, 40 Bay St
-- **Cost:** Ticket prices vary
-- **Info:** Damon Albarn's virtual band brings The Mountain Tour to Scotiabank Arena with special guests Little Simz and Deltron 3030 — the weekend's biggest arena show.
-- **Tags:** concert, alternative, arena, Little Simz
-- **Link:** [Gorillaz at Scotiabank Arena](https://www.songkick.com/concerts/43080595-gorillaz-at-scotiabank-arena)
-
-### Foster the People — Good Mourning Sunshine Tour
-- **Day:** Saturday
-- **When:** Saturday Oct 3 · 8:00 PM
-- **Where:** RBC Amphitheatre, 909 Lake Shore Blvd W (Ontario Place)
-- **Cost:** Ticket prices vary
-- **Info:** The "Pumped Up Kicks" hitmakers headline Ontario Place's lakeside amphitheatre on their Good Mourning Sunshine tour, with Goth Babe opening.
-- **Tags:** concert, indie pop, Ontario Place, outdoor
-- **Link:** [Foster the People at RBC Amphitheatre](https://www.songkick.com/concerts/43184584-foster-the-people-at-rbc-amphitheatre)
-
-### Candlelight: Best of Cantonese Pop
-- **Day:** Saturday
-- **When:** Saturday Oct 3 · 6:30 PM–7:30 PM
-- **Where:** The Royal Theatre, 608 College St
-- **Cost:** From CA$68.50 plus booking fee (lower tiers sold out)
-- **Info:** A candlelit live concert of beloved Cantonese-pop songs at The Royal Theatre; the cheapest tiers have sold out, but seats remain in the higher zones.
-- **Tags:** concert, candlelight, Cantonese pop, Fever
-- **Link:** [Candlelight: Best of Cantonese Pop on Fever](https://feverup.com/m/679231)
-
 ### Hell's Kitchen — Alicia Keys Musical
 - **Day:** Saturday / Sunday
-- **When:** Saturday Oct 3 · 2:00 PM and 7:30 PM; Sunday Oct 4 · 2:00 PM
+- **When:** Saturday Oct 17 · 2:00 PM and 7:30 PM; Sunday Oct 18 · 2:00 PM
 - **Where:** CAA Ed Mirvish Theatre, 244 Victoria St
 - **Cost:** Ticket prices vary; check the selected performance
-- **Info:** The Alicia Keys musical set in New York's Hell's Kitchen neighbourhood plays two shows Saturday and a matinee Sunday at the CAA Ed Mirvish Theatre; weekend tickets are selling fast.
+- **Info:** The Alicia Keys musical set in New York's Hell's Kitchen neighbourhood plays two shows Saturday and a matinee Sunday — 2 hours 35 minutes including intermission (recommended for ages 12+).
 - **Tags:** musical, theatre, Alicia Keys, indoor
 - **Link:** [Hell's Kitchen at Mirvish](https://www.mirvish.com/shows/hells-kitchen)
 
 ### The Karate Kid – The Musical
 - **Day:** Saturday / Sunday
-- **When:** Saturday Oct 3 · 2:00 PM and 7:30 PM; Sunday Oct 4 · 2:00 PM
+- **When:** Saturday Oct 17 · 2:00 PM and 7:30 PM; Sunday Oct 18 · 2:00 PM
 - **Where:** Princess of Wales Theatre, 300 King St W
 - **Cost:** Ticket prices vary; check the selected performance
-- **Info:** The stage-musical adaptation of the 1984 film plays its first weekend at the Princess of Wales Theatre (through Nov 1), with a Saturday matinee and evening plus a Sunday matinee.
-- **Tags:** musical, theatre, opening run, indoor
+- **Info:** The stage adaptation of the 1984 film continues its run at the Princess of Wales Theatre (through Nov 1), with a Saturday matinee and evening plus a Sunday matinee — 2 hours 30 minutes including intermission.
+- **Tags:** musical, theatre, film adaptation, indoor
 - **Link:** [The Karate Kid at Mirvish](https://www.mirvish.com/shows/the-karate-kid)
 
-### Nuit Blanche Toronto — 20th Anniversary
+### Ron James — 'The View From Here'
 - **Day:** Saturday
-- **When:** Saturday Oct 3 · 7:00 PM–7:00 AM
-- **Where:** City-wide — installations, exhibitions and performances across Toronto
-- **Cost:** Free
-- **Info:** Toronto's free all-night celebration of contemporary art returns for its 20th-anniversary edition with 70+ projects across the city; from 7 PM to 7 AM, public spaces become galleries under the theme "Tomorrow's Memories".
-- **Tags:** art, all-night, Nuit Blanche, free
-- **Link:** [Nuit Blanche Toronto](https://www.toronto.ca/explore-enjoy/festivals-events/nuitblanche)
+- **When:** Saturday Oct 17 · 2:00 PM and 7:30 PM (final day)
+- **Where:** CAA Theatre, 651 Yonge St
+- **Cost:** Ticket prices vary; check the selected performance
+- **Info:** Canadian comedy veteran Ron James closes the run of his new show with two final performances Saturday — 100 minutes, no intermission (16+).
+- **Tags:** comedy, stand-up, final day, indoor
+- **Link:** [Ron James at Mirvish](https://www.mirvish.com/shows/ron-james-in-the-view-from-here)
 
-### Aga Khan Museum — Nuit Blanche: Sacred and Profane
-- **Day:** Saturday
-- **When:** Saturday Oct 3 · 5:30 PM–7:00 AM (galleries open until 2:00 AM)
-- **Where:** Aga Khan Museum, 77 Wynford Dr
-- **Cost:** Free admission for the Nuit Blanche program
-- **Info:** The museum, park and Ismaili Centre stay up late with free gallery admission until 2 AM plus installations, live performances, a whirling workshop, poetry and a late-night Sufi Sama.
-- **Tags:** museum, Nuit Blanche, music, free, North York
-- **Link:** [Nuit Blanche 2026 at Aga Khan Museum](https://agakhanmuseum.org/whats-on/nuit-blanche-2026/)
+### Canadian Opera Company — Così fan tutte
+- **Day:** Sunday
+- **When:** Sunday Oct 18 · 2:00 PM (final performance)
+- **Where:** Four Seasons Centre for the Performing Arts, 145 Queen St W
+- **Cost:** From $45
+- **Info:** Mozart's comic masterpiece closes its COC fall run with one final performance — love, disguise and a wager at the Four Seasons Centre; tickets start at $45.
+- **Tags:** opera, Mozart, COC, indoor
+- **Link:** [Così fan tutte at the COC](https://www.coc.ca/tickets/2627-season/cosi-fan-tutte)
+
+### TSO — Disney Tim Burton's The Nightmare Before Christmas in Concert
+- **Day:** Saturday / Sunday
+- **When:** Saturday Oct 17 · 7:30 PM; Sunday Oct 18 · 2:00 PM and 7:30 PM
+- **Where:** Roy Thomson Hall, 60 Simcoe St
+- **Cost:** $40–$169
+- **Info:** Tim Burton's stop-motion classic on the big screen with Danny Elfman's score performed live by the Toronto Symphony Orchestra — three chances across the weekend, including a Sunday matinee.
+- **Tags:** film, orchestra, Halloween, TSO, indoor
+- **Link:** [The Nightmare Before Christmas with the TSO](https://www.tso.ca/concerts-and-events/events/disney-tim-burtons-the-nightmare-before-christmas-in-concert)
+
+### Fall for Dance North — HEARTBEATS
+- **Day:** Saturday / Sunday
+- **When:** Saturday Oct 17 · 7:30 PM; Sunday Oct 18 · 2:00 PM (pre-show artist talk at 1:00 PM)
+- **Where:** Bluma Appel Theatre, 27 Front St E
+- **Cost:** From $25 base fare (plus fees)
+- **Info:** "Feel the Drop" — street dance straight from the heart, with artists from Canada, Nigeria, the UK and France; 90 minutes, and a 1 PM artist talk precedes Sunday's matinee.
+- **Tags:** dance, street dance, Fall for Dance North, indoor
+- **Link:** [HEARTBEATS at Fall for Dance North](https://www.ffdnorth.com/heartbeats-signature-programme-2)
+
+### Fall for Dance North — Berczy Park in Motion
+- **Day:** Saturday / Sunday
+- **When:** Saturday Oct 17 · 1:00–1:40 PM and 6:30–7:10 PM; Sunday Oct 18 · 1:00–1:40 PM
+- **Where:** Berczy Park, Wellington St E (the dog-fountain park)
+- **Cost:** Free
+- **Info:** Free outdoor pop-up performances in one of the city's most beloved public spaces — 40-minute sets, easy to catch between other plans.
+- **Tags:** dance, free, outdoor, Fall for Dance North
+- **Link:** [Berczy Park in Motion](https://www.ffdnorth.com/berczy-park-in-motion)
+
+### Gong Gong Gong 工工工
+- **Day:** Sunday
+- **When:** Sunday Oct 18 · 8:00 PM
+- **Where:** Osler Records, 2a Osler St
+- **Cost:** Sold out — originally from CA$31.92; check the event page for released tickets
+- **Info:** Beijing–Toronto duo Gong Gong Gong bring their hypnotic guitar-and-bass loops to Osler Records — an intimate record-shop show currently listed as sold out, so keep an eye out for returns.
+- **Tags:** concert, Chinese, indie rock, indoor
+- **Link:** [Gong Gong Gong at Osler Records](https://www.songkick.com/concerts/43430928-gong-gong-gong-gong-gong-gong-at-osler-records)
 
 ### AGO — The Impressionist Revolution: Monet to Matisse
 - **Day:** Saturday / Sunday
-- **When:** Saturday Oct 3 & Sunday Oct 4 · 10:30 AM–5:30 PM
+- **When:** Saturday Oct 17 & Sunday Oct 18 · 10:30 AM–5:30 PM (closes Oct 18)
 - **Where:** Art Gallery of Ontario, 317 Dundas St W
-- **Cost:** AGO single-day admission: adult $30; Ontario residents under 25 free
-- **Info:** Major loans from the Dallas Museum of Art trace Impressionism and its successors from Monet through Matisse; the limited-run exhibition closes October 18.
-- **Tags:** AGO, Impressionism, Monet, major exhibition, indoor
+- **Cost:** Free with general admission (adult $30; Ontario residents under 25 free)
+- **Info:** Final weekend of the Dallas Museum of Art loan show — 50 works tracing Impressionism and its aftermath, from Monet and Degas to Van Gogh and Matisse, on Level 4.
+- **Tags:** AGO, Impressionism, Monet, final weekend, indoor
 - **Link:** [Impressionist Revolution at AGO](https://ago.ca/exhibitions/impressionist-revolution-monet-matisse-dallas-museum-art)
 
-### AGO — Painted Presence: Rembrandt and his Peers
+### ROM — BEES: A Story of Survival
 - **Day:** Saturday / Sunday
-- **When:** Saturday Oct 3 & Sunday Oct 4 · 10:30 AM–5:30 PM
-- **Where:** Art Gallery of Ontario, 317 Dundas St W
-- **Cost:** AGO single-day admission: adult $30; Ontario residents under 25 free
-- **Info:** Paintings attributed to Rembrandt and his circle from the Bader Collection are gathered in a focused show that closes October 4 — this is the final weekend to see it.
-- **Tags:** AGO, Rembrandt, Dutch painting, final weekend, indoor
-- **Link:** [Painted Presence at AGO](https://ago.ca/exhibitions/painted-presence-rembrandt-and-his-peers)
-
-### ROM — Stolen Childhoods
-- **Day:** Saturday / Sunday
-- **When:** Saturday Oct 3 & Sunday Oct 4 · museum hours, 10:00 AM–5:30 PM
-- **Where:** Royal Ontario Museum, Philosopher's Gallery (Level 1), 100 Queen's Park
+- **When:** Saturday Oct 17 & Sunday Oct 18 · 10:00 AM–5:30 PM (closes Oct 18)
+- **Where:** Royal Ontario Museum, 100 Queen's Park
 - **Cost:** Included with ROM admission
-- **Info:** Created with the Survivors' Secretariat, this exhibition shares the lived experiences of children at the Mohawk Institute through archival records, Survivor testimonies and a 7-foot sculpture; it closes Monday, so this is its final weekend.
-- **Tags:** ROM, exhibition, Indigenous history, final weekend, indoor
-- **Link:** [Stolen Childhoods at ROM](https://www.rom.on.ca/whats-on/exhibitions/stolen-childhoods)
+- **Info:** Final weekend of the ROM's immersive bee exhibition — experience the world through a bee's eyes before it buzzes away (300+ native bee species live in and around Toronto).
+- **Tags:** ROM, exhibition, bees, final weekend, indoor
+- **Link:** [BEES: A Story of Survival at ROM](https://www.rom.on.ca/whats-on/exhibitions/bees-story-survival)
 
 ## Food, Festivals & Special Experiences
 
-### Public Pier — Final Weekend with SILO NIGHTS
-- **Day:** Saturday
-- **When:** Saturday Oct 3 · 1:00 PM–7:00 AM (SILO NIGHTS projections 7:00 PM–7:00 AM)
-- **Where:** Marina Quay West, 539 Queens Quay W
-- **Cost:** Free
-- **Info:** The waterfront pilot's final weekend brings a food market, DJs and free beginner dance workshops by day; after dark, SILO NIGHTS projects immersive art onto the Canada Malting Silos for Nuit Blanche.
-- **Tags:** waterfront, Nuit Blanche, projections, food, free
-- **Link:** [Public Pier at Marina Quay West](https://publicpier.ca/)
-
-### Distillery District Oktoberfest — Closing Weekend
+### Cask Days — 20th Anniversary
 - **Day:** Saturday / Sunday
-- **When:** Saturday Oct 3 & Sunday Oct 4 · 2:00–9:00 PM
-- **Where:** The Distillery District, 55 Mill St
-- **Cost:** Free entry; food and drinks extra
-- **Info:** Oktoberfest closes out with the Black Forest Band in Trinity Square (2–5 PM), courtyard music until 9 PM and a Happy Wanderers polka finale on the final Sunday.
-- **Tags:** Oktoberfest, beer, live music, Distillery District, free entry
-- **Link:** [Oktoberfest at The Distillery District](https://www.thedistillerydistrict.com/oktoberfest/)
+- **When:** Saturday Oct 17 · 12:00–4:00 PM and 5:00–9:00 PM; Sunday Oct 18 · 12:00–6:00 PM
+- **Where:** 282 Campbell Ave (the future home of Bottega Volo)
+- **Cost:** Saturday CA$50 per session (incl. 4 food/drink tokens and a mug); Sunday CA$20 ($10 if you bring your Cask Days glass back)
+- **Info:** The 20th edition of Canada's cask-ale festival — 100+ casks from breweries across Canada, natural wine, food and music; Saturday's afternoon session is sold out, but the evening session and Sunday remain.
+- **Tags:** beer festival, cask ale, food, music
+- **Link:** [Cask Days](https://caskdays.com)
 
-### Picklefest Toronto
+### A Nightmare on Strip Street
 - **Day:** Saturday / Sunday
-- **When:** Saturday Oct 3 · 11:00 AM–6:00 PM; Sunday Oct 4 · 12:00–5:00 PM
-- **Where:** Henderson Brewing Co, 128a Sterling Rd
-- **Cost:** General admission $20.95 + fees; VIP early access (Saturday 10 AM) $27.95 + fees
-- **Info:** 60+ local fermented-food vendors, big-dill flavours and a brine-drinking competition take over Henderson Brewing Co for two days of pickle-fuelled fun.
-- **Tags:** food festival, pickles, fermentation, Junction Triangle
-- **Link:** [Picklefest Toronto 2026](https://picklefestcanada.com/events/toronto/)
+- **When:** Saturday Oct 17 · 4:00 PM, 7:00 PM and 9:30 PM; Sunday Oct 18 · 4:00 PM
+- **Where:** The Royal Theatre, 608 College St
+- **Cost:** From CA$44 plus booking fee (front two rows CA$109)
+- **Info:** From the producers of The Empire Strips Back — a horror-parody burlesque that skewers your favourite scary movies, knives out and tongue firmly in cheek; 1h35m plus intermission, 18+.
+- **Tags:** burlesque, comedy, Halloween, 18+, indoor
+- **Link:** [A Nightmare on Strip Street on Fever](https://feverup.com/m/711088)
 
-### Toronto Sauna Festival
+### Toronto Waterfront Marathon & Expo
 - **Day:** Saturday / Sunday
-- **When:** Saturday Oct 3 · 2–6 PM and 6–10 PM; Sunday Oct 4 · 10 AM–2 PM and 2–6 PM
-- **Where:** Evergreen Brick Works, 550 Bayview Ave
-- **Cost:** Single-day tickets from CA$58.49 + taxes/fees; 90% sold out
-- **Info:** A full weekend of saunas, cold plunges, live DJs, breathwork and sound baths; Saturday and Sunday each have two four-hour sessions, and the festival reports it is 90% sold out.
-- **Tags:** wellness, sauna, special experience, Evergreen Brick Works
-- **Link:** [Toronto Sauna Festival 2026](https://www.torontosaunafestival.com/)
-
-### Just For Laughs Toronto — Closing Night
-- **Day:** Saturday
-- **When:** Saturday Oct 3 · closing night — Monét X Change 7:00 PM (Bluma Appel Theatre); Joel Kim Booster 9:30 PM (Randolph Theatre); Best of the Fest 10:00 PM (Comedy Bar)
-- **Where:** Downtown venues — Bluma Appel Theatre, Randolph Theatre, Comedy Bar and more
-- **Cost:** Tickets vary by show
-- **Info:** The Just For Laughs festival (Sep 24–Oct 3) wraps up Saturday night: drag star Monét X Change, Joel Kim Booster and the "Best of the Fest" showcase all play downtown venues on the final evening.
-- **Tags:** comedy, festival, closing night
-- **Link:** [Just For Laughs Toronto](https://toronto.hahaha.com/en/)
+- **When:** Sunday Oct 18 · marathon & half marathon start 8:00 AM; Saturday Oct 17 · 5K starts 9:00 AM (race expo Saturday 10:00 AM–6:00 PM)
+- **Where:** Downtown course — start line on Yonge St north of Gerrard; free to watch along the route
+- **Cost:** Free to watch; race entry varies
+- **Info:** One of Canada's biggest marathon weekends fills downtown streets with runners and crowds — catch the marathon and half marathon from the sidewalks Sunday morning (or Saturday's 5K); expect rolling road closures along the course.
+- **Tags:** running, city event, free to watch, downtown
+- **Link:** [TCS Toronto Waterfront Marathon race weekend](https://www.torontowaterfrontmarathon.com/race-weekend/#schedule)
