@@ -3,7 +3,7 @@ title: Toronto Weekend
 weekend: 2026-10-17
 dates: Saturday Oct 17 – Sunday Oct 18
 updated: 2026-10-13
-weather_saturday: "11°C / 4°C · Overcast, 4% chance of rain"
+weather_saturday: "10°C / 3°C · Overcast, 2% chance of rain"
 weather_sunday: "17°C / 7°C · Partly cloudy, 1% chance of rain"
 source: Mirvish, COC, TSO, Fall for Dance North, AGO, ROM, Songkick, Cask Days, Fever / Open-Meteo
 ---
