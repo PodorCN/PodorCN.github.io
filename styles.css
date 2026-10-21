@@ -465,6 +465,16 @@ a {
   background: var(--cream-alt);
 }
 
+/* Bay Street Updates sits at the top of the Market Tracker section, sharing its tinted grid */
+.full-feature-strip.in-tracker {
+  padding-bottom: 0;
+  border-bottom: none;
+  background:
+    linear-gradient(90deg, rgba(17, 19, 24, 0.04) 1px, transparent 1px) 0 0 / 48px 48px,
+    linear-gradient(0deg, rgba(17, 19, 24, 0.04) 1px, transparent 1px) 0 0 / 48px 48px,
+    var(--cream-alt);
+}
+
 .feature-banner-card {
   display: grid;
   grid-template-columns: auto 1fr auto;
@@ -537,6 +547,11 @@ a {
 
 .watcher-grid-wrap.cols-4 {
   grid-template-columns: repeat(4, 1fr);
+}
+
+/* Market Tracker titles are long, so its four cards go 2×2 until there is room for one row */
+@media (min-width: 1101px) and (max-width: 1440px) {
+  .watcher-grid-wrap.tracker-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 .watcher-grid-wrap.tinted {
