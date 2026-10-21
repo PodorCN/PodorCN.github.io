@@ -3,8 +3,8 @@ title: Toronto Weekend
 weekend: 2026-10-24
 dates: Saturday Oct 24 – Sunday Oct 25
 updated: 2026-10-20
-weather_saturday: "14°C / 9°C · Overcast, 0% chance of rain"
-weather_sunday: "18°C / 11°C · Overcast, 1% chance of rain"
+weather_saturday: "13°C / 9°C · Overcast, 0% chance of rain"
+weather_sunday: "17°C / 9°C · Overcast, 1% chance of rain"
 source: Mirvish, Songkick, Opera Atelier, Harbourfront Centre, AGO, ROM, City of Toronto, Casa Loma, Clay and Paper Theatre / Open-Meteo
 ---
 
