@@ -7,10 +7,10 @@
     "discount": "$55",
     "item": "ASICS GEL-SEKIRAN White / Pure Silver",
     "date": "2026-10-23T01:45:00+00:00",
-    "votes": 56,
-    "posts": 39,
+    "votes": 57,
+    "posts": 42,
     "giftCard": false,
-    "heat": 56
+    "heat": 57
   },
   {
     "title": "Crocs Baya Clog $22.49",
@@ -20,36 +20,23 @@
     "discount": "$22.49",
     "item": "Baya Clog",
     "date": "2026-10-23T18:52:32+00:00",
-    "votes": 36,
-    "posts": 20,
-    "giftCard": false,
-    "heat": 36
-  },
-  {
-    "title": "50% off BILLY bookcase, 80x28x202 cm, white Oct 24&25 (50th anniversary in-store door crashers)",
-    "href": "https://forums.redflagdeals.com/ikea-50-off-billy-bookcase-80x28x202-cm-white-oct-24-25-50th-anniversary-store-door-crashers-2829846/",
-    "dealer": "IKEA",
-    "brand": "IKEA",
-    "discount": "50% off",
-    "item": "BILLY bookcase, 80x28x202 cm, white Oct 24&25 50th anniversary in-store door crashers",
-    "date": "2026-10-22T21:59:48+00:00",
-    "votes": 32,
+    "votes": 56,
     "posts": 25,
     "giftCard": false,
-    "heat": 32
+    "heat": 56
   },
   {
-    "title": "Fluid Film Rust Prevention Can 333g 11.97$",
-    "href": "https://forums.redflagdeals.com/home-hardware-fluid-film-rust-prevention-can-333g-11-97-2829843/",
-    "dealer": "Home Hardware",
-    "brand": "Home Hardware",
-    "discount": "",
-    "item": "Fluid Film Rust Prevention Can 333g 11.97$",
-    "date": "2026-10-22T20:29:19+00:00",
-    "votes": 30,
-    "posts": 24,
+    "title": "Razer Kishi V2 Mobile Gaming Controller 65% OFF (49.96 reg $144.99)",
+    "href": "https://forums.redflagdeals.com/staples-razer-kishi-v2-mobile-gaming-controller-65-off-49-96-reg-144-99-2829951/",
+    "dealer": "Staples",
+    "brand": "Staples",
+    "discount": "65% OFF",
+    "item": "Razer Kishi V2 Mobile Gaming Controller 49.96 reg $144.99",
+    "date": "2026-10-24T00:26:07+00:00",
+    "votes": 18,
+    "posts": 13,
     "giftCard": false,
-    "heat": 30
+    "heat": 18
   },
   {
     "title": "CRAFTSMAN Hi-Vis Tape Measure 8M/26-Ft (Pack of 2) $15.98 (48% off)",
@@ -65,6 +52,19 @@
     "heat": 18
   },
   {
+    "title": "Metro (Ontario) XL PIZZA $11.99 (skip the dishes) Oct 22-28",
+    "href": "https://forums.redflagdeals.com/metro-ontario-xl-pizza-11-99-skip-dishes-oct-22-28-2829904/",
+    "dealer": "Retailer Unlisted",
+    "brand": "Retailer Unlisted",
+    "discount": "$11.99",
+    "item": "Metro Ontario XL PIZZA skip the dishes Oct 22-28",
+    "date": "2026-10-23T14:09:57+00:00",
+    "votes": 16,
+    "posts": 6,
+    "giftCard": false,
+    "heat": 16
+  },
+  {
     "title": "Adidas - Extra 30% off purchases (app only, works on sale items), Ultrarun 5 running shoes $38",
     "href": "https://forums.redflagdeals.com/adidas-adidas-extra-30-off-purchases-app-only-works-sale-items-ultrarun-5-running-shoes-38-2829855/",
     "dealer": "adidas",
@@ -72,10 +72,10 @@
     "discount": "30% off",
     "item": "Extra purchases app only, works on sale items, Ultrarun 5 running shoes $38",
     "date": "2026-10-23T00:33:27+00:00",
-    "votes": 15,
-    "posts": 17,
+    "votes": 16,
+    "posts": 18,
     "giftCard": false,
-    "heat": 15
+    "heat": 16
   },
   {
     "title": "Extra 7c off per litre (up to 50L Oct 23 - Oct 29) - [Targeted]",
@@ -85,23 +85,10 @@
     "discount": "",
     "item": "Extra 7c off per litre up to 50L Oct 23 - Oct 29 - [Targeted]",
     "date": "2026-10-23T14:51:10+00:00",
-    "votes": 14,
-    "posts": 14,
+    "votes": 15,
+    "posts": 17,
     "giftCard": false,
-    "heat": 14
-  },
-  {
-    "title": "Metro (Ontario) XL PIZZA $11.99 (skip the dishes) Oct 22-28",
-    "href": "https://forums.redflagdeals.com/metro-ontario-xl-pizza-11-99-skip-dishes-oct-22-28-2829904/",
-    "dealer": "Retailer Unlisted",
-    "brand": "Retailer Unlisted",
-    "discount": "$11.99",
-    "item": "Metro Ontario XL PIZZA skip the dishes Oct 22-28",
-    "date": "2026-10-23T14:09:57+00:00",
-    "votes": 14,
-    "posts": 6,
-    "giftCard": false,
-    "heat": 14
+    "heat": 15
   },
   {
     "title": "Get 51% off on Typhur Rechargeable Milk Frother+Free Shipping",
@@ -112,7 +99,7 @@
     "item": "Get on Typhur Rechargeable Milk Frother+Free Shipping",
     "date": "2026-10-23T18:57:44+00:00",
     "votes": 10,
-    "posts": 12,
+    "posts": 13,
     "giftCard": false,
     "heat": 10
   },
@@ -125,22 +112,9 @@
     "item": "[ON/East] Montana's Soup 540 ml reg. $3.50 + 1,000 PCO points",
     "date": "2026-10-23T11:15:24+00:00",
     "votes": 8,
-    "posts": 10,
+    "posts": 11,
     "giftCard": false,
     "heat": 8
-  },
-  {
-    "title": "Samuelsohn Montreal Warehouse Sale until Oct 25th, men's suits and jackets",
-    "href": "https://forums.redflagdeals.com/samuelsohn-samuelsohn-montreal-warehouse-sale-until-oct-25th-mens-suits-jackets-2829831/",
-    "dealer": "Samuelsohn",
-    "brand": "Samuelsohn",
-    "discount": "",
-    "item": "Montreal Warehouse Sale until Oct 25th, men's suits and jackets",
-    "date": "2026-10-22T19:18:28+00:00",
-    "votes": 7,
-    "posts": 4,
-    "giftCard": false,
-    "heat": 7
   },
   {
     "title": "Collect $25 Bonus Money with qualifying purchase - Targeted?",
@@ -154,5 +128,31 @@
     "posts": 10,
     "giftCard": false,
     "heat": 6
+  },
+  {
+    "title": "(Ontario) Broccolini or Rapini $2",
+    "href": "https://forums.redflagdeals.com/loblaws-ontario-broccolini-rapini-2-2829930/",
+    "dealer": "Loblaws",
+    "brand": "Loblaws",
+    "discount": "$2",
+    "item": "Ontario Broccolini or Rapini",
+    "date": "2026-10-23T20:17:25+00:00",
+    "votes": 4,
+    "posts": 4,
+    "giftCard": false,
+    "heat": 4
+  },
+  {
+    "title": "Acer Aspire Lite 16\" Laptop - (Intel Core 7 150U/16GB RAM/512GB SSD/Windows 11) $899.99 was $1299.99",
+    "href": "https://forums.redflagdeals.com/best-buy-acer-aspire-lite-16-laptop-intel-core-7-150u-16gb-ram-512gb-ssd-windows-11-899-99-1299-99-2829943/",
+    "dealer": "Best Buy",
+    "brand": "Best Buy",
+    "discount": "$899.99 was",
+    "item": "Acer Aspire Lite 16\" Laptop - Intel Core 7 150U/16GB RAM/512GB SSD/Windows 11 $1299.99",
+    "date": "2026-10-23T23:09:44+00:00",
+    "votes": 3,
+    "posts": 1,
+    "giftCard": false,
+    "heat": 3
   }
 ]
