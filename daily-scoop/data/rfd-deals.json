@@ -1,18 +1,5 @@
 [
   {
-    "title": "ASICS GEL-SEKIRAN White / Pure Silver - $55",
-    "href": "https://forums.redflagdeals.com/jd-sports-asics-gel-sekiran-white-pure-silver-55-2829863/",
-    "dealer": "JD Sports",
-    "brand": "JD Sports",
-    "discount": "$55",
-    "item": "ASICS GEL-SEKIRAN White / Pure Silver",
-    "date": "2026-10-23T01:45:00+00:00",
-    "votes": 57,
-    "posts": 42,
-    "giftCard": false,
-    "heat": 57
-  },
-  {
     "title": "Crocs Baya Clog $22.49",
     "href": "https://forums.redflagdeals.com/crocs-crocs-baya-clog-22-49-2829922/",
     "dealer": "Crocs",
@@ -20,10 +7,23 @@
     "discount": "$22.49",
     "item": "Baya Clog",
     "date": "2026-10-23T18:52:32+00:00",
-    "votes": 56,
-    "posts": 25,
+    "votes": 73,
+    "posts": 36,
     "giftCard": false,
-    "heat": 56
+    "heat": 73
+  },
+  {
+    "title": "Free Game from Epic - \"Mafia Hotel\"",
+    "href": "https://forums.redflagdeals.com/epic-games-free-game-epic-mafia-hotel-2830006/",
+    "dealer": "Epic Games",
+    "brand": "Epic Games",
+    "discount": "Free",
+    "item": "Game from Epic - \"Mafia Hotel\"",
+    "date": "2026-10-24T19:19:28+00:00",
+    "votes": 26,
+    "posts": 3,
+    "giftCard": false,
+    "heat": 26
   },
   {
     "title": "Razer Kishi V2 Mobile Gaming Controller 65% OFF (49.96 reg $144.99)",
@@ -33,10 +33,23 @@
     "discount": "65% OFF",
     "item": "Razer Kishi V2 Mobile Gaming Controller 49.96 reg $144.99",
     "date": "2026-10-24T00:26:07+00:00",
-    "votes": 18,
-    "posts": 13,
+    "votes": 23,
+    "posts": 26,
     "giftCard": false,
-    "heat": 18
+    "heat": 23
+  },
+  {
+    "title": "Metro (Ontario) XL PIZZA $11.99 (skip the dishes) Oct 22-28",
+    "href": "https://forums.redflagdeals.com/metro-ontario-xl-pizza-11-99-skip-dishes-oct-22-28-2829904/",
+    "dealer": "Retailer Unlisted",
+    "brand": "Retailer Unlisted",
+    "discount": "$11.99",
+    "item": "Metro Ontario XL PIZZA skip the dishes Oct 22-28",
+    "date": "2026-10-23T14:09:57+00:00",
+    "votes": 20,
+    "posts": 12,
+    "giftCard": false,
+    "heat": 20
   },
   {
     "title": "CRAFTSMAN Hi-Vis Tape Measure 8M/26-Ft (Pack of 2) $15.98 (48% off)",
@@ -47,35 +60,9 @@
     "item": "CRAFTSMAN Hi-Vis Tape Measure 8M/26-Ft Pack of 2 $15.98",
     "date": "2026-10-23T13:28:56+00:00",
     "votes": 18,
-    "posts": 7,
+    "posts": 8,
     "giftCard": false,
     "heat": 18
-  },
-  {
-    "title": "Metro (Ontario) XL PIZZA $11.99 (skip the dishes) Oct 22-28",
-    "href": "https://forums.redflagdeals.com/metro-ontario-xl-pizza-11-99-skip-dishes-oct-22-28-2829904/",
-    "dealer": "Retailer Unlisted",
-    "brand": "Retailer Unlisted",
-    "discount": "$11.99",
-    "item": "Metro Ontario XL PIZZA skip the dishes Oct 22-28",
-    "date": "2026-10-23T14:09:57+00:00",
-    "votes": 16,
-    "posts": 6,
-    "giftCard": false,
-    "heat": 16
-  },
-  {
-    "title": "Adidas - Extra 30% off purchases (app only, works on sale items), Ultrarun 5 running shoes $38",
-    "href": "https://forums.redflagdeals.com/adidas-adidas-extra-30-off-purchases-app-only-works-sale-items-ultrarun-5-running-shoes-38-2829855/",
-    "dealer": "adidas",
-    "brand": "adidas",
-    "discount": "30% off",
-    "item": "Extra purchases app only, works on sale items, Ultrarun 5 running shoes $38",
-    "date": "2026-10-23T00:33:27+00:00",
-    "votes": 16,
-    "posts": 18,
-    "giftCard": false,
-    "heat": 16
   },
   {
     "title": "Extra 7c off per litre (up to 50L Oct 23 - Oct 29) - [Targeted]",
@@ -85,10 +72,10 @@
     "discount": "",
     "item": "Extra 7c off per litre up to 50L Oct 23 - Oct 29 - [Targeted]",
     "date": "2026-10-23T14:51:10+00:00",
-    "votes": 15,
+    "votes": 17,
     "posts": 17,
     "giftCard": false,
-    "heat": 15
+    "heat": 17
   },
   {
     "title": "Get 51% off on Typhur Rechargeable Milk Frother+Free Shipping",
@@ -98,10 +85,10 @@
     "discount": "51% off",
     "item": "Get on Typhur Rechargeable Milk Frother+Free Shipping",
     "date": "2026-10-23T18:57:44+00:00",
-    "votes": 10,
-    "posts": 13,
+    "votes": 12,
+    "posts": 14,
     "giftCard": false,
-    "heat": 10
+    "heat": 12
   },
   {
     "title": "[ON/East] Montana's Soup 540 ml $2.00 (reg. $3.50) + 1,000 PCO points",
@@ -111,48 +98,61 @@
     "discount": "$2.00",
     "item": "[ON/East] Montana's Soup 540 ml reg. $3.50 + 1,000 PCO points",
     "date": "2026-10-23T11:15:24+00:00",
+    "votes": 11,
+    "posts": 13,
+    "giftCard": false,
+    "heat": 11
+  },
+  {
+    "title": "Detroit: Become Human (PS4 Digital Download) for $7.49",
+    "href": "https://forums.redflagdeals.com/playstation-store-detroit-become-human-ps4-digital-download-7-49-2829997/",
+    "dealer": "PlayStation Store",
+    "brand": "PlayStation Store",
+    "discount": "$7.49",
+    "item": "Detroit - Become Human PS4 Digital Download for",
+    "date": "2026-10-24T16:45:26+00:00",
+    "votes": 10,
+    "posts": 3,
+    "giftCard": false,
+    "heat": 10
+  },
+  {
+    "title": "Pekkle Infant Organic Cotton Sleeper (3-pack) x2 for $40",
+    "href": "https://forums.redflagdeals.com/costco-ca-pekkle-infant-organic-cotton-sleeper-3-pack-x2-40-2830011/",
+    "dealer": "Costco.ca",
+    "brand": "Costco.ca",
+    "discount": "$40",
+    "item": "Pekkle Infant Organic Cotton Sleeper 3-pack x2 for",
+    "date": "2026-10-24T20:57:56+00:00",
     "votes": 8,
-    "posts": 11,
+    "posts": 3,
     "giftCard": false,
     "heat": 8
   },
   {
-    "title": "Collect $25 Bonus Money with qualifying purchase - Targeted?",
-    "href": "https://forums.redflagdeals.com/canadian-tire-collect-25-bonus-money-qualifying-purchase-targeted-2829861/",
-    "dealer": "Canadian Tire",
-    "brand": "Canadian Tire",
-    "discount": "$25",
-    "item": "Collect Bonus Money with qualifying purchase - Targeted?",
-    "date": "2026-10-23T01:18:09+00:00",
+    "title": "New Balance FuelCell Rebel v5 White/Grey - $70",
+    "href": "https://forums.redflagdeals.com/jd-sports-new-balance-fuelcell-rebel-v5-white-grey-70-2830005/",
+    "dealer": "JD Sports",
+    "brand": "JD Sports",
+    "discount": "$70",
+    "item": "New Balance FuelCell Rebel v5 White/Grey",
+    "date": "2026-10-24T19:13:51+00:00",
+    "votes": 8,
+    "posts": 8,
+    "giftCard": false,
+    "heat": 8
+  },
+  {
+    "title": "10 pk Ultra-Plush 350 gsm Edgeless Towels $7.09",
+    "href": "https://forums.redflagdeals.com/princess-auto-10-pk-ultra-plush-350-gsm-edgeless-towels-7-09-2830016/",
+    "dealer": "Princess Auto",
+    "brand": "Princess Auto",
+    "discount": "$7.09",
+    "item": "10 pk Ultra-Plush 350 gsm Edgeless Towels",
+    "date": "2026-10-24T23:13:03+00:00",
     "votes": 6,
-    "posts": 10,
+    "posts": 5,
     "giftCard": false,
     "heat": 6
-  },
-  {
-    "title": "(Ontario) Broccolini or Rapini $2",
-    "href": "https://forums.redflagdeals.com/loblaws-ontario-broccolini-rapini-2-2829930/",
-    "dealer": "Loblaws",
-    "brand": "Loblaws",
-    "discount": "$2",
-    "item": "Ontario Broccolini or Rapini",
-    "date": "2026-10-23T20:17:25+00:00",
-    "votes": 4,
-    "posts": 4,
-    "giftCard": false,
-    "heat": 4
-  },
-  {
-    "title": "Acer Aspire Lite 16\" Laptop - (Intel Core 7 150U/16GB RAM/512GB SSD/Windows 11) $899.99 was $1299.99",
-    "href": "https://forums.redflagdeals.com/best-buy-acer-aspire-lite-16-laptop-intel-core-7-150u-16gb-ram-512gb-ssd-windows-11-899-99-1299-99-2829943/",
-    "dealer": "Best Buy",
-    "brand": "Best Buy",
-    "discount": "$899.99 was",
-    "item": "Acer Aspire Lite 16\" Laptop - Intel Core 7 150U/16GB RAM/512GB SSD/Windows 11 $1299.99",
-    "date": "2026-10-23T23:09:44+00:00",
-    "votes": 3,
-    "posts": 1,
-    "giftCard": false,
-    "heat": 3
   }
 ]
