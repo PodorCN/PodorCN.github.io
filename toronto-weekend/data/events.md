@@ -3,8 +3,8 @@ title: Toronto Weekend
 weekend: 2026-10-31
 dates: Saturday Oct 31 – Sunday Nov 1
 updated: 2026-10-27
-weather_saturday: 13°C / 7°C · Overcast, 0% chance of rain
-weather_sunday: 13°C / 10°C · Overcast, 2% chance of rain
+weather_saturday: 11°C / 2°C · Overcast, 1% chance of rain
+weather_sunday: 14°C / 8°C · Overcast, 1% chance of rain
 source: Mirvish, National Ballet of Canada, Massey Hall, Songkick, AGO, ROM, Art Toronto, Halloween on Church, Casa Loma, Day of the Dead Toronto, TIFA / Open-Meteo
 ---
 
