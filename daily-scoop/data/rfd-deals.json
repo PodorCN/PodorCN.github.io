@@ -1,31 +1,5 @@
 [
   {
-    "title": "Gift Card Sale",
-    "href": "https://forums.redflagdeals.com/esso-hotels-com-starbucks-uber-gift-card-sale-2830648/",
-    "dealer": "Esso/Hotels.com/Starbucks/Uber",
-    "brand": "Esso/Hotels.com/Starbucks/Uber",
-    "discount": "",
-    "item": "Gift Card Sale",
-    "date": "2026-10-31T18:55:18+00:00",
-    "votes": 40,
-    "posts": 44,
-    "giftCard": true,
-    "heat": 90
-  },
-  {
-    "title": "Free Ryobi 18V ONE+ tool with $148 Battery Starter Kit - 2.0Ah + 4.0Ah + charger kit for $76.59",
-    "href": "https://forums.redflagdeals.com/home-depot-free-ryobi-18v-one-tool-148-battery-starter-kit-2-0ah-4-0ah-charger-kit-76-59-2830678/",
-    "dealer": "Home Depot",
-    "brand": "Home Depot",
-    "discount": "Free",
-    "item": "Ryobi 18V ONE+ tool with $148 Battery Starter Kit - 2.0Ah + 4.0Ah + charger kit for $76.59",
-    "date": "2026-11-01T04:51:56+00:00",
-    "votes": 53,
-    "posts": 15,
-    "giftCard": false,
-    "heat": 53
-  },
-  {
     "title": "[Newegg] Nintendo eShop $100 Digital Gift Card - $87.50 ($12.50 off w/ promo code CBNWF62)",
     "href": "https://forums.redflagdeals.com/newegg-newegg-nintendo-eshop-100-digital-gift-card-87-50-12-50-off-w-promo-code-cbnwf62-2830738/",
     "dealer": "Newegg",
@@ -33,10 +7,10 @@
     "discount": "$100",
     "item": "[Newegg] Nintendo eShop Digital Gift Card - $87.50 $12.50 off w/ promo code CBNWF62",
     "date": "2026-11-01T23:44:09+00:00",
-    "votes": 0,
-    "posts": 4,
+    "votes": 4,
+    "posts": 6,
     "giftCard": true,
-    "heat": 50
+    "heat": 54
   },
   {
     "title": "Cineplex Holiday Gift Bundle",
@@ -46,10 +20,10 @@
     "discount": "",
     "item": "Holiday Gift Bundle",
     "date": "2026-11-01T18:50:50+00:00",
-    "votes": 29,
-    "posts": 33,
+    "votes": 45,
+    "posts": 42,
     "giftCard": false,
-    "heat": 29
+    "heat": 45
   },
   {
     "title": "Glorious Gaming Compact Keyboard Wrist Rests [black] - Padded/Smooth Cloth @ $8.99 / White Ash Wood @ $9.99",
@@ -59,23 +33,10 @@
     "discount": "$8.99",
     "item": "Glorious Gaming Compact Keyboard Wrist Rests [black] - Padded/Smooth Cloth @ / White Ash Wood @ $9.99",
     "date": "2026-11-01T15:54:36+00:00",
-    "votes": 28,
-    "posts": 10,
+    "votes": 32,
+    "posts": 12,
     "giftCard": false,
-    "heat": 28
-  },
-  {
-    "title": "HOT! Edifier QD35 Tabletop Bluetooth Speaker - $72.80 (Reg $279.99) --- OOS",
-    "href": "https://forums.redflagdeals.com/edifier-ca-hot-edifier-qd35-tabletop-bluetooth-speaker-72-80-reg-279-99-oos-2830672/",
-    "dealer": "Edifier.ca",
-    "brand": "Edifier.ca",
-    "discount": "$72.80",
-    "item": "HOT! Edifier QD35 Tabletop Bluetooth Speaker - Reg $279.99 --- OOS",
-    "date": "2026-11-01T03:15:48+00:00",
-    "votes": 24,
-    "posts": 21,
-    "giftCard": false,
-    "heat": 24
+    "heat": 32
   },
   {
     "title": "Halloween Costumes - Up to 70% off",
@@ -86,22 +47,9 @@
     "item": "Halloween Costumes - Up to",
     "date": "2026-11-01T11:29:12+00:00",
     "votes": 22,
-    "posts": 7,
+    "posts": 8,
     "giftCard": false,
     "heat": 22
-  },
-  {
-    "title": "Milwaukee Tool M12 Cordless 3/8 Inch Ratchet Kit",
-    "href": "https://forums.redflagdeals.com/home-depot-milwaukee-tool-m12-cordless-3-8-inch-ratchet-kit-2830666/",
-    "dealer": "Home Depot",
-    "brand": "Home Depot",
-    "discount": "",
-    "item": "Milwaukee Tool M12 Cordless 3/8 Inch Ratchet Kit",
-    "date": "2026-11-01T01:29:23+00:00",
-    "votes": 18,
-    "posts": 21,
-    "giftCard": false,
-    "heat": 18
   },
   {
     "title": "[Shell] Scene+ - Up to 750 points with 2-3 fills of 30L+ (Nov 1-30) - YMMY",
@@ -111,34 +59,73 @@
     "discount": "750 points",
     "item": "[Shell] Scene+ - Up to with 2-3 fills of 30L+ Nov 1-30 - YMMY",
     "date": "2026-11-01T09:44:33+00:00",
+    "votes": 19,
+    "posts": 10,
+    "giftCard": false,
+    "heat": 19
+  },
+  {
+    "title": "Heartbeat Hot Sauce 177mL - $5.99 (Reg. $12.99) @ London Drugs (In Store)",
+    "href": "https://forums.redflagdeals.com/london-drugs-heartbeat-hot-sauce-177ml-5-99-reg-12-99-london-drugs-store-2830726/",
+    "dealer": "London Drugs",
+    "brand": "London Drugs",
+    "discount": "$5.99",
+    "item": "Heartbeat Hot Sauce 177mL - Reg. $12.99 @ London Drugs In Store",
+    "date": "2026-11-01T19:20:01+00:00",
     "votes": 16,
-    "posts": 9,
+    "posts": 6,
     "giftCard": false,
     "heat": 16
   },
   {
-    "title": "Dell XPS 13 9380 13.3\" Touch Intel Core i7-8565U 16GB 512GB Windows 11 Pro $343.20",
-    "href": "https://forums.redflagdeals.com/refurbio-dell-xps-13-9380-13-3-touch-intel-core-i7-8565u-16gb-512gb-windows-11-pro-343-20-2830720/",
-    "dealer": "Refurbio",
-    "brand": "Refurbio",
-    "discount": "$343.20",
-    "item": "Dell XPS 13 9380 13.3\" Touch Intel Core i7-8565U 16GB 512GB Windows 11 Pro",
-    "date": "2026-11-01T19:00:09+00:00",
+    "title": "Saucony Endorphin Azura Running Shoes CODE XTRA20 ($104)",
+    "href": "https://forums.redflagdeals.com/champs-sports-saucony-endorphin-azura-running-shoes-code-xtra20-104-2830747/",
+    "dealer": "Champs Sports",
+    "brand": "Champs Sports",
+    "discount": "$104",
+    "item": "Saucony Endorphin Azura Running Shoes CODE XTRA20",
+    "date": "2026-11-02T01:39:35+00:00",
     "votes": 13,
-    "posts": 12,
+    "posts": 6,
     "giftCard": false,
     "heat": 13
   },
   {
-    "title": "Costco.ca Fridge \"$300 OFF IN CART ON STAINLESS STEEL ONLY\"",
-    "href": "https://forums.redflagdeals.com/costco-costco-ca-fridge-300-off-cart-stainless-steel-only-2830642/",
+    "title": "Adidas Adizero EVO SL Woven Running Shoes CODE XTRA20 ($80)",
+    "href": "https://forums.redflagdeals.com/champs-sports-adidas-adizero-evo-sl-woven-running-shoes-code-xtra20-80-2830746/",
+    "dealer": "Champs Sports",
+    "brand": "Champs Sports",
+    "discount": "$80",
+    "item": "Adidas Adizero EVO SL Woven Running Shoes CODE XTRA20",
+    "date": "2026-11-02T01:39:00+00:00",
+    "votes": 12,
+    "posts": 2,
+    "giftCard": false,
+    "heat": 12
+  },
+  {
+    "title": "15% Off All Milwaukee",
+    "href": "https://forums.redflagdeals.com/kms-tools-15-off-all-milwaukee-2830716/",
+    "dealer": "KMS Tools",
+    "brand": "KMS Tools",
+    "discount": "15% Off",
+    "item": "All Milwaukee",
+    "date": "2026-11-01T17:46:30+00:00",
+    "votes": 12,
+    "posts": 9,
+    "giftCard": false,
+    "heat": 12
+  },
+  {
+    "title": "Featured Savings in the Warehouse",
+    "href": "https://forums.redflagdeals.com/costco-featured-savings-warehouse-2830782/",
     "dealer": "Costco",
     "brand": "Costco",
-    "discount": "$300 OFF",
-    "item": ".ca Fridge \" IN CART ON STAINLESS STEEL ONLY\"",
-    "date": "2026-10-31T17:56:08+00:00",
+    "discount": "",
+    "item": "Featured Savings in the Warehouse",
+    "date": "2026-11-02T11:48:33+00:00",
     "votes": 11,
-    "posts": 6,
+    "posts": 3,
     "giftCard": false,
     "heat": 11
   },
@@ -154,5 +141,18 @@
     "posts": 1,
     "giftCard": false,
     "heat": 10
+  },
+  {
+    "title": "Marshall Emberton III Bluetooth Wireless Speaker - Vintage Black $129.99",
+    "href": "https://forums.redflagdeals.com/best-buy-marshall-emberton-iii-bluetooth-wireless-speaker-vintage-black-129-99-2830703/",
+    "dealer": "Best Buy",
+    "brand": "Best Buy",
+    "discount": "$129.99",
+    "item": "Marshall Emberton III Bluetooth Wireless Speaker - Vintage Black",
+    "date": "2026-11-01T15:51:01+00:00",
+    "votes": 9,
+    "posts": 3,
+    "giftCard": false,
+    "heat": 9
   }
 ]
