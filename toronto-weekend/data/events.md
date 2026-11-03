@@ -2,10 +2,10 @@
 title: Toronto Weekend
 weekend: 2026-11-07
 dates: Saturday Nov 7 – Sunday Nov 8
-updated: 2026-11-02
-weather_saturday: 11°C / 7°C · Overcast, 26% chance of rain
-weather_sunday: 10°C / 6°C · Overcast, 9% chance of rain
-source: Mirvish, National Ballet of Canada, TO Live, TSO, AGO, ROM, The Royal, Fever / Open-Meteo
+updated: 2026-11-03
+weather_saturday: 10°C / 6°C · Light drizzle, 32% chance of rain
+weather_sunday: 13°C / 6°C · Partly cloudy, 9% chance of rain
+source: Mirvish, National Ballet of Canada, TO Live, TSO, AGO, ROM, The Royal, Fever, Gerrard India Bazaar / Open-Meteo
 ---
 
 ## Concerts, Musicals & Arts Exhibitions
@@ -33,7 +33,7 @@ source: Mirvish, National Ballet of Canada, TO Live, TSO, AGO, ROM, The Royal, F
 - **When:** Saturday Nov 7 · 2:00 PM and 7:30 PM; Sunday Nov 8 · 2:00 PM
 - **Where:** CAA Theatre, 651 Yonge St
 - **Cost:** Ticket prices vary
-- **Info:** Toronto performer Noam Tomaschoff writes and stars in the true story of finding out he has more than 35 siblings around the world — a Fringe hit that went on to Edinburgh and Montreal, now a full production directed by Broadway's Adam Pascal. 85 minutes, no intermission; recommended for ages 12+.
+- **Info:** Toronto performer Noam Tomaschoff's true story of discovering he has more than 35 siblings around the world — a sold-out 2023 Fringe hit that went on to Edinburgh and Montreal, now a full production directed by Broadway's Adam Pascal. 85 minutes, no intermission; ages 12+.
 - **Tags:** musical, comedy, off-mirvish, indoor
 - **Link:** [Our Little Secret at Mirvish](https://www.mirvish.com/shows/our-little-secret-a-true-new-musical)
 
@@ -42,7 +42,7 @@ source: Mirvish, National Ballet of Canada, TO Live, TSO, AGO, ROM, The Royal, F
 - **When:** Saturday Nov 7 · 8:00 PM
 - **Where:** Meridian Hall, 1 Front St E
 - **Cost:** $60–$125 plus fees
-- **Info:** The official family-produced tribute, led by Adam Cohen and joined onstage for the first time by Leonard's grandson, with Feist, Rufus Wainwright and Serena Ryder. Archival photography and film with visuals by Moment Factory; this is the closing night of the Canadian run. 120 minutes.
+- **Info:** The official family-produced tribute, led by Adam Cohen and joined onstage for the first time by Leonard's grandson, with Feist, Rufus Wainwright and Serena Ryder. Archival photography and film with visuals by Moment Factory; this is the last of the three Canadian dates. 120 minutes.
 - **Tags:** concert, tribute, folk, meridian hall, indoor
 - **Link:** [Everybody Knows Leonard Cohen at TO Live](https://tolive.com/Event-Details-Page/reference/Leonard-Cohen-2026)
 
@@ -67,7 +67,7 @@ source: Mirvish, National Ballet of Canada, TO Live, TSO, AGO, ROM, The Royal, F
 ### ROM — Psychedelics: Art. Culture. Science.
 - **Day:** Saturday / Sunday
 - **When:** Saturday Nov 7 & Sunday Nov 8 · 10:00 AM–5:30 PM
-- **Where:** Royal Ontario Museum, 100 Queen's Park (Level 4, Roloff Beny Gallery)
+- **Where:** Royal Ontario Museum, 100 Queen's Park (Roloff Beny Gallery)
 - **Cost:** General admission plus a $9 special exhibition surcharge; free for Members
 - **Info:** The ROM's big fall exhibition examines psychedelics through art, objects, botanical specimens and interactive experiences, and is pitched at adults. Until Jan 3, 2027.
 - **Tags:** rom, exhibition, science, indoor
@@ -80,9 +80,18 @@ source: Mirvish, National Ballet of Canada, TO Live, TSO, AGO, ROM, The Royal, F
 - **When:** Saturday Nov 7 · 9:00 AM–8:00 PM; Sunday Nov 8 · 9:00 AM–6:00 PM (runs Nov 6–15)
 - **Where:** Exhibition Place — Enercare Centre and Coca-Cola Coliseum, 100 Princes' Blvd
 - **Cost:** General admission tickets online; Royal Horse Show tickets sold separately
-- **Info:** The 104th Royal fills a million square feet: Royal Rodeos at 11:00 AM and 2:00 PM, the K9-Equine Challenge, the butter-sculpture trailer, a Made By Me artisan pavilion and Ontario's best local food, alongside the international horse show. Easiest by the 509 Harbourfront or 511 Bathurst streetcar, or the GO train to Exhibition.
+- **Info:** The 104th Royal pairs the international horse show with the butter-sculpture trailer, the Made By Me artisan pavilion and Ontario food and agriculture across the Enercare Centre. Saturday's Horse Show has a 1:30 PM family matinee and a 7:00 PM Red & White Night; Sunday's is at 1:30 PM.
 - **Tags:** fair, food, agriculture, equestrian, family, indoor
 - **Link:** [The Royal Agricultural Winter Fair](https://www.royalfair.org/attractions/)
+
+### Diwali Mela: Festival of Lights
+- **Day:** Saturday
+- **When:** Saturday Nov 7 · 6:00 PM–10:00 PM
+- **Where:** Gerrard India Bazaar, Gerrard St E between Coxwell and Greenwood
+- **Cost:** Free
+- **Info:** The BIA's annual outdoor Diwali party along Little India — live DJ, dancing, sparklers, sweets and sidewalk sales, with the neighbourhood's restaurants and sweet shops open late.
+- **Tags:** festival, diwali, food, free, outdoor
+- **Link:** [Diwali Mela at Gerrard India Bazaar](https://gerrardindiabazaar.com/diwali-at-gerrard-india-bazaar/)
 
 ### Candlelight: Vivaldi's Four Seasons
 - **Day:** Saturday
