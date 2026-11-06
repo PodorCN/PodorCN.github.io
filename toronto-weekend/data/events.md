@@ -3,8 +3,8 @@ title: Toronto Weekend
 weekend: 2026-11-07
 dates: Saturday Nov 7 – Sunday Nov 8
 updated: 2026-11-03
-weather_saturday: 11°C / 9°C · Light rain, 69% chance of rain
-weather_sunday: 14°C / 6°C · Overcast, 8% chance of rain
+weather_saturday: 9°C / 4°C · Light rain, 35% chance of rain
+weather_sunday: 14°C / 9°C · Overcast, 20% chance of rain
 source: Mirvish, National Ballet of Canada, TO Live, TSO, AGO, ROM, The Royal, Fever, Gerrard India Bazaar / Open-Meteo
 ---
 
