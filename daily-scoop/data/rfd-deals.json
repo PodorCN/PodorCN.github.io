@@ -7,10 +7,10 @@
     "discount": "$25",
     "item": "Latest coupons November 4 to December 13 also 4x gift cards $79.99 at Costco",
     "date": "2026-11-09T22:25:47+00:00",
-    "votes": 2,
+    "votes": 3,
     "posts": 6,
     "giftCard": true,
-    "heat": 52
+    "heat": 53
   },
   {
     "title": "Dollarama Deals (Nov 9, 2026)",
@@ -20,10 +20,10 @@
     "discount": "",
     "item": "Deals Nov 9, 2026",
     "date": "2026-11-09T19:11:00+00:00",
-    "votes": 31,
+    "votes": 42,
     "posts": 11,
     "giftCard": false,
-    "heat": 31
+    "heat": 42
   },
   {
     "title": "MSI PRO 27\" WQHD 144Hz 1ms GTG IPS LED Gaming Monitor (PRO MP273Q E14D) - 2 Pack - $239.99",
@@ -33,10 +33,10 @@
     "discount": "$239.99",
     "item": "MSI PRO 27\" WQHD 144Hz 1ms GTG IPS LED Gaming Monitor PRO MP273Q E14D - 2 Pack",
     "date": "2026-11-09T16:06:51+00:00",
-    "votes": 26,
-    "posts": 11,
+    "votes": 33,
+    "posts": 13,
     "giftCard": false,
-    "heat": 26
+    "heat": 33
   },
   {
     "title": "[Costco East] (Sherbooke + Candiac + Pointe-Claire) Nov 9th to Nov 15th, 2026",
@@ -46,23 +46,10 @@
     "discount": "",
     "item": "[Costco East] Sherbooke + Candiac + Pointe-Claire Nov 9th to Nov 15th, 2026",
     "date": "2026-11-10T00:28:53+00:00",
-    "votes": 14,
-    "posts": 9,
+    "votes": 32,
+    "posts": 13,
     "giftCard": false,
-    "heat": 14
-  },
-  {
-    "title": "Level Ground medium roast coffe beans, \"Peru\" - 2x 2lbs/900g - $53.99",
-    "href": "https://forums.redflagdeals.com/costco-level-ground-medium-roast-coffe-beans-peru-2x-2lbs-900g-53-99-2831554/",
-    "dealer": "Costco",
-    "brand": "Costco",
-    "discount": "$53.99",
-    "item": "Level Ground medium roast coffe beans, \"Peru\" - 2x 2lbs/900g",
-    "date": "2026-11-09T21:46:09+00:00",
-    "votes": 12,
-    "posts": 26,
-    "giftCard": false,
-    "heat": 12
+    "heat": 32
   },
   {
     "title": "Two pack of Acer 27.0 in. QHD Monitor $239.99",
@@ -72,8 +59,47 @@
     "discount": "$239.99",
     "item": "Two pack of Acer 27.0 in. QHD Monitor",
     "date": "2026-11-10T00:31:33+00:00",
+    "votes": 24,
+    "posts": 11,
+    "giftCard": false,
+    "heat": 24
+  },
+  {
+    "title": "Level Ground medium roast coffe beans, \"Peru\" - 2x 2lbs/900g - $53.99",
+    "href": "https://forums.redflagdeals.com/costco-level-ground-medium-roast-coffe-beans-peru-2x-2lbs-900g-53-99-2831554/",
+    "dealer": "Costco",
+    "brand": "Costco",
+    "discount": "$53.99",
+    "item": "Level Ground medium roast coffe beans, \"Peru\" - 2x 2lbs/900g",
+    "date": "2026-11-09T21:46:09+00:00",
+    "votes": 20,
+    "posts": 35,
+    "giftCard": false,
+    "heat": 20
+  },
+  {
+    "title": "Amazon Blink Outdoor XR+ module, Camera and Doorbell - 56.99$ ATL",
+    "href": "https://forums.redflagdeals.com/amazon-ca-amazon-blink-outdoor-xr-module-camera-doorbell-56-99-atl-2831518/",
+    "dealer": "Amazon.ca",
+    "brand": "Amazon.ca",
+    "discount": "",
+    "item": "Amazon Blink Outdoor XR+ module, Camera and Doorbell - 56.99$ ATL",
+    "date": "2026-11-09T16:24:25+00:00",
+    "votes": 13,
+    "posts": 27,
+    "giftCard": false,
+    "heat": 13
+  },
+  {
+    "title": "Costco Scarborough/GTA Photo Report for Nov 9th - Nov 15th 2026",
+    "href": "https://forums.redflagdeals.com/costco-costco-scarborough-gta-photo-report-nov-9th-nov-15th-2026-2831569/",
+    "dealer": "Costco",
+    "brand": "Costco",
+    "discount": "",
+    "item": "Scarborough/GTA Photo Report for Nov 9th - Nov 15th 2026",
+    "date": "2026-11-09T23:45:53+00:00",
     "votes": 11,
-    "posts": 4,
+    "posts": 7,
     "giftCard": false,
     "heat": 11
   },
@@ -85,23 +111,10 @@
     "discount": "$3.00",
     "item": "No Name Windshield Washer Fluid -35°C 3.78L for PCO Members reg. $5.50 November 12-14",
     "date": "2026-11-09T18:58:23+00:00",
-    "votes": 10,
-    "posts": 1,
+    "votes": 11,
+    "posts": 2,
     "giftCard": false,
-    "heat": 10
-  },
-  {
-    "title": "Amazon Blink Outdoor XR+ module, Camera and Doorbell - 56.99$ ATL",
-    "href": "https://forums.redflagdeals.com/amazon-ca-amazon-blink-outdoor-xr-module-camera-doorbell-56-99-atl-2831518/",
-    "dealer": "Amazon.ca",
-    "brand": "Amazon.ca",
-    "discount": "",
-    "item": "Amazon Blink Outdoor XR+ module, Camera and Doorbell - 56.99$ ATL",
-    "date": "2026-11-09T16:24:25+00:00",
-    "votes": 8,
-    "posts": 21,
-    "giftCard": false,
-    "heat": 8
+    "heat": 11
   },
   {
     "title": "Computer speakers- $7.11",
@@ -111,48 +124,35 @@
     "discount": "$7.11",
     "item": "Computer speakers",
     "date": "2026-11-09T17:10:05+00:00",
-    "votes": 7,
+    "votes": 10,
     "posts": 2,
     "giftCard": false,
-    "heat": 7
+    "heat": 10
   },
   {
-    "title": "George Men's Graphic Hoodie - $7",
-    "href": "https://forums.redflagdeals.com/walmart-george-mens-graphic-hoodie-7-2831498/",
-    "dealer": "Walmart",
-    "brand": "Walmart",
-    "discount": "$7",
-    "item": "George Men's Graphic Hoodie",
-    "date": "2026-11-09T13:55:02+00:00",
-    "votes": 7,
-    "posts": 12,
-    "giftCard": false,
-    "heat": 7
-  },
-  {
-    "title": "Free Shrimp and Chips dine in for active and retired military Remembrance Day Wednesday November 11",
-    "href": "https://forums.redflagdeals.com/red-lobster-free-shrimp-chips-dine-active-retired-military-remembrance-day-wednesday-november-11-2831496/",
-    "dealer": "Red Lobster",
-    "brand": "Red Lobster",
-    "discount": "Free",
-    "item": "Shrimp and Chips dine in for active and retired military Remembrance Day Wednesday November 11",
-    "date": "2026-11-09T13:20:24+00:00",
+    "title": "Caffe Cimo Azzurro Dark Espresso Whole Coffee Beans, 2 x 2 kg",
+    "href": "https://forums.redflagdeals.com/costco-caffe-cimo-azzurro-dark-espresso-whole-coffee-beans-2-x-2-kg-2831568/",
+    "dealer": "Costco",
+    "brand": "Costco",
+    "discount": "",
+    "item": "Caffe Cimo Azzurro Dark Espresso Whole Coffee Beans, 2 x 2 kg",
+    "date": "2026-11-09T23:40:38+00:00",
     "votes": 6,
-    "posts": 10,
+    "posts": 7,
     "giftCard": false,
     "heat": 6
   },
   {
-    "title": "5x blue rewards Thursday November 12-15",
-    "href": "https://forums.redflagdeals.com/blue-rewards-5x-blue-rewards-thursday-november-12-15-2831546/",
-    "dealer": "Blue Rewards",
-    "brand": "Blue Rewards",
-    "discount": "",
-    "item": "5x blue rewards Thursday November 12-15",
-    "date": "2026-11-09T20:16:42+00:00",
-    "votes": 5,
+    "title": "Triangle Rewards Bonus Day November 12 - 20x (8%) bonus CT money on 150$+",
+    "href": "https://forums.redflagdeals.com/canadian-tire-triangle-rewards-bonus-day-november-12-20x-8-bonus-ct-money-150-2831550/",
+    "dealer": "Canadian Tire",
+    "brand": "Canadian Tire",
+    "discount": "8%",
+    "item": "Triangle Rewards Bonus Day November 12 - 20x bonus CT money on 150$+",
+    "date": "2026-11-09T21:12:10+00:00",
+    "votes": 6,
     "posts": 3,
     "giftCard": false,
-    "heat": 5
+    "heat": 6
   }
 ]
