@@ -3,8 +3,8 @@ title: Toronto Weekend
 weekend: 2026-11-14
 dates: Saturday Nov 14 – Sunday Nov 15
 updated: 2026-11-10
-weather_saturday: 7°C / 1°C · Overcast, 7% chance of rain
-weather_sunday: 7°C / 5°C · Overcast, 2% chance of rain
+weather_saturday: 7°C / 0°C · Overcast, 17% chance of rain
+weather_sunday: 7°C / 4°C · Overcast, 2% chance of rain
 source: Mirvish, National Ballet of Canada, TSO, AGO, ROM, The Royal, Distillery Winter Village, Toronto Burlesque Festival / Open-Meteo
 ---
 
