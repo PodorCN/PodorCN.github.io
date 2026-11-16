@@ -549,11 +549,6 @@ a {
   grid-template-columns: repeat(4, 1fr);
 }
 
-/* Market Tracker titles are long, so its four cards go 2×2 until there is room for one row */
-@media (min-width: 1101px) and (max-width: 1440px) {
-  .watcher-grid-wrap.tracker-grid { grid-template-columns: repeat(2, 1fr); }
-}
-
 .watcher-grid-wrap.tinted {
   background:
     linear-gradient(90deg, rgba(17, 19, 24, 0.04) 1px, transparent 1px) 0 0 / 48px 48px,
@@ -579,6 +574,9 @@ a {
 .watcher-card:nth-child(2), .repo-card:nth-child(2) { background: #FFF3DC; }
 .watcher-card:nth-child(3), .repo-card:nth-child(3) { background: #FFE8E3; }
 .watcher-card:nth-child(4), .repo-card:nth-child(4) { background: #E2F7F3; }
+
+.tracker-grid .watcher-card:nth-child(5) { background: #E9EEFF; }
+.tracker-grid .watcher-card:nth-child(6) { background: #FFF3DC; }
 
 .watcher-grid-wrap.alt-colors .watcher-card:nth-child(1) { background: #E2F7F3; }
 .watcher-grid-wrap.alt-colors .watcher-card:nth-child(2) { background: #FFF3DC; }
@@ -722,11 +720,13 @@ a {
   .dock-item { border-bottom: var(--border-thick); }
   .market-strip { grid-template-columns: repeat(2, 1fr); }
   .watcher-grid-wrap, .watcher-grid-wrap.cols-4 { grid-template-columns: 1fr; }
+  .watcher-grid-wrap.tracker-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .feature-banner-card { grid-template-columns: 1fr; }
   .site-footer { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 640px) {
+  .watcher-grid-wrap.tracker-grid { grid-template-columns: 1fr; }
   .market-strip, .section-dock-4, .section-dock-5 { grid-template-columns: 1fr; }
   .dock-item { border-right: none; }
   .site-header { grid-template-columns: 1fr; }
