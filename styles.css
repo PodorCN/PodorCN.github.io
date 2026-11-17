@@ -577,6 +577,8 @@ a {
 
 .tracker-grid .watcher-card:nth-child(5) { background: #E9EEFF; }
 .tracker-grid .watcher-card:nth-child(6) { background: #FFF3DC; }
+.tracker-grid .watcher-card:nth-child(7) { background: #FFE8E3; }
+.tracker-grid .watcher-card:nth-child(8) { background: #E2F7F3; }
 
 .watcher-grid-wrap.alt-colors .watcher-card:nth-child(1) { background: #E2F7F3; }
 .watcher-grid-wrap.alt-colors .watcher-card:nth-child(2) { background: #FFF3DC; }
