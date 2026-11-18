@@ -3,8 +3,8 @@ title: Toronto Weekend
 weekend: 2026-11-21
 dates: Saturday Nov 21 – Sunday Nov 22
 updated: 2026-11-17
-weather_saturday: 13°C / 8°C · Overcast, 3% chance of rain
-weather_sunday: 14°C / 9°C · Overcast, 25% chance of rain
+weather_saturday: 12°C / 8°C · Clear sky, 2% chance of rain
+weather_sunday: 13°C / 9°C · Moderate drizzle, 25% chance of rain
 source: Ticketmaster, Mirvish, Shaw Festival at Harbourfront, TSO, AGO, ROM, The Original Santa Claus Parade, Harbourfront Centre, Distillery Winter Village, EUFF / Open-Meteo
 ---
 
