@@ -7,10 +7,10 @@
     "discount": "$20",
     "item": "Petro Canada - Car wash discount and bonus washes on Wash & Go gift cards",
     "date": "2026-11-21T20:42:10+00:00",
-    "votes": 8,
-    "posts": 23,
+    "votes": 11,
+    "posts": 25,
     "giftCard": true,
-    "heat": 58
+    "heat": 61
   },
   {
     "title": "RBC Avion Rewards Gift Cards - Save up to 25% on gift cards redemption",
@@ -20,10 +20,23 @@
     "discount": "25%",
     "item": "RBC Avion Rewards Gift Cards - Save up to on gift cards redemption",
     "date": "2026-11-22T01:32:54+00:00",
-    "votes": 4,
-    "posts": 2,
+    "votes": 5,
+    "posts": 4,
     "giftCard": true,
-    "heat": 54
+    "heat": 55
+  },
+  {
+    "title": "Earn 50,000 to 60,000 PC Optimum Points When You Spend $60 on Dove Products",
+    "href": "https://forums.redflagdeals.com/shoppers-drug-mart-earn-50-000-60-000-pc-optimum-points-when-you-spend-60-dove-products-2833334/",
+    "dealer": "Shoppers Drug Mart",
+    "brand": "Shoppers Drug Mart",
+    "discount": "$60",
+    "item": "Earn 50,000 to 60,000 PC Optimum Points When You Spend on Dove Products",
+    "date": "2026-11-21T22:07:25+00:00",
+    "votes": 51,
+    "posts": 34,
+    "giftCard": false,
+    "heat": 51
   },
   {
     "title": "Playdium gift card holiday bonus (buy $50 and get coupons for use in January and February 2027)",
@@ -39,19 +52,6 @@
     "heat": 50
   },
   {
-    "title": "Earn 50,000 to 60,000 PC Optimum Points When You Spend $60 on Dove Products",
-    "href": "https://forums.redflagdeals.com/shoppers-drug-mart-earn-50-000-60-000-pc-optimum-points-when-you-spend-60-dove-products-2833334/",
-    "dealer": "Shoppers Drug Mart",
-    "brand": "Shoppers Drug Mart",
-    "discount": "$60",
-    "item": "Earn 50,000 to 60,000 PC Optimum Points When You Spend on Dove Products",
-    "date": "2026-11-21T22:07:25+00:00",
-    "votes": 36,
-    "posts": 32,
-    "giftCard": false,
-    "heat": 36
-  },
-  {
     "title": "Dewalt 26 pc 1/2\" Drive, Metric Deep Impact Socket Set in Foam Tray - $80",
     "href": "https://forums.redflagdeals.com/princess-auto-dewalt-26-pc-1-2-drive-metric-deep-impact-socket-set-foam-tray-80-2833316/",
     "dealer": "Princess Auto",
@@ -59,10 +59,62 @@
     "discount": "$80",
     "item": "Dewalt 26 pc 1/2\" Drive, Metric Deep Impact Socket Set in Foam Tray",
     "date": "2026-11-21T19:14:32+00:00",
-    "votes": 16,
-    "posts": 7,
+    "votes": 22,
+    "posts": 14,
     "giftCard": false,
-    "heat": 16
+    "heat": 22
+  },
+  {
+    "title": "Freedom Mobile - In store only - CA$20 per month for 6 Months - 5G Canada US 25GB per month",
+    "href": "https://forums.redflagdeals.com/freedom-mobile-freedom-mobile-store-only-ca-20-per-month-6-months-5g-canada-us-25gb-per-month-2833367/",
+    "dealer": "Freedom Mobile",
+    "brand": "Freedom Mobile",
+    "discount": "$20",
+    "item": "In store only - CA per month for 6 Months - 5G Canada US 25GB per month",
+    "date": "2026-11-22T06:05:01+00:00",
+    "votes": 20,
+    "posts": 17,
+    "giftCard": false,
+    "heat": 20
+  },
+  {
+    "title": "Greenworks 40V 20-Inch Brushless Cordless Snow Blower battery included $289",
+    "href": "https://forums.redflagdeals.com/amazon-com-greenworks-40v-20-inch-brushless-cordless-snow-blower-battery-included-289-2833364/",
+    "dealer": "Amazon.com",
+    "brand": "Amazon.com",
+    "discount": "$289",
+    "item": "Greenworks 40V 20-Inch Brushless Cordless Snow Blower battery included",
+    "date": "2026-11-22T05:06:44+00:00",
+    "votes": 12,
+    "posts": 17,
+    "giftCard": false,
+    "heat": 12
+  },
+  {
+    "title": "Apple ipad Air 11\" 128GB $679 (reg. $999), 13\" 128GB $979 (reg. $1299) Starts online Nov. 25th at 9pm EST",
+    "href": "https://forums.redflagdeals.com/walmart-apple-ipad-air-11-128gb-679-reg-999-13-128gb-979-reg-1299-starts-online-nov-25th-9pm-est-2833374/",
+    "dealer": "Walmart",
+    "brand": "Walmart",
+    "discount": "$679",
+    "item": "Apple ipad Air 11\" 128GB reg. $999, 13\" 128GB $979 reg. $1299 Starts online Nov. 25th at 9pm EST",
+    "date": "2026-11-22T11:00:15+00:00",
+    "votes": 10,
+    "posts": 5,
+    "giftCard": false,
+    "heat": 10
+  },
+  {
+    "title": "Panasonic ES-LV67 5-Blade shaver $150-$175",
+    "href": "https://forums.redflagdeals.com/panasonic-canada-panasonic-es-lv67-5-blade-shaver-150-175-2833333/",
+    "dealer": "Panasonic Canada",
+    "brand": "Panasonic Canada",
+    "discount": "$150",
+    "item": "Panasonic ES-LV67 5-Blade shaver -$175",
+    "date": "2026-11-21T21:58:13+00:00",
+    "votes": 10,
+    "posts": 8,
+    "giftCard": false,
+    "heat": 10
   },
   {
     "title": "BaBylissPRO FoilFX Cord Cordless Metal Double Foil Shaver Black [93.30]",
@@ -91,19 +143,6 @@
     "heat": 6
   },
   {
-    "title": "Asus RT-BE92U WiFi 7 Router w/ 6GHz $269.99",
-    "href": "https://forums.redflagdeals.com/amazon-ca-asus-rt-be92u-wifi-7-router-w-6ghz-269-99-2833327/",
-    "dealer": "Amazon.ca",
-    "brand": "Amazon.ca",
-    "discount": "$269.99",
-    "item": "Asus RT-BE92U WiFi 7 Router w/ 6GHz",
-    "date": "2026-11-21T20:11:31+00:00",
-    "votes": 6,
-    "posts": 5,
-    "giftCard": false,
-    "heat": 6
-  },
-  {
     "title": "Samsung ViewFinity S80UD 37\" 4K UHD 60Hz VA Monitor with KVM Switch, HDR10, USB Type-C (90W), $390 (Was $750)",
     "href": "https://forums.redflagdeals.com/newegg-samsung-viewfinity-s80ud-37-4k-uhd-60hz-va-monitor-kvm-switch-hdr10-usb-type-c-90w-390-750-2833322/",
     "dealer": "Newegg",
@@ -112,47 +151,8 @@
     "item": "Samsung ViewFinity S80UD 37\" 4K UHD 60Hz VA Monitor with KVM Switch, HDR10, USB Type-C 90W, Was $750",
     "date": "2026-11-21T19:46:56+00:00",
     "votes": 6,
-    "posts": 5,
+    "posts": 6,
     "giftCard": false,
     "heat": 6
-  },
-  {
-    "title": "BOSCH 4-1/2 Inch Angle Grinder GWS8-45 $41.96",
-    "href": "https://forums.redflagdeals.com/amazon-ca-bosch-4-1-2-inch-angle-grinder-gws8-45-41-96-2833324/",
-    "dealer": "Amazon.ca",
-    "brand": "Amazon.ca",
-    "discount": "$41.96",
-    "item": "BOSCH 4-1/2 Inch Angle Grinder GWS8-45",
-    "date": "2026-11-21T20:01:02+00:00",
-    "votes": 5,
-    "posts": 1,
-    "giftCard": false,
-    "heat": 5
-  },
-  {
-    "title": "Vitamix 5200",
-    "href": "https://forums.redflagdeals.com/amazon-ca-vitamix-5200-2833304/",
-    "dealer": "Amazon.ca",
-    "brand": "Amazon.ca",
-    "discount": "",
-    "item": "Vitamix 5200",
-    "date": "2026-11-21T17:29:53+00:00",
-    "votes": 5,
-    "posts": 5,
-    "giftCard": false,
-    "heat": 5
-  },
-  {
-    "title": "Panasonic ES-LV67 5-Blade shaver $150-$175",
-    "href": "https://forums.redflagdeals.com/panasonic-canada-panasonic-es-lv67-5-blade-shaver-150-175-2833333/",
-    "dealer": "Panasonic Canada",
-    "brand": "Panasonic Canada",
-    "discount": "$150",
-    "item": "Panasonic ES-LV67 5-Blade shaver -$175",
-    "date": "2026-11-21T21:58:13+00:00",
-    "votes": 4,
-    "posts": 4,
-    "giftCard": false,
-    "heat": 4
   }
 ]
