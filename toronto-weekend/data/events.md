@@ -1,121 +1,121 @@
 ---
 title: Toronto Weekend
-weekend: 2026-11-21
-dates: Saturday Nov 21 – Sunday Nov 22
-updated: 2026-11-17
-weather_saturday: 9°C / 3°C · Fog, 0% chance of rain
-weather_sunday: 13°C / 8°C · Fog, 4% chance of rain
-source: Ticketmaster, Mirvish, Shaw Festival at Harbourfront, TSO, AGO, ROM, The Original Santa Claus Parade, Harbourfront Centre, Distillery Winter Village, EUFF / Open-Meteo
+weekend: 2026-11-28
+dates: Saturday Nov 28 – Sunday Nov 29
+updated: 2026-11-23
+weather_saturday: 8°C / 2°C · Light drizzle, 36% chance of rain
+weather_sunday: 7°C / 5°C · Light drizzle, 23% chance of rain
+source: Ticketmaster, Live Nation, Mirvish, Harbourfront Centre, TSO, AGO, ROM, TO Live, City of Toronto, One of a Kind, Distillery Winter Village / Open-Meteo
 ---
 
 ## Concerts, Musicals & Arts Exhibitions
 
-### Ele Yan: Moment 2026 World Tour
-- **Day:** Saturday
-- **When:** Saturday Nov 21 · doors 7:00 PM, show 8:00 PM
-- **Where:** The Theatre, Great Canadian Casino Resort Toronto, 1133 Queens Plate Dr
-- **Cost:** Tickets via Ticketmaster
-- **Info:** One of the biggest voices in Chinese-language pop — more than 10 billion streams across the major platforms — brings the MOMENT tour's overseas leg to Toronto after 35 shows in 22 mainland cities. The seven-city run also hits Melbourne, Sydney, London, Los Angeles, New York and Vancouver. All ages.
-- **Tags:** concert, mandopop, indoor
-- **Link:** [Ele Yan: Moment 2026 World Tour – Toronto](https://greatcanadian.com/event/ele-yan/)
-
-### Our Little Secret: A True New Musical
+### Dirty Dancing: The Musical
 - **Day:** Saturday / Sunday
-- **When:** Saturday Nov 21 · 2:00 PM and 7:30 PM; Sunday Nov 22 · 2:00 PM
-- **Where:** CAA Theatre, 651 Yonge St
-- **Cost:** Ticket prices vary
-- **Info:** Closing weekend for the Off-Mirvish run (Nov 3–22). Toronto performer Noam Tomaschoff wrote and stars in the true story of discovering he has more than 35 siblings around the world — a Fringe Patron's Pick and Best of Fringe winner in 2023 that went on to Edinburgh and Montreal, now directed by Broadway's Adam Pascal. 85 minutes, no intermission; ages 12+.
-- **Tags:** musical, comedy, true story, indoor
-- **Link:** [Our Little Secret at Mirvish](https://www.mirvish.com/shows/our-little-secret-a-true-new-musical)
-
-### Dr. Seuss' How the Grinch Stole Christmas! The Musical
-- **Day:** Saturday / Sunday
-- **When:** Saturday Nov 21 · 2:00 PM (7:30 PM sold out); Sunday Nov 22 · 2:00 PM
+- **When:** Saturday Nov 28 · 2:00 PM (sold out) and 7:30 PM; Sunday Nov 29 · 2:00 PM
 - **Where:** CAA Ed Mirvish Theatre, 244 Victoria St
-- **Cost:** Ticket prices vary; Saturday evening is sold out
-- **Info:** Closing weekend — the short Nov 10–22 run ends Sunday, and the Saturday matinee is the last pair of seats together. Max the Dog narrates the Broadway holiday staging, with sets and costumes drawn from Dr. Seuss's original illustrations. 85 minutes, no intermission.
-- **Tags:** musical, holiday, family, indoor
-- **Link:** [How the Grinch Stole Christmas at Mirvish](https://www.mirvish.com/shows/dr-seuss-how-the-grinch-stole-christmas-the-musical)
+- **Cost:** Ticket prices vary; the Saturday matinee is sold out
+- **Info:** The North American tour of the stage version of the 1987 film settles into its Toronto run (Nov 24 – Jan 10), and this is its first weekend. The Kellerman's story comes with the film's songs — "(I've Had) The Time of My Life", "Hungry Eyes", "Do You Love Me?" — and a dance-heavy finale. 2 hours 30 minutes including intermission; recommended ages 12+, with haze, strobe and loud thunder effects.
+- **Tags:** musical, dance, indoor
+- **Link:** [Dirty Dancing at Mirvish](https://www.mirvish.com/shows/dirty-dancing)
 
 ### Operation Mincemeat: A New Musical
 - **Day:** Saturday / Sunday
-- **When:** Saturday Nov 21 · 2:00 PM and 7:30 PM; Sunday Nov 22 · 2:00 PM
+- **When:** Saturday Nov 28 · 2:00 PM and 7:30 PM; Sunday Nov 29 · 2:00 PM
 - **Where:** Royal Alexandra Theatre, 260 King St W
 - **Cost:** Ticket prices vary
-- **Info:** The Olivier winner for Best New Musical and a 2025 Tony winner, in its Canadian premiere through Dec 13. The true Second World War caper — a stolen corpse, a fake love letter and Ian Fleming — told as a fast five-person ensemble piece. 2 hours 35 minutes including intermission.
+- **Info:** The Olivier winner for Best New Musical and a 2025 Tony winner, in its Canadian premiere through Dec 13. The true Second World War caper — a stolen corpse, a fake love letter and Ian Fleming — told as a fast five-person ensemble piece. 2 hours 35 minutes including intermission; recommended ages 5+.
 - **Tags:** musical, comedy, canadian premiere, indoor
 - **Link:** [Operation Mincemeat at Mirvish](https://www.mirvish.com/shows/operation-mincemeat-a-new-musical)
 
 ### A Christmas Carol — Shaw Festival at Harbourfront
 - **Day:** Saturday / Sunday
-- **When:** Saturday Nov 21 · 2:00 PM and 7:30 PM; Sunday Nov 22 · 2:00 PM
+- **When:** Saturday Nov 28 · 2:00 PM and 7:30 PM; Sunday Nov 29 · 2:00 PM
 - **Where:** The Fleck at Harbourfront Centre Theatre, 231 Queens Quay W
 - **Cost:** Single tickets from $50
-- **Info:** The Shaw Festival brings Tim Carroll's staging to the waterfront: towering ghosts that fill the stage, inventive puppetry, traditional carols and sing-along audience participation, with performers mingling through the theatre. 1 hour 45 minutes including a 20-minute intermission; recommended ages 4+. Runs Nov 12 – Dec 23.
+- **Info:** Tim Carroll's adaptation, running Nov 12 – Dec 23: towering ghosts that fill the stage, inventive puppetry, traditional carols and sing-along audience participation, with performers mingling through the theatre. 1 hour 45 minutes including a 20-minute intermission; recommended ages 4+.
 - **Tags:** theatre, holiday, family, indoor
 - **Link:** [A Christmas Carol at Harbourfront](https://harbourfrontcentre.com/event/a-christmas-carol/)
 
-### TSO — Mendelssohn's Scottish
+### TSO — James Ehnes Plays Tchaikovsky
 - **Day:** Saturday / Sunday
-- **When:** Saturday Nov 21 · 7:30 PM; Sunday Nov 22 · 3:00 PM
-- **Where:** Roy Thomson Hall, 60 Simcoe St (Sat); George Weston Recital Hall, 5040 Yonge St (Sun)
+- **When:** Saturday Nov 28 · 7:30 PM; Sunday Nov 29 · 3:00 PM (pre-concert Chamber Soloists at 1:45 PM)
+- **Where:** Roy Thomson Hall, 60 Simcoe St
 - **Cost:** Ticket prices vary
-- **Info:** French violinist Renaud Capuçon both plays and conducts: Charlotte Sohy's rarely heard Thème varié, Schumann's Violin Concerto — left unperformed for more than 80 years after his death — and Mendelssohn's Third, the "Scottish". Note the Sunday matinee moves out of Roy Thomson Hall to George Weston Recital Hall in North York.
+- **Info:** James Ehnes marks his 50th birthday with Tchaikovsky's Violin Concerto, on a program that opens with Guillaume Connesson's Maslenitsa in its Canadian premiere and closes with Saint-Saëns's "Organ Symphony", played on Roy Thomson Hall's Gabriel Kney organ by Rachel Mahon. Stéphane Denève conducts.
 - **Tags:** orchestra, classical, indoor
-- **Link:** [Mendelssohn's Scottish at the TSO](https://www.tso.ca/concerts-and-events/events/mendelssohns-scottish)
+- **Link:** [James Ehnes Plays Tchaikovsky at the TSO](https://www.tso.ca/concerts-and-events/events/james-ehnes-plays-tchaikovsky)
 
-### AGO — Sunday Best: The Power & The Glory of Black Style
-- **Day:** Saturday / Sunday
-- **When:** Saturday Nov 21 & Sunday Nov 22 · 10:30 AM–5:30 PM
-- **Where:** Art Gallery of Ontario, 317 Dundas St W (Level 5)
-- **Cost:** Adult $30; $40 Annual Pass for unlimited visits; free for Ontarians under 25
-- **Info:** A world premiere in Toronto before the show travels to the Philadelphia Museum of Art — style and self-fashioning in Black diasporic communities from the 1880s to today, in fashion, photographs, ephemera and film, across a full floor. Until Feb 28, 2027.
-- **Tags:** ago, fashion, exhibition, indoor
-- **Link:** [Sunday Best at the AGO](https://ago.ca/exhibitions/sunday-best-power-glory-black-style)
+### Tyson Yoshi: The Villain
+- **Day:** Sunday
+- **When:** Sunday Nov 29 · doors 6:30 PM, show 7:30 PM
+- **Where:** The Danforth Music Hall, 147 Danforth Ave
+- **Cost:** From $75; VIP $150
+- **Info:** The Hong Kong singer-songwriter and rapper brings The Villain tour to Toronto for a Sunday-night stop — Cantopop and Hong Kong hip-hop in a 1919 theatre turned concert hall. All ages.
+- **Tags:** concert, cantopop, hip-hop, indoor
+- **Link:** [Tyson Yoshi at Live Nation](https://www.livenation.com/event/1A8ZkfyGke06z_S/tyson-yoshi)
 
-### ROM — Wildlife Photographer of the Year 2026
+### Indiana Jones and the Raiders of the Lost Ark — Live in Concert
+- **Day:** Saturday
+- **When:** Saturday Nov 28 · 2:00 PM
+- **Where:** Meridian Hall, 1 Front St E
+- **Cost:** From $69.50
+- **Info:** John Williams's score performed live to the film, on the second of two performances (Nov 27 and 28). Raiders gets the full orchestral treatment — the boulder, the truck chase and the Ark, with the music in the room instead of on the speakers.
+- **Tags:** film, orchestra, indoor
+- **Link:** [Raiders of the Lost Ark in Concert](https://www.glatzconcerts.com/indiana-jones-in-concert-toronto)
+
+### AGO — Danh Vo: Ships that pass in the night
 - **Day:** Saturday / Sunday
-- **When:** Saturday Nov 21 & Sunday Nov 22 · 10:00 AM–5:30 PM
-- **Where:** Royal Ontario Museum, 100 Queen's Park (Level 4, Patricia Harris Gallery)
-- **Cost:** General admission plus a $9 special exhibition surcharge; free for Members
-- **Info:** The Natural History Museum's annual competition, 2026 edition, running Nov 7 – Feb 28. Around 100 selected frames, from a jaguar cub in Brazil's Pantanal to under-ice views and microscopic life, hung in a deliberately dark gallery built for slow looking.
-- **Tags:** rom, photography, exhibition, indoor
-- **Link:** [Wildlife Photographer of the Year at ROM](https://www.rom.on.ca/whats-on/exhibitions/wildlife-photographer-year-2026)
+- **When:** Saturday Nov 28 & Sunday Nov 29 · 10:30 AM–5:30 PM (members' preview); public opening Tuesday Dec 1
+- **Where:** Art Gallery of Ontario, 317 Dundas St W (Level 2, Galleria Italia)
+- **Cost:** Included with admission; the preview is open to Admirer-level members and up
+- **Info:** Danh Vo fills Galleria Italia with marble, bronze and ceramic fragments from different centuries alongside new work — plant cuttings in fish bones, mushrooms sprouting from bronze — in galleries that evoke the hold of a ship. Vo represented Denmark at the 2015 Venice Biennale and won the Hugo Boss Prize in 2012. He speaks with critic Tom McDonough in Baillie Court on Saturday at 2 PM ($15 public, $13 Annual Pass, $10 members).
+- **Tags:** ago, exhibition, sculpture, indoor
+- **Link:** [Danh Vo at the AGO](https://ago.ca/exhibitions/danh-vo)
+
+### ROM — Psychedelics: Art. Culture. Science.
+- **Day:** Saturday / Sunday
+- **When:** Saturday Nov 28 & Sunday Nov 29 · 10:00 AM–5:30 PM
+- **Where:** Royal Ontario Museum, 100 Queen's Park (Level 4, Roloff Beny Gallery)
+- **Cost:** $9 special exhibition surcharge on admission; free for Members
+- **Info:** The ROM's featured exhibition, running to Jan 3: a research-driven look at what psychedelics have meant across cultures and what the science says now, through artworks, objects, botanical specimens and interactive experiences. Recommended for adults.
+- **Tags:** rom, exhibition, science, indoor
+- **Link:** [Psychedelics at ROM](https://www.rom.on.ca/whats-on/exhibitions/psychedelics-art-culture-science)
 
 ## Food, Festivals & Special Experiences
 
-### The Original Santa Claus Parade
-- **Day:** Sunday
-- **When:** Sunday Nov 22 · 12:30 PM start
-- **Where:** Starts at Christie Pits (Christie St & Bloor St W), then east on Bloor St W, south on Yonge St, west on Queen St W, south on University Ave and east on Front St to St. Lawrence Market
+### Cavalcade of Lights — Opening Night
+- **Day:** Saturday
+- **When:** Saturday Nov 28 · 6:00–11:00 PM (tree-lighting countdown at 6:30 PM)
+- **Where:** Nathan Phillips Square, 100 Queen St W
 - **Cost:** Free
-- **Info:** The 122nd edition. Santa's Treats & Twinkles zone at Christie Pits opens at 10:00 AM, and Santa's Magic Zone at Sankofa Square opens at 11:00 AM. The route runs roughly 7 km past the ROM, the Eaton Centre and Union Station before finishing at St. Lawrence Market; Citytv broadcasts from 2:00 PM.
-- **Tags:** parade, holiday, free, outdoor
-- **Link:** [The Original Santa Claus Parade](https://www.thesantaclausparade.com/the-parade)
+- **Info:** The city's holiday season switches on: more than 300,000 LED lights, about 200 illuminated stars, and the lighting of Toronto's official Christmas tree, with the program running to Jan 7. Opening night brings free public skating, drop-in lantern workshops with Shadowland Theatre, stilt walkers and a fire show from Hala Circus Arts, main-stage sets from Semiah and Ammoye, and figure-skating turns from Canada's Drag Race's Star Doll and Carmen Sutra.
+- **Tags:** festival, holiday, free, outdoor
+- **Link:** [Cavalcade of Lights](https://www.toronto.ca/explore-enjoy/festivals-events/cavalcade-of-lights)
+
+### One of a Kind Christmas Show
+- **Day:** Saturday / Sunday
+- **When:** Saturday Nov 28 · 10:00 AM–8:00 PM; Sunday Nov 29 · 10:00 AM–5:00 PM
+- **Where:** Enercare Centre, Exhibition Place, 100 Princes' Blvd
+- **Cost:** Adult $23 online ($25.50 at the door); children 12 and under free
+- **Info:** The Christmas edition of the country's big craft and design fair, Nov 27 – Dec 6: hundreds of Canadian makers across ceramics, jewellery, textiles, wood and food, with new exhibitors mixed in each year. Good for one-off gifts you can't get on a shelf, and a short walk from the Exhibition GO stop.
+- **Tags:** market, craft, holiday, indoor
+- **Link:** [One of a Kind Christmas Show](https://oneofakindshow.com/home/)
 
 ### The Distillery Winter Village
 - **Day:** Saturday / Sunday
-- **When:** Saturday Nov 21 · 10:00 AM–10:00 PM (tickets required 4:00–10:00 PM); Sunday Nov 22 · 10:00 AM–9:00 PM (tickets required 4:00–9:00 PM)
+- **When:** Saturday Nov 28 · 10:00 AM–10:00 PM (tickets required 4:00–10:00 PM); Sunday Nov 29 · 10:00 AM–9:00 PM (tickets required 4:00–9:00 PM)
 - **Where:** Distillery Historic District, 55 Mill St
-- **Cost:** $19.89 including service fee and HST after 4 PM; free before 4 PM; ages 9 and under free
-- **Info:** Toronto's big Christmas market, back for Nov 12 – Jan 3: thousands of lights over the cobblestones, Canada's most photographed Christmas tree, Santa and elves (1–9 PM Saturday, 1–8 PM Sunday), carollers, and cabins of local vendors open 11 AM–10 PM. Sunday adds Crane Creations Theatre Company at 12–6 PM and the Toronto Mendelssohn Choir at 6 and 7 PM.
+- **Cost:** Free before 4 PM; from $16 plus HST and fees after 4 PM; ages 9 and under free
+- **Info:** Toronto's big Christmas market, back for Nov 12 – Jan 3: thousands of lights over the cobblestones, Canada's most photographed Christmas tree, Santa and elves (1–9 PM Saturday, 1–8 PM Sunday), carollers, and cabins of local vendors open from 11 AM. Sunday adds Crane Creations Theatre Company at 12–6 PM and Opera Atelier at 6 and 7 PM.
 - **Tags:** market, holiday, outdoor
 - **Link:** [The Distillery Winter Village](https://thedistillerywintervillage.com/)
 
-### HarbourFrost — Opening Weekend & Makers Market
+### HarbourFrost
 - **Day:** Saturday / Sunday
-- **When:** Saturday Nov 21 · 12:00–6:00 PM Makers Market (festival runs to 9:00 PM); Sunday Nov 22 · 12:00–6:00 PM
-- **Where:** Harbourfront Centre, 235 Queens Quay W (Craft & Design Studio, East Hallway)
-- **Cost:** Free, no tickets required
-- **Info:** The first weekend of HarbourFrost, Harbourfront's winter festival (Nov 20 – Dec 20). The Makers Market brings ceramics, glass, textiles and jewellery from the centre's Craft & Design artists-in-residence, with the studios open so you can watch the work being made. Also free on site: Frostbite Lane vendors, the Redpath Express train, Hala Circus stilt-walking characters and Illuminair's fire performances.
-- **Tags:** festival, market, holiday, waterfront
-- **Link:** [HarbourFrost Makers Market](https://harbourfrontcentre.com/event/harbourfrost-makers-market-2026/)
-
-### European Union Film Festival 2026
-- **Day:** Saturday / Sunday
-- **When:** Saturday Nov 21 · 2:00 PM (Alliance Française special), 6:00 PM Croatia (100 min), 8:30 PM Finland (114 min); Sunday Nov 22 · 4:00 PM Luxembourg (82 min), 6:00 PM Romania (107 min), 8:30 PM Italy (118 min)
-- **Where:** Alliance Française Spadina Theatre, 24 Spadina Rd
-- **Cost:** Free — same-day rush tickets, first come first served
-- **Info:** 28 countries, 28 films, in person Nov 12–26. Saturday night pairs a Croatian drama with a Finnish dramedy; Sunday afternoon's Luxembourg animation makes an easy finish. Everything is free on same-day rush tickets, and the festival recommends arriving an hour before showtime.
-- **Tags:** film, festival, free, indoor
-- **Link:** [EUFF 2026 in-person schedule](https://www.euffto.com/schedule/)
+- **When:** Saturday Nov 28 · Frostbite Lane and the Redpath Express from 12:00 PM, Hala Circus Arts 5:00 PM, Illuminair fire show 6:00 PM; Sunday Nov 29 · Frostbite Lane and the Redpath Express from 12:00 PM, Hala Circus Arts 3:00 PM
+- **Where:** Harbourfront Centre, 235 Queens Quay W
+- **Cost:** Free admission; some workshops and shows are ticketed
+- **Info:** Harbourfront's winter festival, running Nov 20 – Dec 20, with the lakeside site done up in lights. Weekends bring the Frostbite Lane vendor market, the Redpath Express train ride, roaming circus characters and, on Friday and Saturday nights, Illuminair's fire performances. A Christmas Carol plays in the Fleck on the same site.
+- **Tags:** festival, waterfront, holiday, free
+- **Link:** [HarbourFrost at Harbourfront Centre](https://harbourfrontcentre.com/series/harbourfrost/)
