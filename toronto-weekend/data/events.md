@@ -78,7 +78,7 @@ source: Ticketmaster, Live Nation, Mirvish, Harbourfront Centre, TSO, AGO, ROM, 
 - **When:** Saturday Nov 28 & Sunday Nov 29 · 10:30 AM–5:30 PM
 - **Where:** Art Gallery of Ontario, 317 Dundas St W
 - **Cost:** Included with general admission ($30 adult; free for Ontarians under 25)
-- **Info:** A world premiere made with the Philadelphia Museum of Art, tracing Black style from the 1880s to now through fashion, visual art, ephemera and time-based media — migration, activism, self-determination and the ritual of dressing in one's best. Runs to Feb 28, 2027. (Danh Vo's Galleria Italia show opens to the public Dec 1; Nov 28–29 is a members' preview.)
+- **Info:** A world premiere made with the Philadelphia Museum of Art, tracing Black style from the 1880s to now through fashion, visual art, ephemera and time-based media — migration, activism, self-determination and the ritual of dressing in one's best. Runs to Feb 28, 2027.
 - **Tags:** ago, exhibition, fashion, indoor
 - **Link:** [Sunday Best at the AGO](https://ago.ca/exhibitions/sunday-best-power-glory-black-style)
 
