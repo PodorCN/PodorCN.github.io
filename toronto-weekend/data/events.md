@@ -3,8 +3,8 @@ title: Toronto Weekend
 weekend: 2026-11-28
 dates: Saturday Nov 28 – Sunday Nov 29
 updated: 2026-11-24
-weather_saturday: 6°C / 3°C · Dense drizzle, 18% chance of rain
-weather_sunday: 9°C / 4°C · Moderate drizzle, 89% chance of rain
+weather_saturday: 10°C / 4°C · Overcast, 21% chance of rain
+weather_sunday: 9°C / 5°C · Dense drizzle, 96% chance of rain
 source: Ticketmaster, Live Nation, Mirvish, Harbourfront Centre, TSO, AGO, ROM, City of Toronto, One of a Kind, Distillery Winter Village / Open-Meteo
 ---
 
